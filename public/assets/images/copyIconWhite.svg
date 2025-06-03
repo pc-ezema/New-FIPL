@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="23px" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>link</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Verticals" transform="translate(-969.000000, -2337.000000)" stroke="#FFFFFF">
+            <g id="retail" transform="translate(0.000000, 1814.000000)">
+                <g id="2" transform="translate(929.000000, 213.000000)">
+                    <g id="text" transform="translate(39.000000, 37.000000)">
+                        <g id="Group-20">
+                            <g id="link" transform="translate(13.081475, 284.081475) rotate(-45.000000) translate(-13.081475, -284.081475) translate(0.081475, 278.581475)">
+                                <path d="M14.124266,7.7372042 C14.8337578,9.32557261 15.959742,10.2048975 17.5022184,10.3751788 C19.0446948,10.5454601 20.1321231,10.6025194 20.7645034,10.5463567 C23.7519663,10.3898512 25.2456978,8.72486025 25.2456978,5.55138397 C25.2456978,2.37790769 23.7519663,0.770587443 20.7645034,0.72942322 L17.5022184,0.72942322 C16.0230778,0.915681139 14.8970937,1.71296285 14.124266,3.12126835" id="Path-2" transform="translate(19.684982, 5.648337) rotate(-360.000000) translate(-19.684982, -5.648337) "></path>
+                                <path d="M0.124265952,7.7372042 C0.833757823,9.32557261 1.95974196,10.2048975 3.50221838,10.3751788 C5.04469479,10.5454601 6.13212313,10.6025194 6.76450341,10.5463567 C9.75196631,10.3898512 11.2456978,8.72486025 11.2456978,5.55138397 C11.2456978,2.37790769 9.75196631,0.770587443 6.76450341,0.72942322 L3.50221838,0.72942322 C2.02307781,0.915681139 0.897093667,1.71296285 0.124265952,3.12126835" id="Path-2" transform="translate(5.684982, 5.648337) scale(-1, 1) rotate(-360.000000) translate(-5.684982, -5.648337) "></path>
+                                <path d="M7.12426595,5.72942322 L18.791836,5.72942322" id="Path-3" transform="translate(12.958051, 5.729423) rotate(-360.000000) translate(-12.958051, -5.729423) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

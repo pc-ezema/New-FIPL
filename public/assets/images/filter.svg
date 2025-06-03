@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.8%" y="-2.5%" width="105.5%" height="105.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="-g-Mobile-Job-Listing-Filter-1" transform="translate(-260.000000, -203.000000)" fill-rule="nonzero" stroke="#454545">
+            <path d="M278.359945,204 L261.640055,204 C261.075194,204 260.811592,204.772727 261.150509,205.272727 L268.456046,215.590909 C268.681991,215.909091 268.794963,216.363636 268.794963,216.772727 L268.794963,223.318182 C268.794963,223.681818 269.096222,224 269.397481,224 L270.527204,224 C270.828463,224 271.054407,223.681818 271.054407,223.318182 L271.054407,216.772727 C271.054407,216.318182 271.205037,215.909091 271.468639,215.590909 L278.849491,205.272727 C279.188408,204.772727 278.924806,204 278.359945,204 L278.359945,204 Z" id="Shape" filter="url(#filter-1)"></path>
+        </g>
+    </g>
+</svg>

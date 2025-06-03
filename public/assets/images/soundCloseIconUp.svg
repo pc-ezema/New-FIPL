@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="44px" viewBox="0 0 36 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>close_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Story-Coffee-audio" transform="translate(-921.000000, -1915.000000)">
+            <g id="Audio-Copy" transform="translate(921.000000, 1915.000000)">
+                <g id="close_icon">
+                    <polygon id="Rectangle-13-Copy" fill="#E2A330" transform="translate(18.000000, 22.000000) scale(1, -1) rotate(-270.000000) translate(-18.000000, -22.000000) " points="-4 4 31.0074854 4 31.0074854 33.1523537 40 40 23.606055 40 -4 40"></polygon>
+                    <path d="M17.4761905,25.4761905 L17.4761905,15.5238095 C17.4761905,15.2345175 17.710708,15 18,15 C18.289292,15 18.5238095,15.2345175 18.5238095,15.5238095 L18.5238095,25.4761905 L28.4761905,25.4761905 C28.7654825,25.4761905 29,25.710708 29,26 C29,26.289292 28.7654825,26.5238095 28.4761905,26.5238095 L18.5238095,26.5238095 L18.5238095,36.4761905 C18.5238095,36.7654825 18.289292,37 18,37 C17.710708,37 17.4761905,36.7654825 17.4761905,36.4761905 L17.4761905,26.5238095 L7.52380952,26.5238095 C7.23451751,26.5238095 7,26.289292 7,26 C7,25.710708 7.23451751,25.4761905 7.52380952,25.4761905 L17.4761905,25.4761905 Z" id="Combined-Shape" fill="#FFFFFF" transform="translate(18.000000, 26.000000) rotate(-315.000000) translate(-18.000000, -26.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="44px" viewBox="0 0 36 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>audio</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Story-Coffee" transform="translate(-921.000000, -387.000000)">
+            <g id="Banner">
+                <g id="audio" transform="translate(921.000000, 387.000000)">
+                    <polygon id="Rectangle-13-Copy" fill="#E2A330" transform="translate(18.000000, 22.000000) rotate(-270.000000) translate(-18.000000, -22.000000) " points="-4 4 31.0074854 4 31.0074854 33.1523537 40 40 23.606055 40 -4 40"></polygon>
+                    <g id="sound" transform="translate(6.000000, 8.000000)" stroke="#FFFFFF">
+                        <path d="M11.6827181,1.52554691 L4.89606726,6.05397727 L2.00116166,6.05397727 C1.16609151,6.05397727 0.5,6.72331827 0.5,7.55795891 L0.5,10.9552987 C0.5,11.7885222 1.17072987,12.4592803 2.00116166,12.4592803 L4.89606726,12.4592803 L11.6827181,16.9877107 C12.2700929,17.3796397 12.5681818,17.2199448 12.5681818,16.5144248 L12.5681818,1.99883279 C12.5681818,1.29328714 12.2696553,1.13390979 11.6827181,1.52554691 Z" id="Combined-Shape"></path>
+                        <path d="M15.3204931,1.12956351 C20.3468515,2.29715731 22.8600307,5.10417216 22.8600307,9.55060807 C22.8600307,13.997044 20.3468515,16.8040588 15.3204931,17.9716526" id="Path-8" stroke-linecap="round"></path>
+                        <path d="M15.3204931,3.83333333 C18.5234977,4.77701521 20.125,6.69681117 20.125,9.59272121 C20.125,12.4886313 18.5234977,14.4117032 15.3204931,15.3619371" id="Path-8" stroke-linecap="round"></path>
+                        <path d="M15.3204931,6.55909803 C16.606831,7.1756606 17.25,8.16715199 17.25,9.53357219 C17.25,10.8999924 16.606831,11.8914838 15.3204931,12.5080463" id="Path-8" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

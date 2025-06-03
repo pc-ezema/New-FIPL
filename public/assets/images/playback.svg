@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-Artboard_58">
+      <rect width="35" height="35"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_58" data-name="Artboard – 58" clip-path="url(#clip-Artboard_58)">
+    <g id="Group_45" data-name="Group 45" transform="translate(-1364.001 -152.5)">
+      <g id="Ellipse_24" data-name="Ellipse 24" transform="translate(1368 158)" fill="none" stroke="#454545" stroke-width="2">
+        <ellipse cx="13.684" cy="13.75" rx="13.684" ry="13.75" stroke="none"/>
+        <ellipse cx="13.684" cy="13.75" rx="12.684" ry="12.75" fill="none"/>
+      </g>
+      <line id="Line_21" data-name="Line 21" x1="2" y2="2" transform="translate(1390.868 159.5)" fill="none" stroke="#454545" stroke-width="2"/>
+      <line id="Line_22" data-name="Line 22" y2="8.5" transform="translate(1382.211 163.025)" fill="none" stroke="#454545" stroke-width="2"/>
+      <line id="Line_23" data-name="Line 23" x2="9" transform="translate(1377.184 155.5)" fill="none" stroke="#454545" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-Artboard_60">
+      <rect width="35" height="35"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_60" data-name="Artboard – 60" clip-path="url(#clip-Artboard_60)">
+    <g id="Icon_feather-play" data-name="Icon feather-play" transform="translate(-4.5 -1.5)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M7.5,4.5l29.473,15L7.5,34.5Z" stroke="none"/>
+      <path d="M 9.5 7.762018203735352 L 9.5 31.23798179626465 L 32.56330108642578 19.5 L 9.5 7.762018203735352 M 7.5 4.5 L 36.97266006469727 19.5 L 7.5 34.5 L 7.5 4.5 Z" stroke="none" fill="#e2a330"/>
+    </g>
+  </g>
+</svg>
