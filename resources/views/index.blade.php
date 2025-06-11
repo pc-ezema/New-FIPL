@@ -23,7 +23,7 @@
             <header>
                 <nav class="navbar navbar-expand-lg navbar-dark navEffect custNavBar paddingTopInNav" role="navigation">
                     <div class="container">
-                        <a class="navbar-brand tataLogo nav-link" href="index.html"></a>
+                        <a class="navbar-brand tataLogo nav-link" href="{{ route('index') }}"></a>
                         <button type="button" class="navbar-toggle navBarBtn paddingRight0 marginRight0"
                             data-toggle="collapse" data-target=".collapseNav">
                             <span class="sr-only">Toggle navigation</span>
@@ -31,14 +31,6 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <div class="searchIcon pull-right paddingTopNav">
-                            <ul class="nav navbar-nav">
-                                <li class="nav-item icon TooltipHeader">
-                                    <a class="nav-link searchBoxIcon"></a>
-                                    <span class="tooltiptextHeader">Search</span>
-                                </li>
-                            </ul>
-                        </div>
                         <div class="collapse navbar-collapse collapseNav megaMenuWidth">
                             <div class="explrHead customNav visible-xs visible-sm">
                                 <div class="nav-item navText list-unstyled">
@@ -139,49 +131,6 @@
                                 </li>
                                 <li class="nav-item navText megaMenu padTop5">
                                     <a class="nav-link accordion  " data-toggle="collapse">
-                                        Community
-                                    </a>
-                                    <ul class="panel list-unstyled drops communityPanel">
-                                        <li class="subHead">
-                                            <span>Overview</span>
-                                        </li>
-                                        <li>
-                                            <hr class="subHeadBorder hidden-xs hidden-sm" />
-                                        </li>
-                                        <li class="liItems horizonIn">
-                                            <a href="community.html">Areas of Work</a>
-                                        </li>
-                                        <li class="colCount3 marginT30 marT25">
-                                            <ul class="itemA list-unstyled">
-
-                                                <li class="liItems">
-                                                    <a href="community/health.html">Health</a>
-                                                </li>
-
-                                                <li class="liItems">
-                                                    <a href="community/education.html">Education</a>
-                                                </li>
-
-                                            </ul>
-                                            <ul class="itemA list-unstyled">
-
-                                                <li class="liItems">
-                                                    <a href="community/empowerment.html">Empowerment</a>
-                                                </li>
-
-                                                <li class="liItems">
-                                                    <a href="community/environment.html">Environment</a>
-                                                </li>
-
-                                            </ul>
-                                            <ul class="itemA list-unstyled">
-
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item navText megaMenu padTop5">
-                                    <a class="nav-link accordion  " data-toggle="collapse">
                                         About Us
                                     </a>
                                     <ul class="panel list-unstyled aboutPanel">
@@ -194,119 +143,12 @@
                                         <li class="liItems horizonIn">
                                             <a href="about-us.html">About the Tata Group</a>
                                         </li>
-                                        <li class="colCount3 marginT30 marT25">
-                                            <ul class="itemA list-unstyled">
-
-                                                <li class="liItems">
-
-
-                                                    <a href="business/tata-sons.html">Tata Sons</a>
-
-                                                </li>
-
-                                                <li class="liItems">
-
-
-                                                    <a href="about-us/tata-values-purpose.html">Values and Purpose</a>
-
-                                                </li>
-
-                                                <li class="liItems">
-
-
-                                                    <a href="about-us/tata-code-of-conduct.html">Tata Code of
-                                                        Conduct</a>
-
-                                                </li>
-
-                                            </ul>
-                                            <ul class="itemA list-unstyled">
-
-                                                <li class="liItems">
-
-
-                                                    <a href="about-us/tata-group-our-heritage.html">Heritage</a>
-
-                                                </li>
-
-                                                <li class="liItems">
-
-
-                                                    <a href="management-team.html">Leadership</a>
-
-                                                </li>
-
-                                                <li class="liItems">
-
-
-                                                    <a href="about-us/sponsorships.html">Sponsorships</a>
-
-                                                </li>
-
-                                            </ul>
-                                            <ul class="itemA list-unstyled">
-
-                                                <li class="liItems">
-
-
-                                                    <a href="about-us/sustainability.html">Sustainability</a>
-
-                                                </li>
-
-                                                <li class="liItems">
-
-
-                                                    <a href="about-us/innovation.html">Innovation</a>
-
-                                                </li>
-
-                                                <li class="liItems">
-
-
-                                                    <a href="about-us/books.html">Books</a>
-
-                                                </li>
-
-                                            </ul>
-                                        </li>
-                                        <li class="subHead marginT20">
-                                            <span>Investors</span>
-                                        </li>
-                                        <li>
-                                            <hr class="subHeadBorder hidden-xs hidden-sm" />
-                                        </li>
-                                        <li class="liItems horizonIn">
-                                            <a href="investors.html">Investor Section</a>
-                                        </li>
-                                        <li class="colCount3 marginT30 marT25">
-                                            <ul class="itemA list-unstyled">
-
-                                                <li class="liItems">
-                                                    <a href="investors/companies.html">Companies</a>
-                                                </li>
-
-                                                <li class="liItems">
-                                                    <a href="investors/stock-data.html">Stock Data</a>
-                                                </li>
-
-                                            </ul>
-                                            <ul class="itemA list-unstyled">
-
-                                                <li class="liItems">
-                                                    <a href="business/overview.html">Business Verticals</a>
-                                                </li>
-
-                                            </ul>
-                                            <ul class="itemA list-unstyled">
-
-                                            </ul>
-                                        </li>
                                     </ul>
                                 </li>
                                 <div class="backdrop"></div>
                                 <li class="nav-item navText padTop5">
                                     <a class="nav-link  " href="newsroom.html" data-toggle="collapse" id="NewsRoom">
-                                        Newsroom
+                                        Sustainability
                                     </a>
                                 </li>
                                 <li class="nav-item navText padTop5">
@@ -314,18 +156,10 @@
                                         Careers
                                     </a>
                                 </li>
-                                <li class="nav-item icon TooltipHeader topPad">
-                                    <a class="nav-link worldWideBoxIcon hidden-sm hidden-xs"
-                                        href="tata-worldwide.html"></a>
-                                    <a class="nav-link hidden-lg hidden-md mobileTextSmall"
-                                        href="tata-worldwide.html">WorldWide</a>
-                                    <span class="tooltiptextHeaderW">WorldWide</span>
-                                </li>
-                                <li class="nav-item icon TooltipHeader topPad">
-                                    <a class="nav-link contactUsBoxIcon hidden-sm hidden-xs" href="contact-us.html"></a>
-                                    <a class="nav-link hidden-lg hidden-md mobileTextSmall"
-                                        href="contact-us.html">Contact Us</a>
-                                    <span class="tooltiptextHeader">Contact Us</span>
+                                <li class="nav-item navText padTop5">
+                                    <a class="nav-link  " href="careers.html" data-toggle="collapse">
+                                        Contact Us
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -497,14 +331,14 @@
                                 <div class="carItem heroItem active" data-step="1">
                                     <picture>
                                         <source media="(min-width: 1200px)"
-                                            srcset="content/dam/tata/images/newsroom/community/desktop/tata_sports_banner_desktop_1920x1080.jpg" />
+                                            srcset="{{url('assets/images/home_page_one.png')}}" />
                                         <source media="(min-width: 601px)"
-                                            srcset="content/dam/tata/images/newsroom/community/mobile/tata_sports_banner_mobile_320x568.jpg" />
+                                            srcset="{{url('assets/images/home_page_one.png')}}" />
                                         <source media="(max-width: 600px)"
-                                            srcset="content/dam/tata/images/newsroom/community/tab/tata_sports_banner_tab_768x1024.jpg" />
+                                            srcset="{{url('assets/images/home_page_one.png')}}" />
                                         <img class="Bg img-responsive "
-                                            src="content/dam/tata/images/newsroom/community/desktop/tata_sports_banner_desktop_1920x1080.jpg"
-                                            srcset alt="A kick off" />
+                                            src="{{url('assets/images/home_page_one.png')}}"
+                                            srcset alt="" />
                                     </picture>
 
                                     <div class="imageOverlayHp"></div>
@@ -512,18 +346,14 @@
                                         <div class="heroHeadline">
                                             <div class="sectionContent">
                                                 <div class="bannerHeading">
-                                                    <span>Tata Stories</span>
-                                                    <h1 class="heroHeading">Let The Games Begin</h1>
+                                                    <h1 class="heroHeading">ONE BRAND CREATING INFLUENCE ACROSS NIGERIA</h1>
                                                 </div>
                                                 <div class="bannerPara">
                                                     <div class="bannerBorder pull-left"></div>
                                                     <div class="paddingLeft3Rem bannerReadingTxt">
-                                                        <p class="hideDiv">Tata group’s legacy in the promotion of
-                                                            sports endures to this day. A photo feature.
-                                                        </p>
                                                         <a class="simButton buttonMore dataAnalytics btn buttonMr"
                                                             href="newsroom/community/tata-sports-photo-feature.html">
-                                                            <span>View photos</span>
+                                                            <span>View More</span>
                                                             <img src="{{url('assets/images/arrow_icon_white.svg')}}"
                                                                 alt="Arrow" class="readMArrow arrowAnimation" />
                                                         </a>
@@ -537,14 +367,14 @@
                                 <div class="carItem heroItem" data-step="2">
                                     <picture>
                                         <source media="(min-width: 1200px)"
-                                            srcset="content/dam/tata/images/newsroom/business/desktop/tasl_feb2025_banner_desktop_1920x1080.jpg" />
+                                            srcset="{{url('assets/images/home_page_two.png')}}" />
                                         <source media="(min-width: 601px)"
-                                            srcset="content/dam/tata/images/newsroom/business/tab/tasl_feb2025_banner_tab_768x1024.jpg" />
+                                            srcset="{{url('assets/images/home_page_two.png')}}" />
                                         <source media="(max-width: 600px)"
-                                            srcset="content/dam/tata/images/newsroom/business/mobile/tasl_feb2025_banner_mobile_320x568.jpg" />
+                                            srcset="{{url('assets/images/home_page_two.png')}}" />
                                         <img class="Bg img-responsive "
-                                            src="content/dam/tata/images/newsroom/business/desktop/tasl_feb2025_banner_desktop_1920x1080.jpg"
-                                            srcset alt="A C295 under construction" />
+                                            src="{{url('assets/images/home_page_two.png')}}"
+                                            srcset alt="" />
                                     </picture>
 
                                     <div class="imageOverlayHp"></div>
@@ -552,18 +382,14 @@
                                         <div class="heroHeadline">
                                             <div class="sectionContent">
                                                 <div class="bannerHeading">
-                                                    <span>Tata Stories</span>
-                                                    <h1 class="heroHeading">To Serve and Defend</h1>
+                                                    <h1 class="heroHeading">ONE BRAND CREATING INFLUENCE ACROSS NIGERIA</h1>
                                                 </div>
                                                 <div class="bannerPara">
                                                     <div class="bannerBorder pull-left"></div>
                                                     <div class="paddingLeft3Rem bannerReadingTxt">
-                                                        <p class="hideDiv">Tata Advanced Systems is playing a pivotal
-                                                            role in the growth of Indian defence and aerospace sectors
-                                                        </p>
                                                         <a class="simButton buttonMore dataAnalytics btn buttonMr"
                                                             href="newsroom/business/tata-advanced-systems-serve-defend.html">
-                                                            <span>Read story</span>
+                                                            <span>View More</span>
                                                             <img src="{{url('assets/images/arrow_icon_white.svg')}}"
                                                                 alt="Arrow" class="readMArrow arrowAnimation" />
                                                         </a>
@@ -577,13 +403,13 @@
                                 <div class="carItem heroItem" data-step="3">
                                     <picture>
                                         <source media="(min-width: 1200px)"
-                                            srcset="content/dam/tata/images/newsroom/business/desktop/tata-power-transformation_banner_desktop_1920x1080.jpg" />
+                                            srcset="{{url('assets/images/home_page_three.png')}}" />
                                         <source media="(min-width: 601px)"
-                                            srcset="content/dam/tata/images/newsroom/business/tab/tata-power-transformation_banner_tab_768x1024.jpg" />
+                                            srcset="{{url('assets/images/home_page_three.png')}}" />
                                         <source media="(max-width: 600px)"
-                                            srcset="content/dam/tata/images/newsroom/business/mobile/tata-power-transformation_banner_mobile_320x568.jpg" />
+                                            srcset="{{url('assets/images/home_page_three.png')}}" />
                                         <img class="Bg img-responsive "
-                                            src="content/dam/tata/images/newsroom/business/desktop/tata-power-transformation_banner_desktop_1920x1080.jpg"
+                                            src="{{url('assets/images/home_page_three.png')}}"
                                             srcset alt="An image of a solar power plant" />
                                     </picture>
 
@@ -592,20 +418,14 @@
                                         <div class="heroHeadline">
                                             <div class="sectionContent">
                                                 <div class="bannerHeading">
-                                                    <span>Tata Stories</span>
-                                                    <h1 class="heroHeading">Tata Power 2.0</h1>
+                                                    <h1 class="heroHeading">ONE BRAND CREATING INFLUENCE ACROSS NIGERIA</h1>
                                                 </div>
                                                 <div class="bannerPara">
                                                     <div class="bannerBorder pull-left"></div>
                                                     <div class="paddingLeft3Rem bannerReadingTxt">
-                                                        <p class="hideDiv">One of India’s largest integrated power
-                                                            companies has positioned itself at the intersection of
-                                                            India’s ambitious climate goals and the global push for
-                                                            decarbonisation
-                                                        </p>
                                                         <a class="simButton buttonMore dataAnalytics btn buttonMr"
                                                             href="newsroom/business/tata-power-transformation.html">
-                                                            <span>Read Story</span>
+                                                            <span>View More</span>
                                                             <img src="{{url('assets/images/arrow_icon_white.svg')}}"
                                                                 alt="Arrow" class="readMArrow arrowAnimation" />
                                                         </a>
@@ -644,7 +464,6 @@
                                         </a>
                                         <a class="pull-left centerIndicator" href="javascript:void(0)">
                                             <img src="{{url('assets/images/pause_icon2.svg')}}" alt="Pause" />
-                                            <!--<img src="images/Home/heroBanner/play-fill.svg" />-->
                                             <img src="content/dam/tata/images/home-page/play-outline.svg" alt="Play" />
                                         </a>
                                     </div>
@@ -652,7 +471,6 @@
                             </div>
                         </div>
                         <div class="clear"></div>
-
                         <div class="container arrowContainerP">
                             <div class="arrowSection">
                                 <div class="arrowContainer slideDownDiv">
@@ -663,13 +481,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="container downHeadedArrow">
-        <div class="arrowSection">
-            <a href="javascript:void(0)">
-                <img class="arrowDown slideDownDiv pull-right" src="/etc/designs/tata/publish/assets/img/common/arrowDownheaded.svg" />
-            </a>
-        </div>
-    </div> -->
                     </section>
                     <section>
                         <div class="modal" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static"
@@ -684,32 +495,21 @@
 
                 </div>
                 <div class="tata-this-week aem-GridColumn aem-GridColumn--default--12">
-                    <!-- <sly data-sly-use.twitter="tata.core.widgets.SocialFeeds" data-sly-unwrap />
-<sly data-sly-use.instagram="tata.core.widgets.SocialFeeds" data-sly-unwrap />
-<sly data-sly-use.facebook="tata.core.widgets.SocialFeeds" data-sly-unwrap /> -->
-
-
                     <section
                         class="headerFade tThisWeek ymlSalt fullscreenN mainSliderElem grayNav noSlider parallaxWrapper">
                         <div class="contntD">
                             <div class="container noPadding tataWeek">
                                 <div class="newsroom  thisweek">
                                     <div class="row noMargin headingP">
-                                        <h2 class="headingDiv">In the News</h2>
+                                        <h2 class="headingDiv">7 Keys Elements</h2>
                                         <div class="content1">
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 module">
                                                 <div id="storyCarousel" class="storyCarousel carouselDiv"
                                                     data-ride="carousel">
                                                     <div class="innerCarousel sHockey">
                                                         <ol class="carouselIndicators storyIndicators">
-
                                                             <li data-target="#storyCarousel" data-slide-to="0"
                                                                 class="active"></li>
-
-                                                            <li data-target="#storyCarousel" data-slide-to="1"></li>
-
-                                                            <li data-target="#storyCarousel" data-slide-to="2"></li>
-
                                                         </ol>
 
                                                         <div class="carItem active">
@@ -718,236 +518,179 @@
                                                                     class="col-lg-6 col-md-6 col-sm-6 col-xs-12 nHockey">
                                                                     <picture>
                                                                         <source media="(min-width: 991px)"
-                                                                            srcset="content/dam/tata/images/newsroom/press_releases/desktop/IISc-grant_card_hz_desktop_390x362.jpg" />
+                                                                            srcset="{{url('assets/images/food_security.png')}}" />
                                                                         <source media="(min-width: 575px)"
-                                                                            srcset="content/dam/tata/images/newsroom/press_releases/tab/IISc-grant_card_hz_tab_364x362.jpg" />
+                                                                            srcset="{{url('assets/images/food_security.png')}}" />
                                                                         <source media="(min-width: 0)"
-                                                                            srcset="content/dam/tata/images/newsroom/press_releases/mobile/IISc-grant_card_hz_mobile_290x235.jpg" />
+                                                                            srcset="{{url('assets/images/food_security.png')}}" />
                                                                         <img class="img-responsive bg"
-                                                                            src="content/dam/tata/images/newsroom/press_releases/desktop/IISc-grant_card_hz_desktop_390x362.jpg"
-                                                                            alt="Untitled" title="Untitled" />
+                                                                            src="{{url('assets/images/food_security.png')}}"
+                                                                            alt="Food Security" title="Food Security" />
                                                                     </picture>
-                                                                    <!-- <div class="imageOverlay20"></div> -->
                                                                 </div>
                                                                 <div
                                                                     class="col-lg-6 col-md-6 col-sm-6 col-xs-12 noPadding">
                                                                     <div class="imageContent">
-                                                                        <div class="blueCaption">Press Release</div>
+                                                                        <div class="blueCaption">Food Security</div>
                                                                         <h3 class="nHeading">
-                                                                            Tata group and IISc partner to establish
-                                                                            medical school to pioneer healthcare
-                                                                            education and research
+                                                                            We ensure a stable and sufficient food supply to meet the nutritional needs of the population.​
                                                                         </h3>
-                                                                        <div class="storyContent">
-                                                                            <div class="ymlFeedArticle">The group will
-                                                                                contribute Rs 500 crore to support its
-                                                                                establishment</div>
-                                                                            <div
-                                                                                class="feedArticleBorder borderAnimCards">
-                                                                            </div>
-                                                                        </div>
-                                                                        <a
-                                                                            href="newsroom/community/tata-iisc-medical-education-research.html">
-                                                                            <img src="{{url('assets/images/arrow_icon_white.svg')}}"
-                                                                                alt="Arrow" class="arrow" />
-                                                                        </a>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <a href="newsroom/community/tata-iisc-medical-education-research.html"
-                                                                class="hoverCard"></a>
                                                         </div>
-
-                                                        <div class="carItem">
-                                                            <div class="row nTitle noMargin">
-                                                                <div
-                                                                    class="col-lg-6 col-md-6 col-sm-6 col-xs-12 nHockey">
-                                                                    <picture>
-                                                                        <source media="(min-width: 991px)"
-                                                                            srcset="content/dam/tata/images/newsroom/press_releases/desktop/chairman_newyear_message2025_card_hz_desktop_390x362.jpg" />
-                                                                        <source media="(min-width: 575px)"
-                                                                            srcset="content/dam/tata/images/newsroom/press_releases/tab/chairman_newyear_message2025_card_hz_tab_364x362.jpg" />
-                                                                        <source media="(min-width: 0)"
-                                                                            srcset="content/dam/tata/images/newsroom/press_releases/mobile/chairman_newyear_message2025_card_hz_mobile_290x235.jpg" />
-                                                                        <img class="img-responsive bg"
-                                                                            src="content/dam/tata/images/newsroom/press_releases/desktop/chairman_newyear_message2025_card_hz_desktop_390x362.jpg"
-                                                                            alt="Untitled" title="Untitled" />
-                                                                    </picture>
-                                                                    <!-- <div class="imageOverlay20"></div> -->
-                                                                </div>
-                                                                <div
-                                                                    class="col-lg-6 col-md-6 col-sm-6 col-xs-12 noPadding">
-                                                                    <div class="imageContent">
-                                                                        <div class="blueCaption">Press Release</div>
-                                                                        <h3 class="nHeading">
-                                                                            Chairman N Chandrasekaran: Happy New Year
-                                                                            2025
-                                                                        </h3>
-                                                                        <div class="storyContent">
-                                                                            <div class="ymlFeedArticle">Tata Sons
-                                                                                Chairman N Chandrasekaran&#39;s letter
-                                                                                to group employees for the new year 2025
-                                                                            </div>
-                                                                            <div
-                                                                                class="feedArticleBorder borderAnimCards">
-                                                                            </div>
-                                                                        </div>
-                                                                        <a
-                                                                            href="newsroom/business/chairman-chandrasekaran-new-year-2025.html">
-                                                                            <img src="{{url('assets/images/arrow_icon_white.svg')}}"
-                                                                                alt="Arrow" class="arrow" />
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <a href="newsroom/business/chairman-chandrasekaran-new-year-2025.html"
-                                                                class="hoverCard"></a>
-                                                        </div>
-
-                                                        <div class="carItem">
-                                                            <div class="row nTitle noMargin">
-                                                                <div
-                                                                    class="col-lg-6 col-md-6 col-sm-6 col-xs-12 nHockey">
-                                                                    <picture>
-                                                                        <source media="(min-width: 991px)"
-                                                                            srcset="content/dam/tata/images/newsroom/press_releases/desktop/airindia-vistara-merger_card_hz_desktop_390x362.jpg" />
-                                                                        <source media="(min-width: 575px)"
-                                                                            srcset="content/dam/tata/images/newsroom/press_releases/tab/airindia-vistara-merger_card_hz_tab_364x362.jpg" />
-                                                                        <source media="(min-width: 0)"
-                                                                            srcset="content/dam/tata/images/newsroom/press_releases/mobile/airindia-vistara-merger_card_hz_mobile_290x235.jpg" />
-                                                                        <img class="img-responsive bg"
-                                                                            src="content/dam/tata/images/newsroom/press_releases/desktop/airindia-vistara-merger_card_hz_desktop_390x362.jpg"
-                                                                            alt="Untitled" title="Untitled" />
-                                                                    </picture>
-                                                                    <!-- <div class="imageOverlay20"></div> -->
-                                                                </div>
-                                                                <div
-                                                                    class="col-lg-6 col-md-6 col-sm-6 col-xs-12 noPadding">
-                                                                    <div class="imageContent">
-                                                                        <div class="blueCaption">Press Release</div>
-                                                                        <h3 class="nHeading">
-                                                                            Air India completes merger with Vistara
-                                                                        </h3>
-                                                                        <div class="storyContent">
-                                                                            <div class="ymlFeedArticle">Second group
-                                                                                airline merger in a span of six weeks
-                                                                            </div>
-                                                                            <div
-                                                                                class="feedArticleBorder borderAnimCards">
-                                                                            </div>
-                                                                        </div>
-                                                                        <a
-                                                                            href="newsroom/business/air-india-vistara-merger-completion.html">
-                                                                            <img src="{{url('assets/images/arrow_icon_white.svg')}}"
-                                                                                alt="Arrow" class="arrow" />
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <a href="newsroom/business/air-india-vistara-merger-completion.html"
-                                                                class="hoverCard"></a>
-                                                        </div>
-
                                                     </div>
                                                 </div>
                                             </div>
-
-
                                             <div
                                                 class="col-lg-4 col-md-4 col-sm-6 col-xs-6 width100 widthlands module facts changeBG topMargin767 topMarginxs topMarginsm ">
-
                                                 <div class="titleContent">
-                                                    <div class="whiteCaption">Facts</div>
+                                                    <div class="whiteCaption">Export Promotion</div>
                                                     <h3 class="nHeadingW">
-                                                        <span>Did you know</span>
+                                                        <span>Enhancing the competitiveness of agricultural products in international markets.​</span>
                                                     </h3>
                                                     <div class="storyContent">
                                                         <div class="ymlFeedArticleW"></div>
-                                                        <a href="#" class="urlLabel" target="_blank"></a>
-                                                        <div class="sheetName">Facts</div>
-                                                        <div class="excelPath">
-                                                            /content/dam/tata/ExcelFiles/facts_box_jun24.xls</div>
+                                                        <div class="sheetName"></div>
+                                                        <div class="excelPath"></div>
                                                         <div class="feedArticleBorder borderAnimCards"></div>
                                                     </div>
-                                                    <img class="nextFeed" src="{{url('assets/images/refresh_new.svg')}}"
-                                                        alt="Refresh" />
                                                 </div>
                                             </div>
-
                                         </div>
                                         <div class="clear"></div>
                                         <div class="content2 ">
                                             <div
                                                 class="col-lg-4 col-md-4 col-sm-6 col-xs-6 width100 topMarginsm topMarginxs topMargin3 fB module">
                                                 <picture>
-                                                    <source media="(min-width:992px)" srcset="" />
-                                                    <source media="(min-width:768px)" srcset="" />
-                                                    <source media="(min-width:0px)" srcset="" />
-                                                    <img class="img-responsive backgImg dynaImg" src="index.html"
-                                                        alt="" />
+                                                    <source media="(min-width:992px)" srcset="{{url('assets/images/sustainable_agricultural_value_chain_model.png')}}" />
+                                                    <source media="(min-width:768px)" srcset="{{url('assets/images/sustainable_agricultural_value_chain_model.png')}}" />
+                                                    <source media="(min-width:0px)" srcset="{{url('assets/images/sustainable_agricultural_value_chain_model.png')}}" />
+                                                    <img class="img-responsive backgImg dynaImg" src="{{url('assets/images/sustainable_agricultural_value_chain_model.png')}}"
+                                                        alt="Sustainable Agricultural Value Chain Model" />
                                                 </picture>
                                                 <div class="imageOverlayFb"></div>
                                                 <div class="whiteContent">
-                                                    <img class="icons" src="{{url('assets/images/fb_icon.svg')}}"
-                                                        alt="Facebook" />
-
+                                                    <h3 class="nHeadingW">
+                                                        <span>Sustainable Agricultural Value Chain Model</span>
+                                                    </h3>
                                                     <div class="storyContent">
                                                         <div class="newsFeedA">
                                                             <span class="feeds">
                                                             </span>
-                                                            <p class="tweet-date"></p>
+                                                            <p class="tweet-date">We implement environmental friendly practices that maintain the viability of agricultural resources.​</p>
                                                         </div>
                                                         <div class="newsBorder borderAnimCards"></div>
                                                     </div>
-
                                                     <img src="{{url('assets/images/arrow_icon.svg')}}" alt="Arrow"
                                                         class="arrow" />
                                                 </div>
-                                                <a href="https://www.facebook.com/tatagroup" class="hoverCard"
-                                                    target="_blank" rel="noopener"></a>
                                             </div>
                                             <div
                                                 class="col-lg-8 col-md-8 col-sm-12 col-xs-12 topMargin3 topMarginsm topMarginxs module">
                                                 <div class="row nTitle noMargin instagramDiv">
-                                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 noPadding"></div>
+                                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 noPadding" style="background-color: #2baa65;"></div>
                                                     <div
                                                         class="col-lg-7 col-md-7 col-sm-7 col-xs-12 noPadding instaGram">
                                                         <picture>
-                                                            <source media="(min-width:992px)" srcset="" />
-                                                            <source media="(min-width:768px)" srcset="" />
-                                                            <source media="(min-width:0px)" srcset="" />
-                                                            <img src="index.html" alt=""
+                                                            <source media="(min-width:992px)" srcset="{{url('assets/images/human_capital_development.png')}}" />
+                                                            <source media="(min-width:768px)" srcset="{{url('assets/images/human_capital_development.png')}}" />
+                                                            <source media="(min-width:0px)" srcset="{{url('assets/images/human_capital_development.png')}}" />
+                                                            <img src="{{url('assets/images/human_capital_development.png')}}" alt=""
                                                                 class="img-responsive backgImg hide" />
                                                         </picture>
-                                                        <img class="img-responsive backgImg dynaImg" src="index.html"
-                                                            alt="" />
+                                                        <img class="img-responsive backgImg dynaImg" src="{{url('assets/images/human_capital_development.png')}}"
+                                                            alt="Human Capital Development" />
                                                     </div>
                                                     <div class="imageOverlayInsta"></div>
                                                 </div>
                                                 <div class="container instagram">
                                                     <div class="row">
                                                         <div class="whiteContent">
-                                                            <img class="icons"
-                                                                src="{{url('assets/images/insta_icon.svg')}}"
-                                                                alt="Instagram" />
-
-                                                            <div class="storyContent">
+                                                            <div class="storyContent" style="margin: 0 10px !important;">
+                                                                <h3 class="nHeadingW">
+                                                                    <span>Human Capital Development</span>
+                                                                </h3>
                                                                 <div class="newsFeedA">
                                                                     <span class="feeds">
                                                                     </span>
-                                                                    <p class="tweet-date"></p>
+                                                                    <p class="tweet-date">We invest in training and education to empower individuals involved in agriculture.</p>
                                                                 </div>
-                                                                <div class="newsBorder borderAnimCards"></div>
                                                             </div>
-
                                                             <img src="{{url('assets/images/arrow_icon.svg')}}"
                                                                 alt="Arrow" class="arrow" />
-
-
                                                         </div>
                                                         <a href="https://www.instagram.com/tatacompanies/"
                                                             class="hoverCard" target="_blank" rel="noopener"></a>
                                                     </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="clear"></div>
+                                        <div class="content3 ">
+                                            <div
+                                                class="col-lg-8 col-md-8 col-sm-12 col-xs-12 topMargin3 topMarginsm topMarginxs module">
+                                                <div class="row nTitle noMargin instagramDiv">
+                                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 noPadding" style="background-color: #2baa65;"></div>
+                                                    <div
+                                                        class="col-lg-7 col-md-7 col-sm-7 col-xs-12 noPadding instaGram">
+                                                        <picture>
+                                                            <source media="(min-width:992px)" srcset="{{url('assets/images/human_capital_development.png')}}" />
+                                                            <source media="(min-width:768px)" srcset="{{url('assets/images/human_capital_development.png')}}" />
+                                                            <source media="(min-width:0px)" srcset="{{url('assets/images/human_capital_development.png')}}" />
+                                                            <img src="{{url('assets/images/human_capital_development.png')}}" alt=""
+                                                                class="img-responsive backgImg hide" />
+                                                        </picture>
+                                                        <img class="img-responsive backgImg dynaImg" src="{{url('assets/images/human_capital_development.png')}}"
+                                                            alt="Human Capital Development" />
+                                                    </div>
+                                                    <div class="imageOverlayInsta"></div>
+                                                </div>
+                                                <div class="container instagram">
+                                                    <div class="row">
+                                                        <div class="whiteContent">
+                                                            <div class="storyContent" style="margin: 0 10px !important;">
+                                                                <h3 class="nHeadingW">
+                                                                    <span>Human Capital Development</span>
+                                                                </h3>
+                                                                <div class="newsFeedA">
+                                                                    <span class="feeds">
+                                                                    </span>
+                                                                    <p class="tweet-date">We invest in training and education to empower individuals involved in agriculture.</p>
+                                                                </div>
+                                                            </div>
+                                                            <img src="{{url('assets/images/arrow_icon.svg')}}"
+                                                                alt="Arrow" class="arrow" />
+                                                        </div>
+                                                        <a href="https://www.instagram.com/tatacompanies/"
+                                                            class="hoverCard" target="_blank" rel="noopener"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="col-lg-4 col-md-4 col-sm-6 col-xs-6 width100 topMarginsm topMarginxs topMargin3 fB module">
+                                                <picture>
+                                                    <source media="(min-width:992px)" srcset="{{url('assets/images/sustainable_agricultural_value_chain_model.png')}}" />
+                                                    <source media="(min-width:768px)" srcset="{{url('assets/images/sustainable_agricultural_value_chain_model.png')}}" />
+                                                    <source media="(min-width:0px)" srcset="{{url('assets/images/sustainable_agricultural_value_chain_model.png')}}" />
+                                                    <img class="img-responsive backgImg dynaImg" src="{{url('assets/images/sustainable_agricultural_value_chain_model.png')}}"
+                                                        alt="Sustainable Agricultural Value Chain Model" />
+                                                </picture>
+                                                <div class="imageOverlayFb"></div>
+                                                <div class="whiteContent">
+                                                    <h3 class="nHeadingW">
+                                                        <span>Sustainable Agricultural Value Chain Model</span>
+                                                    </h3>
+                                                    <div class="storyContent">
+                                                        <div class="newsFeedA">
+                                                            <span class="feeds">
+                                                            </span>
+                                                            <p class="tweet-date">We implement environmental friendly practices that maintain the viability of agricultural resources.​</p>
+                                                        </div>
+                                                        <div class="newsBorder borderAnimCards"></div>
+                                                    </div>
+                                                    <img src="{{url('assets/images/arrow_icon.svg')}}" alt="Arrow"
+                                                        class="arrow" />
                                                 </div>
                                             </div>
                                         </div>

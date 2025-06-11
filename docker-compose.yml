@@ -5,19 +5,22 @@ services:
             context: .
             dockerfile: Dockerfile
         container_name: fipl-app
-        ports:
-            - '1080:8000'
+        ports:  # <-- Add this section
+            - '1080:8000'  # HostPort:ContainerPort
         volumes:
-            - .:/var/www:delegated
-        depends_on:
-            - db
+            - ./:/var/www:cached
+            - /var/www/vendor
+            - /var/www/node_modules
+        working_dir: /var/www
         command: >
             sh -c "
-                echo 'Clearing views...' &&
-                php artisan view:clear &&
-                echo 'Starting Laravel server...' &&
+                composer install --optimize-autoloader --no-interaction &&
+                php artisan optimize:clear &&
                 php artisan serve --host=0.0.0.0 --port=8000
             "
+        depends_on:
+            - db
+
     db:
         image: 'mysql:8.0'
         container_name: fipl-db
@@ -31,5 +34,6 @@ services:
             - '3317:3306'
         volumes:
             - 'dbdata:/var/lib/mysql'
+
 volumes:
     dbdata:
