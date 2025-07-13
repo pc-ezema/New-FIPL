@@ -1,325 +1,14 @@
-<!DOCTYPE HTML>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('layouts.frontend', ['title' => 'Welcome to FIPL'])
 
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <title>The Tata group. Leadership with Trust.</title>
+@push('styles')
+<link rel="stylesheet" href="{{url('assets/css/home-page.min.css')}}" type="text/css">
+@endpush
 
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+@push('scripts')
+<script src="{{url('assets/javascript/home-page.min.js')}}"></script>
+@endpush
 
-    <link rel="stylesheet" href="{{url('assets/css/common-empty-page.min.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{url('assets/css/home-page.min.css')}}" type="text/css">
-
-    <!--Favicons-->
-    <link rel="icon" type="image/png" sizes="32x32" href="{{url('assets/images/fipl-favicon.png')}}" />
-</head>
-
-<body class="basepage page basicpage" id="basepage-9c45fdbbba">
-    <div class="newpar new section"></div>
-    <div class="par iparys_inherited">
-        <div class="header parbase">
-            <header>
-                <nav class="navbar navbar-expand-lg navbar-dark navEffect custNavBar paddingTopInNav" role="navigation">
-                    <div class="container">
-                        <a class="navbar-brand tataLogo nav-link" href="{{ route('index') }}"></a>
-                        <button type="button" class="navbar-toggle navBarBtn paddingRight0 marginRight0"
-                            data-toggle="collapse" data-target=".collapseNav">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <div class="collapse navbar-collapse collapseNav megaMenuWidth">
-                            <div class="explrHead customNav visible-xs visible-sm">
-                                <div class="nav-item navText list-unstyled">
-                                    <a class="nav-link explrtext" href="#" data-toggle="collapse">Menu</a>
-                                </div>
-                                <div class="pull-right clsBtn closebtn">
-                                    <a href="javascript:void(0)">
-                                        <img src="{{url('assets/images/close.svg')}}" alt="Close" />
-                                    </a>
-                                </div>
-                            </div>
-                            <ul class="nav navbar-nav pull-right customNav paddingTopNav">
-                                <li class="nav-item navText megaMenu">
-                                    <a class="nav-link accordion " data-toggle="collapse">
-                                        Business
-                                    </a>
-                                    <ul class="panel list-unstyled drops">
-                                        <li class="subHead">
-                                            <span>Business Overview</span>
-                                        </li>
-                                        <li>
-                                            <hr class="subHeadBorder hidden-xs hidden-sm" />
-                                        </li>
-                                        <li class="liItems horizonIn">
-
-                                            <a href="business/overview.html">Learn more</a>
-
-                                        </li>
-                                        <li class="subHead marginT20">
-                                            <span>Our Brands</span>
-                                        </li>
-                                        <li>
-                                            <hr class="subHeadBorder hidden-xs hidden-sm" />
-                                        </li>
-                                        <li class="liItems horizonIn">
-                                            <a href="brands-showcase.html">Browse select Tata brands</a>
-                                        </li>
-                                        <li class="subHead marginT20">
-                                            <span>Business Verticals</span>
-                                        </li>
-                                        <li>
-                                            <hr class="subHeadBorder hidden-xs hidden-sm" />
-                                        </li>
-                                        <li class="colCount3">
-                                            <ul class="list-unstyled itemA">
-
-                                                <li class="liItems">
-                                                    <a href="business/technology.html">Technology</a>
-                                                </li>
-
-                                                <li class="liItems">
-                                                    <a href="business/steel.html">Steel</a>
-                                                </li>
-
-                                                <li class="liItems">
-                                                    <a href="business/auto.html">Automotive</a>
-                                                </li>
-
-                                                <li class="liItems">
-                                                    <a href="business/consumer-retail.html">Consumer &amp; Retail</a>
-                                                </li>
-
-                                            </ul>
-                                            <ul class="list-unstyled itemA">
-
-                                                <li class="liItems">
-                                                    <a href="business/infrastructure.html">Infrastructure</a>
-                                                </li>
-
-                                                <li class="liItems">
-                                                    <a href="business/financial.html">Financial Services</a>
-                                                </li>
-
-                                                <li class="liItems">
-                                                    <a href="business/aerospace-defence.html">Aerospace &amp;
-                                                        Defence</a>
-                                                </li>
-
-                                            </ul>
-                                            <ul class="list-unstyled itemA">
-
-                                                <li class="liItems">
-                                                    <a href="business/tourism-travel.html">Tourism &amp; Travel</a>
-                                                </li>
-
-                                                <li class="liItems">
-                                                    <a href="business/telecom-media.html">Telecom &amp; Media</a>
-                                                </li>
-
-                                                <li class="liItems">
-                                                    <a href="business/trading-investments.html">Trading &amp;
-                                                        Investments</a>
-                                                </li>
-
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item navText megaMenu padTop5">
-                                    <a class="nav-link accordion  " data-toggle="collapse">
-                                        About Us
-                                    </a>
-                                    <ul class="panel list-unstyled aboutPanel">
-                                        <li class="subHead">
-                                            <span>The Tata group</span>
-                                        </li>
-                                        <li>
-                                            <hr class="subHeadBorder hidden-xs hidden-sm" />
-                                        </li>
-                                        <li class="liItems horizonIn">
-                                            <a href="about-us.html">About the Tata Group</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <div class="backdrop"></div>
-                                <li class="nav-item navText padTop5">
-                                    <a class="nav-link  " href="newsroom.html" data-toggle="collapse" id="NewsRoom">
-                                        Sustainability
-                                    </a>
-                                </li>
-                                <li class="nav-item navText padTop5">
-                                    <a class="nav-link  " href="careers.html" data-toggle="collapse">
-                                        Careers
-                                    </a>
-                                </li>
-                                <li class="nav-item navText padTop5">
-                                    <a class="nav-link  " href="careers.html" data-toggle="collapse">
-                                        Contact Us
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-                <div class="overlayDiv"></div>
-            </header>
-            <!--for Globalsearch-->
-            <section class="searchSection" id="searchSection">
-                <div class="fadeGlobalSearch"></div>
-                <div class="modalGlobalSearch"></div>
-                <div class="searchDiv">
-                    <div class="container">
-                        <input type="text" id="searchInputG" class="inputBox"
-                            placeholder="Enter your search keywords here…" />
-                        <div class="globalSearchIcon">
-                            <img src="{{url('assets/images/searchicon.svg')}}"
-                                alt="Search" />
-                        </div>
-                    </div>
-                </div>
-                <div class="searchSuggestions container">
-                    <!--filterSection-->
-                    <div class="filters">
-                        <div class="filterHeading">
-                            <img src="{{url('assets/images/globalSearch/filter.svg')}}"
-                                class="filterImg touchFilter" alt="filter_img" />
-                            <span class="filterHeadline touchFilter">Filter</span>
-                        </div>
-                        <div class="filter_sec">
-                            <div class="filter_sec_data">
-                                <div class="categoryFilter filterDiv">
-                                    <div class="categoryContent">
-                                        <div class="titleDropDown">
-                                            <div class="filterTitle selectorFiltor"><span>Category</span></div>
-                                            <div class="arrow-background selectorFiltor">
-                                                <div class="arrow-container ">
-                                                    <div class="arrow"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="categoryWrapper filterWrapper">
-                                            <div class="categoryData">
-                                                <div class="allCheck hiddenCategory">
-                                                    <input class="searchCheck chkbox" id="all" type="checkbox" />
-                                                    <label class="filterLabel tagName" for="all">All</label>
-                                                </div>
-                                                <div class="tags hiddenCategory"></div>
-                                                <div class="clearCategory clearSearchFilter" id="clearTags">
-                                                    <img class="blueCloseIcon"
-                                                        src="{{url('assets/images/close_icon_blue.svg')}}"
-                                                        alt="plus" />
-                                                    <span>Clear Category</span>
-                                                </div>
-                                                <!--<div class="Test" id="p"></div>-->
-                                            </div>
-                                        </div>
-                                        <hr />
-                                    </div>
-                                </div>
-                                <div class="dateRangeFilter filterDiv">
-                                    <div class="dateRangeContent">
-                                        <div class="titleDropDown">
-                                            <div class="filterTitle selectorFiltor"><span>Date Range</span></div>
-                                            <div class="arrow-background selectorFiltor">
-                                                <div class="arrow-container">
-                                                    <div class="arrow"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="dateRangeWrapper filterWrapper">
-                                            <div class="dateRangeData">
-                                                <div class="dateRanges">
-                                                    <div class="dateRangeLists">
-                                                        <label class="dateRange" for="month">Last 30 days
-                                                            <input class="dateRangeRadio" type="radio" name="dateRange"
-                                                                id="month" value="last 30 days" />
-                                                            <span class="checkmark"></span>
-                                                        </label>
-                                                    </div>
-                                                    <div class="dateRangeLists">
-                                                        <label class="dateRange" for="six">Past 6 months
-                                                            <input class="dateRangeRadio" type="radio" name="dateRange"
-                                                                id="six" value="last 6 months" />
-                                                            <span class="checkmark"></span>
-                                                        </label>
-                                                    </div>
-                                                    <div class="dateRangeLists">
-                                                        <label class="dateRange" for="year">Past 1 year
-                                                            <input class="dateRangeRadio" type="radio" name="dateRange"
-                                                                id="year" value="last year" />
-                                                            <span class="checkmark"></span>
-                                                        </label>
-                                                    </div>
-                                                    <div class="dateRangeLists">
-                                                        <label class="dateRange" for="range">Specific Dates
-                                                            <input type="radio" class="dateRangeRadio" name="dateRange"
-                                                                id="range" value="Date Range" />
-                                                            <span class="checkmark"></span>
-                                                        </label>
-                                                        <div class="customDateRangeWrapper">
-                                                            <div class="customDateRange">
-                                                                <div class="dateBox">
-                                                                    <label for="dateFrom" class="dateRange">Date
-                                                                        from</label>
-                                                                    <div class="dateRange datePicker">
-                                                                        <input type="date" name="datePicker"
-                                                                            id="dateFrom" min="2017-01-01"
-                                                                            max="2030-01-01" />
-                                                                    </div>
-                                                                </div>
-                                                                <div class="dateBox">
-                                                                    <label for="dateTo" class="dateRange">Date
-                                                                        to</label>
-                                                                    <div class="dateRange datePicker">
-                                                                        <input type="date" name="datePicker" id="dateTo"
-                                                                            min="2017-01-01" max="2030-01-01" />
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="clearDateRange clearSearchFilter">
-                                                    <img class="blueCloseIcon"
-                                                        src="{{url('assets/images/close_icon_blue.svg')}}"
-                                                        alt="plus" />
-                                                    <span>Clear Date Range</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <hr />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cardList" id="cardList"></div>
-                    <datalist class="globalList tableData" id="globalList"></datalist>
-
-                </div>
-                <div class="cardResult noDisplay">
-                    Card Result
-                </div>
-                <div class="pagination">
-                    <ul>
-                        <li class="arrows jumpFirst"></li>
-                        <li class="arrows leftArw"></li>
-                    </ul>
-                    <ul class="pageNumbers">
-                    </ul>
-                    <ul>
-                        <li class="arrows rightArw"> </li>
-                        <li class="arrows jumpLast"> </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-    </div>
-
+@section('page-content')
     <main>
         <div class="root responsivegrid">
             <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
@@ -352,7 +41,7 @@
                                                     <div class="bannerBorder pull-left"></div>
                                                     <div class="paddingLeft3Rem bannerReadingTxt">
                                                         <a class="simButton buttonMore dataAnalytics btn buttonMr"
-                                                            href="newsroom/community/tata-sports-photo-feature.html">
+                                                            href="{{ route('aboutUs') }}">
                                                             <span>View More</span>
                                                             <img src="{{url('assets/images/arrow_icon_white.svg')}}"
                                                                 alt="Arrow" class="readMArrow arrowAnimation" />
@@ -1899,7 +1588,7 @@
                                         <div class="heroHeadline">
                                             <div class="sectionContent">
                                                 <div class="bannerHeading">
-                                                    <span>Our Brands</span>
+                                                    <span>Our Strategic Alliance</span>
                                                     <div class="brandInfo">
                                                         <h1 class="heroHeading">
                                                             <a href="https://www.landrover.in/vehicles/new-range-rover/index.html"
@@ -1933,252 +1622,114 @@
                                         <ol class="carouselIndicators BrandSectionIndicator squares">
 
                                             <li data-slide-to="0" class="active forBrands hide">
-                                                <span class="hoverBrandTxt">Curvv.ev</span>
-
+                                                <span class="hoverBrandTxt">Nardus</span>
                                                 <div class="overlayBrandNav"></div>
-
                                                 <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
+                                                    src="{{url('assets/images/hover%20arrow.svg')}}"
                                                     alt="Arrow" />
                                                 <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/tata_curvv_brands_strip_220x140.jpg"
-                                                    alt="Curvv.ev" />
+                                                    src=""
+                                                    alt="Nardus" />
                                             </li>
 
                                             <li data-slide-to="1" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Tata Neu</span>
-
+                                                <span class="hoverBrandTxt">Sano</span>
                                                 <div class="overlayBrandNav"></div>
-
                                                 <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
+                                                    src="{{url('assets/images/hover%20arrow.svg')}}"
                                                     alt="Arrow" />
                                                 <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/tata_neu_brands_strip_220x140.jpg"
-                                                    alt="Tata Neu" />
+                                                    src=""
+                                                    alt="Sano" />
                                             </li>
 
                                             <li data-slide-to="2" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Westside</span>
-
+                                                <span class="hoverBrandTxt">Agricapital</span>
                                                 <div class="overlayBrandNav"></div>
-
                                                 <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
+                                                    src="{{url('assets/images/hover%20arrow.svg')}}"
                                                     alt="Arrow" />
                                                 <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/trent_oct2021_brands_strip_220x140.jpg"
-                                                    alt="Westside" />
+                                                    src=""
+                                                    alt="Agricapital" />
                                             </li>
 
                                             <li data-slide-to="3" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Air India</span>
-
+                                                <span class="hoverBrandTxt">4 Green</span>
                                                 <div class="overlayBrandNav"></div>
-
                                                 <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
+                                                    src="{{url('assets/images/hover%20arrow.svg')}}"
                                                     alt="Arrow" />
                                                 <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/air_india_jan2024_brands_strip_220x140.jpg"
-                                                    alt="Air India" />
+                                                    src=""
+                                                    alt="4 Green Communication" />
                                             </li>
 
                                             <li data-slide-to="4" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Taj Hotels</span>
-
+                                                <span class="hoverBrandTxt">BCAL</span>
                                                 <div class="overlayBrandNav"></div>
-
                                                 <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
+                                                    src="{{url('assets/images/hover%20arrow.svg')}}"
                                                     alt="Arrow" />
                                                 <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/taj_aug2022_brands_strip_220x140.jpg"
-                                                    alt="Taj Hotels" />
+                                                    src=""
+                                                    alt="Bonum Consilium Africa Limited" />
                                             </li>
 
                                             <li data-slide-to="5" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Nexon.ev</span>
-
+                                                <span class="hoverBrandTxt">Rufec</span>
                                                 <div class="overlayBrandNav"></div>
-
                                                 <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
+                                                    src="{{url('assets/images/hover%20arrow.svg')}}"
                                                     alt="Arrow" />
                                                 <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/nexon_ev_jan2024_brands_strip_220x140.jpg"
-                                                    alt="Nexon.ev" />
+                                                    src=""
+                                                    alt="Rufec" />
                                             </li>
 
                                             <li data-slide-to="6" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Tata Salt</span>
-
+                                                <span class="hoverBrandTxt">Agropark</span>
                                                 <div class="overlayBrandNav"></div>
-
                                                 <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
+                                                    src="{{url('assets/images/hover%20arrow.svg')}}"
                                                     alt="Arrow" />
                                                 <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/tata_salt_oct2021_brands_strip_220x140.jpg"
-                                                    alt="Tata Salt" />
+                                                    src=""
+                                                    alt="Agropark" />
                                             </li>
 
                                             <li data-slide-to="7" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Tata CLiQ Luxury</span>
-
+                                                <span class="hoverBrandTxt">Agri-tech Hub</span>
                                                 <div class="overlayBrandNav"></div>
-
                                                 <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
+                                                    src="{{url('assets/images/hover%20arrow.svg')}}"
                                                     alt="Arrow" />
                                                 <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/tata_cliq_luxe_brands_strip_220x140.jpg"
-                                                    alt="Tata CLiQ Luxury" />
+                                                    src=""
+                                                    alt="Agri-tech Hub" />
                                             </li>
 
                                             <li data-slide-to="8" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Sampann</span>
-
+                                                <span class="hoverBrandTxt">FAGH</span>
                                                 <div class="overlayBrandNav"></div>
-
                                                 <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
+                                                    src="{{url('assets/images/hover%20arrow.svg')}}"
                                                     alt="Arrow" />
                                                 <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/tata_sampann_oct2021_brands_strip_220x140.jpg"
-                                                    alt="Sampann" />
+                                                    src=""
+                                                    alt="FAGH Herbal Remedies" />
                                             </li>
 
                                             <li data-slide-to="9" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Tata Tea</span>
-
+                                                <span class="hoverBrandTxt">AFBS</span>
                                                 <div class="overlayBrandNav"></div>
-
                                                 <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
+                                                    src="{{url('assets/images/hover%20arrow.svg')}}"
                                                     alt="Arrow" />
                                                 <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/tata_tea_gold_oct2021_brands_strip_220x140.jpg"
-                                                    alt="Tata Tea" />
+                                                    src=""
+                                                    alt="Agriculture and Food Business School" />
                                             </li>
-
-                                            <li data-slide-to="10" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Tata Altroz</span>
-
-                                                <div class="overlayBrandNav"></div>
-
-                                                <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
-                                                    alt="Arrow" />
-                                                <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/altroz_dark_oct2021_brands_strip_220x140.jpg"
-                                                    alt="Tata Altroz" />
-                                            </li>
-
-                                            <li data-slide-to="11" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Tata AIA Life</span>
-
-                                                <div class="overlayBrandNav"></div>
-
-                                                <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
-                                                    alt="Arrow" />
-                                                <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/tataaia_strip_220x140.jpg"
-                                                    alt="Tata AIA Life" />
-                                            </li>
-
-                                            <li data-slide-to="12" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Tanishq</span>
-
-                                                <div class="overlayBrandNav"></div>
-
-                                                <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
-                                                    alt="Arrow" />
-                                                <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/tanishq_july2023_brands_strip_220x140.jpg"
-                                                    alt="Tanishq" />
-                                            </li>
-
-                                            <li data-slide-to="13" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Croma</span>
-
-                                                <div class="overlayBrandNav"></div>
-
-                                                <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
-                                                    alt="Arrow" />
-                                                <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/croma_oct2021_brands_strip_220x140.jpg"
-                                                    alt="Croma - The Electronics Superstore" />
-                                            </li>
-
-                                            <li data-slide-to="14" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Vistara</span>
-
-                                                <div class="overlayBrandNav"></div>
-
-                                                <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
-                                                    alt="Arrow" />
-                                                <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/vistara_slider.jpg"
-                                                    alt="Vistara" />
-                                            </li>
-
-                                            <li data-slide-to="15" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Jaguar F‑TYPE</span>
-
-                                                <div class="overlayBrandNav"></div>
-
-                                                <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
-                                                    alt="Arrow" />
-                                                <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/jaguar_f_type_oct2021_brands_strip_220x140.jpg"
-                                                    alt="Jaguar F‑TYPE" />
-                                            </li>
-
-                                            <li data-slide-to="16" class="forBrands hide">
-                                                <span class="hoverBrandTxt">VoltasBeko</span>
-
-                                                <div class="overlayBrandNav"></div>
-
-                                                <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
-                                                    alt="Arrow" />
-                                                <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/voltas_beko_oct2021_brands_strip_220x140.jpg"
-                                                    alt="VoltasBeko" />
-                                            </li>
-
-                                            <li data-slide-to="17" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Tetley</span>
-
-                                                <div class="overlayBrandNav"></div>
-
-                                                <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
-                                                    alt="Arrow" />
-                                                <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/tetley_oct2021_brands_strip_220x140.jpg"
-                                                    alt="Tetley" />
-                                            </li>
-
-                                            <li data-slide-to="18" class="forBrands hide">
-                                                <span class="hoverBrandTxt">Range Rover</span>
-
-                                                <div class="overlayBrandNav"></div>
-
-                                                <img class=" img-responsive upMark"
-                                                    src="content/dam/tata/images/home-page/desktop/hover%20arrow.svg"
-                                                    alt="Arrow" />
-                                                <img class=" img-responsive "
-                                                    src="content/dam/tata/images/home-page/brands/brands-carousel/rangerover_new_2021_brands_strip_220x140.jpg"
-                                                    alt="Range Rover" />
-                                            </li>
-
                                         </ol>
                                     </div>
                                 </div>
@@ -2215,11 +1766,8 @@
                     </section>
                     <!--for modal-->
                     <section id="modalOverlay"></section>
-
-
                 </div>
                 <div class="parallax aem-GridColumn aem-GridColumn--default--12">
-
                     <section class="hidden-xs hidden-sm">
                         <div class="parallaxControls">
                             <div class="pointerDiv active">
@@ -2255,370 +1803,5 @@
                 </div>
             </div>
         </div>
-
     </main>
-
-    <div class="newpar new section">
-
-    </div>
-
-    <div class="par iparys_inherited">
-        <div class="footer">
-            <section class="mainSliderElem noSlider clickableDiv ">
-                <footer class="footer-bottom">
-                    <div class="container">
-                        <div class="row">
-                            <div class="hidden-xs hidden-sm col-lg-6 col-md-6 col-sm-6">
-                                <div class="col-sm-6 col-lg-4 col-md-4 hidden-xs padLeft0">
-                                    <div class="business">
-                                        <a href="business/overview.html">
-                                            <h5>Business</h5>
-                                        </a>
-
-                                        <ul>
-
-                                            <li>
-                                                <a href="business/technology.html">Technology</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="business/steel.html">Steel</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="business/auto.html">Automotive</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="business/consumer-retail.html">Consumer &amp; Retail</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="business/infrastructure.html">Infrastructure</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="business/financial.html">Financial Services</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="business/aerospace-defence.html">Aerospace &amp; Defence</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="business/tourism-travel.html">Tourism &amp; Travel</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="business/telecom-media.html">Telecom &amp; Media</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="business/trading-investments.html">Trading &amp; Investment</a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                    <div class="view">
-
-                                        <ul>
-
-                                            <li class='font20'>
-                                                <a href="brands-showcase.html">Browse our brands</a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-lg-4 col-md-4 hidden-xs">
-                                    <div class="community">
-                                        <a href="community.html">
-                                            <h5>Community</h5>
-                                        </a>
-
-                                        <ul>
-                                            <li>
-                                                <a href="community/health.html">Health</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="community/education.html">Education</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="community/empowerment.html">Empowerment</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="community/environment.html">Environment </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-lg-4 col-md-4 hidden-xs">
-                                    <div class="about">
-                                        <a href="about-us.html">
-                                            <h5>About</h5>
-                                        </a>
-
-                                        <ul>
-                                            <li>
-
-
-
-                                                <a href="about-us.html">The Tata group</a>
-
-                                            </li>
-
-                                            <li>
-
-
-
-                                                <a href="business/tata-sons.html">Tata Sons</a>
-
-                                            </li>
-
-                                            <li>
-
-
-
-                                                <a href="about-us/tata-values-purpose.html">Values and Purpose</a>
-
-                                            </li>
-
-                                            <li>
-
-
-
-                                                <a href="management-team.html">Leadership</a>
-
-                                            </li>
-
-                                            <li>
-
-
-
-                                                <a href="about-us/tata-group-our-heritage.html">Heritage</a>
-
-                                            </li>
-
-                                            <li>
-
-
-
-                                                <a href="about-us/sustainability.html">Sustainability</a>
-
-                                            </li>
-
-                                            <li>
-
-
-
-                                                <a href="about-us/innovation.html">Innovation</a>
-
-                                            </li>
-
-                                            <li>
-
-
-
-                                                <a href="about-us/sponsorships.html">Sponsorships</a>
-
-                                            </li>
-
-                                            <li>
-
-
-
-                                                <a href="investors.html">Investors</a>
-
-                                            </li>
-
-                                            <li>
-
-
-
-                                                <a href="about-us/tata-code-of-conduct.html">Tata Code of Conduct</a>
-
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobileFooterView xsNoPadding ">
-                                <div class="hidden-xs hidden-sm col-sm-6 col-md-6 col-lg-6 padLeft0">
-                                    <div class="hidden-xs font20 ">
-                                        <a href="newsroom.html">
-                                            <h5>Newsroom</h5>
-                                        </a>
-                                    </div>
-                                    <div class="hidden-xs font20">
-                                        <a href="careers.html">
-                                            <span>Careers</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="desktop-container vl hidden-xs hidden-sm"></div>
-
-                                <div class="footerTextDiv hidden-md hidden-lg">
-                                    <span class="footerText"></span>
-                                </div>
-                                <div
-                                    class="col-lg-6 col-md-6 col-sm-offset-3 col-sm-6 col-sm-offset-right-3  col-xs-12 social-icons">
-
-
-                                    <div class="clear"></div>
-                                    <div class="homeIcons icons">
-                                        <div class="">
-                                            <div class="Tooltip">
-                                                <a href="https://facebook.com/TataGroup" class="facebook"
-                                                    target="_blank" id="fb" rel="noopener">
-                                                    <img class="socialIcon" src="content/dam/tata/images/footer/FB.svg"
-                                                        alt="Facebook" />
-                                                </a>
-                                                <span class="tooltiptext hidden-sm hidden-xs">Facebook</span>
-                                            </div>
-                                        </div>
-                                        <div class="">
-                                            <div class="Tooltip">
-                                                <a href="https://www.linkedin.com/company/tata-companies/"
-                                                    class="linkedin" target="_blank" id="linkedIn" rel="noopener">
-                                                    <img class="socialIcon"
-                                                        src="content/dam/tata/images/footer/Linkedin.svg"
-                                                        alt="linkedIn" />
-                                                </a>
-                                                <span class="tooltiptext hidden-sm hidden-xs">LinkedIn</span>
-                                            </div>
-                                        </div>
-                                        <div class="padTop4">
-                                            <div class="Tooltip">
-                                                <a href="https://twitter.com/TataCompanies" class="twitter"
-                                                    target="_blank" id="tweet" rel="noopener">
-                                                    <img class="socialIcon"
-                                                        src="{{url('assets/images/x-icon.svg')}}"
-                                                        alt="twitter" />
-                                                </a>
-                                                <span class="tooltiptext hidden-sm hidden-xs">Twitter</span>
-                                            </div>
-                                        </div>
-                                        <div class=" padTop4">
-                                            <div class="Tooltip">
-                                                <a href="https://www.youtube.com/user/TataCompanies"
-                                                    class="youtube-play" target="_blank" id="youtube" rel="noopener">
-                                                    <img class="socialIcon"
-                                                        src="content/dam/tata/images/footer/video.svg" alt="youTube" />
-                                                </a>
-                                                <span class="tooltiptext hidden-sm hidden-xs">YouTube</span>
-                                            </div>
-                                        </div>
-                                        <div class=" padTop4">
-                                            <div class="Tooltip">
-                                                <a href="https://www.instagram.com/tatacompanies/" class="youtube-play"
-                                                    target="_blank" id="insta" rel="noopener">
-                                                    <img class="socialIcon"
-                                                        src="content/dam/tata/images/footer/Instagram.svg"
-                                                        alt="Image not found" />
-                                                </a>
-                                                <span class="tooltiptext hidden-sm hidden-xs">Instagram</span>
-                                            </div>
-                                        </div>
-                                        <div class=" padTop4">
-                                            <div class="Tooltip">
-                                                <a href="contact-us.html" class="envelope " id="mail">
-                                                    <img class="socialIcon"
-                                                        src="content/dam/tata/images/footer/ContactUs.svg" alt="mail" />
-                                                </a>
-                                                <span class="tooltiptext hidden-sm hidden-xs">Contact Us</span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="clear"></div>
-
-                                <div class="mobileView col-lg-6 col-md-6 col-sm-offset-3 col-sm-6 col-sm-offset-right-3 col-xs-12 forIpadRes padLeft0">
-                                    <div class="styleDesktop font20">
-                                        <a href="careers/jobs.html">
-                                            <span>Jobs</span>
-                                        </a>
-                                    </div>
-
-
-                                    <div class="styleDesktop padTop3 font18">
-                                        <a href="careers/equal-opportunity-statement.html">
-                                            <span>Equal Opportunity</span>
-                                        </a>
-                                    </div>
-
-                                    <!--<sly data-sly-test="Privacy Policy">
-                                        <div class="styleDesktop padTop3 font18 hidden-md hidden-lg">
-                                            <a href="/content/tata/en/privacy.html">
-                                                <span>Privacy Policy</span>
-                                            </a>
-                                        </div>
-                                    </sly>-->
-
-                                    <div class="hidden-xs hidden-sm col-xs-12 col-sm-5 col-sm-offset-right-1 padLeft0 padRight0 marginLeft3">
-                                        <div
-                                            class="col-xs-6 col-sm-5 col-sm-offset-1 styleDesktop mobileFooterView font18">
-                                            <a href="privacy.html">
-                                                <span class="padLeftPosition">Privacy Policy</span>
-                                            </a>
-                                        </div>
-                                        <div
-                                            class="col-xs-6 col-sm-5 col-sm-offset-1 styleDesktop mobileFooterView font18">
-                                            <a href="disclaimer.html">
-                                                <span class="padRightPosition">Legal Disclaimer</span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="newsLetter col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                    <iFrame class="newsletterForm" src="https://t.ml.tata.com/lp/FifthRegisterLP"
-                                        title="NewsLetter_iFrame"></iFrame>
-                                </div>
-                                <div class="mobileView1 col-lg-6 col-md-6 col-sm-offset-3 col-sm-6 col-sm-offset-right-3 col-xs-12 forIpadRes padLeft0">
-                                    <div class="styleDesktop font20">
-                                        <a href="careers/jobs.html">
-                                            <span>Jobs</span>
-                                        </a>
-                                    </div>
-
-                                    <div class="styleDesktop padTop3 font18">
-                                        <a href="careers/equal-opportunity-statement.html">
-                                            <span>Equal Opportunity</span>
-                                        </a>
-                                    </div>
-
-                                    <div class="styleDesktop padTop3 font18 hidden-md hidden-lg">
-                                        <a href="privacy.html">
-                                            <span>Privacy Policy</span>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                    <div class="footerLogo">
-                                        <a href="index.html">
-                                            <img src="etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/Tata_Logo2.svg"
-                                                alt="The Tata group" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 copyRight">
-                                <span>© 2019-2026 Tata Sons Private Limited. All Rights Reserved.</span>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-            </section>
-        </div>
-    </div>
-
-    <script src="{{url('assets/javascript/home-page.min.js')}}"></script>
-    <script src="{{url('assets/javascript/common-empty-page.min.js')}}"></script>
-</body>
-
-</html>
+@endsection

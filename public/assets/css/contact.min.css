@@ -1,0 +1,266 @@
+.biziness-content-one {
+    padding: 100px 0 0 0;
+}
+
+.biziness-content-one p {
+    max-width: 500px;
+    font-size: 15px;
+
+    font-weight: normal;
+
+    font-stretch: normal;
+
+    font-style: normal;
+
+    line-height: 1.23;
+
+    letter-spacing: normal;
+
+    color: #100d5c;
+    margin: auto;
+    text-align: center;
+}
+
+.biziness-content-one h2 {
+    max-width: 564px;
+
+    font-size: 40px;
+
+    font-weight: 900;
+
+    font-stretch: normal;
+
+    font-style: normal;
+
+    line-height: normal;
+
+    letter-spacing: normal;
+
+    color: #100d5c;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-bgs {
+    background: url('assets/img/career-bg.svg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom right;
+}
+
+.contact-form {
+    padding: 20px;
+    height: 930px;
+    box-shadow: 0 2px 19px 9px rgba(0, 0, 0, 0.05);
+
+    background-color: #ffffff;
+}
+
+@media only screen and (max-width:1024px) {
+    .contact-form {
+        padding: 20px;
+    }
+}
+
+
+.contact-form h1 {
+    max-width: 299px;
+    font-size: 21px;
+
+    font-weight: bold;
+
+    font-stretch: normal;
+
+    font-style: normal;
+
+    line-height: 0.67;
+
+    letter-spacing: normal;
+
+    color: #110f3a;
+    margin-bottom: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-form label {
+    font-size: 12px;
+
+    font-weight: 500;
+
+    font-stretch: normal;
+
+    font-style: normal;
+
+    line-height: normal;
+
+    letter-spacing: normal;
+
+    color: #303750;
+}
+
+.contact-form form input {
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    color: #303750;
+    opacity: 0.7;
+
+    border: solid 0.5px #bebcbc;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+.contact-form form input:focus {
+    outline: none;
+}
+
+.contact-form form select {
+    box-sizing: border-box;
+    height: 50px;
+    color: #303750;
+    width: 100%;
+    opacity: 0.7;
+
+    border: solid 0.5px #bebcbc;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+}
+
+.contact-form form select option {
+    color: #303750;
+    padding: 10px 20px;
+    font-size: 13px;
+}
+
+.contact-form form textarea {
+    box-sizing: border-box;
+    height: 240px;
+    width: 100%;
+    color: #303750;
+    opacity: 0.7;
+
+    border: solid 0.5px #bebcbc;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+.contact-form form textarea:focus {
+    outline: none;
+}
+
+.contact-form form button {
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form form button .btn-text {
+
+    box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.12);
+
+    background-color: white;
+    padding: 12px 25px;
+
+    font-size: 12px;
+
+    font-weight: 900;
+
+    font-stretch: normal;
+
+    font-style: normal;
+
+    line-height: normal;
+
+    letter-spacing: normal;
+
+    color: #1f1d5e;
+    text-transform: uppercase;
+}
+
+.contact-form form button .btn-icon {
+    color: white;
+    border-radius: 0 3px 3px 0;
+    background-color: #100d5c;
+    font-size: 12.5px;
+    padding: 12.5px 18px;
+}
+
+.contact-details {
+    height: 350px;
+    box-shadow: 0 2px 19px 9px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    padding: 40px 40px;
+}
+
+.contact-details .fa {
+    padding: 5px;
+    font-size: 15.3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+    color: #1f1d5e;
+    border: 1px solid #1f1d5e;
+}
+
+.contact-map {
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+}
+
+.contact-map iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.contact-details h1 {
+    max-width: 230px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    font-stretch: normal;
+
+    font-style: normal;
+
+    line-height: 2.83;
+
+    letter-spacing: normal;
+
+    color: #0f0e46;
+    margin-top: 20px;
+}
+
+.contact-details h2 {
+    margin-top: -15px;
+}
+
+.contact-details p {
+    max-width: 250px;
+
+    font-size: 13px;
+
+    font-weight: normal;
+
+    font-stretch: normal;
+
+    font-style: normal;
+
+    line-height: 2.83;
+
+    letter-spacing: normal;
+
+    color: #0f0e46;
+}
