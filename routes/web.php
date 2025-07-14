@@ -24,3 +24,5 @@ Route::get('/about-us/mission', [HomePageController::class, 'mission'])->name('a
 Route::get('/about-us/core-values', [HomePageController::class, 'coreValues'])->name('aboutUs.coreValues');
 Route::get('/sustainability', [HomePageController::class, 'sustainability'])->name('sustainability');
 Route::get('/strategic/alliance', [HomePageController::class, 'strategicAlliance'])->name('strategicAlliance');
+
+Route::post('/contact-submit', [HomePageController::class, 'submit']);

@@ -96,56 +96,39 @@
                                     <br><br>
                                     <div class="row">
                                         <div class="col-md-12">
-                        
                                             <div class="wpcf7 js" id="wpcf7-f109-o1" lang="en-US" dir="ltr" data-wpcf7-id="109">
-                                                <div class="screen-reader-response">
-                                                    <p role="status" aria-live="polite" aria-atomic="true"></p>
-                                                    <ul></ul>
-                                                </div>
-                                                <form action="/contact/#wpcf7-f109-o1" method="post" class="wpcf7-form resetting" aria-label="Contact form" novalidate="novalidate" data-status="resetting">
-                                                    <div style="display: none;">
-                                                        <input type="hidden" name="_wpcf7" value="109">
-                                                        <input type="hidden" name="_wpcf7_version" value="6.0.2">
-                                                        <input type="hidden" name="_wpcf7_locale" value="en_US">
-                                                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f109-o1">
-                                                        <input type="hidden" name="_wpcf7_container_post" value="0">
-                                                        <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+
+                                                <div id="formResponse" class="mt-3"></div>
+
+                                                <form id="contactForm">
+                                                    <!-- Honeypot field (hidden from users) -->
+                                                    <input type="text" name="website" style="display:none;" autocomplete="off">
+
+                                                    <div class="form-group">
+                                                        <label>Your Name <span class="text-danger">*</span></label>
+                                                        <input type="text" name="name" class="form-control" required maxlength="100">
                                                     </div>
-                                                    <div class="form-row">
-                                                        <div class="form-group col-md-12">
-                                                            <p><label> Your Name (required)</label><br>
-                                                                <span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" value="" type="text" name="your-name"></span>
-                                                            </p>
-                                                        </div>
+
+                                                    <div class="form-group">
+                                                        <label>Your Email <span class="text-danger">*</span></label>
+                                                        <input type="email" name="email" class="form-control" required maxlength="150">
                                                     </div>
-                                                    <div class="form-row">
-                                                        <div class="form-group col-md-12">
-                                                            <p><label> Your Email (required) </label><br>
-                                                                <span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" value="" type="email" name="your-email">
-                                                                    <div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div>
-                                                                </span>
-                                                            </p>
-                                                        </div>
+
+                                                    <div class="form-group">
+                                                        <label>Subject</label>
+                                                        <input type="text" name="subject" class="form-control" maxlength="150">
                                                     </div>
-                                                    <div class="form-row">
-                                                        <div class="form-group col-md-12">
-                                                            <p><label> Subject </label><br>
-                                                                <span class="wpcf7-form-control-wrap" data-name="your-subject"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" value="" type="text" name="your-subject"></span>
-                                                            </p>
-                                                        </div>
+
+                                                    <div class="form-group">
+                                                        <label>Your Message</label>
+                                                        <textarea name="message" rows="5" class="form-control" maxlength="1000"></textarea>
                                                     </div>
-                                                    <div class="form-row">
-                                                        <div class="form-group col-md-12">
-                                                            <p><label> Your Message </label><br>
-                                                                <span class="wpcf7-form-control-wrap" data-name="your-message"><textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea form-control" aria-invalid="false" name="your-message"></textarea></span>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row">
-                                                        <div class="form-group col-md-12 text-center">
-                                                            <p><input class="wpcf7-form-control wpcf7-submit has-spinner jabilani" type="submit" value="Send"><span class="wpcf7-spinner"></span>
-                                                            </p>
-                                                        </div>
+
+                                                    <!-- reCAPTCHA Token Field -->
+                                                    <input type="hidden" name="recaptcha_token" id="recaptchaToken">
+
+                                                    <div class="text-center">
+                                                        <button type="submit" class="btn btn-primary">Send</button>
                                                     </div>
                                                 </form>
                                             </div>
@@ -157,7 +140,7 @@
                                         <div class="col-md-6">
                                             <div class="contact-details">
                                                 <h1>General Inquiries</h1>
-                                                <p>Call: 0903 681 5529</p> 
+                                                <p>Call: 0903 681 5529</p>
                                                 <p>Email: info@fipl.ng</p>
                                                 <br>
                                                 <h2>
@@ -197,4 +180,50 @@
         </div>
     </div>
 </main>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6Lc844ErAAAAAKPCWZuT3D1kVwCYzekeagJRHcra"></script>
+<script>
+    grecaptcha.ready(function () {
+        grecaptcha.execute('6Lc844ErAAAAAKPCWZuT3D1kVwCYzekeagJRHcra', {action: 'contact'}).then(function (token) {
+            document.getElementById('recaptchaToken').value = token;
+        });
+    });
+
+    $('#contactForm').on('submit', function(e) {
+        e.preventDefault();
+        let $form = $(this);
+        let $btn = $form.find('button[type="submit"]');
+        let $response = $('#formResponse');
+        $btn.prop('disabled', true).text('Sending...');
+
+        $.ajax({
+            url: '{{ url("/contact-submit") }}',
+            method: 'POST',
+            data: $form.serialize(),
+            headers: {
+                'X-CSRF-TOKEN': '{{ csrf_token() }}'
+            },
+            success: function(res) {
+                $response.html(`<div class="alert alert-success">${res.message}</div>`);
+                $form[0].reset();
+            },
+            error: function(xhr) {
+                if (xhr.status === 422) {
+                    let errors = xhr.responseJSON.errors;
+                    let errorMsg = Object.values(errors).map(e => `<li>${e[0]}</li>`).join('');
+                    $response.html(`<div class="alert alert-danger"><ul>${errorMsg}</ul></div>`);
+                } else {
+                    $response.html(`<div class="alert alert-danger">Something went wrong.</div>`);
+                }
+            },
+            complete: function() {
+                $btn.prop('disabled', false).text('Send');
+            }
+        });
+    });
+</script>
+
+</script>
+
 @endsection

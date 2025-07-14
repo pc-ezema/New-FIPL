@@ -104,7 +104,7 @@
                                             <div class="Tooltip">
                                                 <a href="#" class="facebook"
                                                     target="_blank" id="fb" rel="noopener">
-                                                    <img class="socialIcon" src="content/dam/tata/images/footer/FB.svg"
+                                                    <img class="socialIcon" src="{{url('assets/images/FB.svg')}}"
                                                         alt="Facebook" />
                                                 </a>
                                                 <span class="tooltiptext hidden-sm hidden-xs">Facebook</span>
@@ -112,10 +112,10 @@
                                         </div>
                                         <div class="">
                                             <div class="Tooltip">
-                                                <a href="#"
+                                                <a href="https://www.linkedin.com/company/food-industrial-park-limited"
                                                     class="linkedin" target="_blank" id="linkedIn" rel="noopener">
                                                     <img class="socialIcon"
-                                                        src="content/dam/tata/images/footer/Linkedin.svg"
+                                                        src="{{url('assets/images/Linkedin.svg')}}"
                                                         alt="linkedIn" />
                                                 </a>
                                                 <span class="tooltiptext hidden-sm hidden-xs">LinkedIn</span>
@@ -134,20 +134,10 @@
                                         </div>
                                         <div class=" padTop4">
                                             <div class="Tooltip">
-                                                <a href="#"
-                                                    class="youtube-play" target="_blank" id="youtube" rel="noopener">
-                                                    <img class="socialIcon"
-                                                        src="content/dam/tata/images/footer/video.svg" alt="youTube" />
-                                                </a>
-                                                <span class="tooltiptext hidden-sm hidden-xs">YouTube</span>
-                                            </div>
-                                        </div>
-                                        <div class=" padTop4">
-                                            <div class="Tooltip">
-                                                <a href="https://www.linkedin.com/company/food-industrial-park-limited/" class="youtube-play"
+                                                <a href="#" class="youtube-play"
                                                     target="_blank" id="insta" rel="noopener">
                                                     <img class="socialIcon"
-                                                        src="content/dam/tata/images/footer/Instagram.svg"
+                                                        src="{{url('assets/images/Instagram.svg')}}"
                                                         alt="Image not found" />
                                                 </a>
                                                 <span class="tooltiptext hidden-sm hidden-xs">Instagram</span>
@@ -157,7 +147,7 @@
                                             <div class="Tooltip">
                                                 <a href="{{ route('contactUs') }}" class="envelope " id="mail">
                                                     <img class="socialIcon"
-                                                        src="content/dam/tata/images/footer/ContactUs.svg" alt="mail" />
+                                                        src="{{url('assets/images/ContactUs.svg')}}" alt="mail" />
                                                 </a>
                                                 <span class="tooltiptext hidden-sm hidden-xs">Contact Us</span>
                                             </div>
@@ -196,7 +186,7 @@
 
                                 </div>
                                 <div class="newsLetter col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                    <div class="footerLogo" style="margin-top: 5rem;">
+                                    <div class="footerLogo" style="margin: 5rem 0;">
                                         <a href="{{ route('index') }}">
                                             <img src="{{url('assets/images/fipl-logo.png')}}" class="img-responsive"
                                                 alt="{{ config('app.name') }}" />
