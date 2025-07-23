@@ -1,12 +1,12 @@
 @extends('layouts.frontend', ['title' => 'Sustainability'])
 
 @push('styles')
-<link rel="stylesheet" href="{{url('assets/css/about-us.min.css')}}" type="text/css">
+<link rel="stylesheet" href="{{url('assets/css/home-page.min.css')}}" type="text/css">
 <link rel="stylesheet" href="{{url('assets/css/sustainability.min.css')}}" type="text/css">
 @endpush
 
 @push('scripts')
-<script src="{{url('assets/javascript/about-us.min.js')}}"></script>
+<script src="{{url('assets/javascript/home-page.min.js')}}"></script>
 @endpush
 
 @section('page-content')
@@ -17,11 +17,11 @@
                 <section class="headerFade bannerSection mainSliderElem active" anchorval="0">
 
                     <picture>
-                        <source media="(min-width: 991px)" srcset="/content/dam/tata/images/about-us/Desktop/about_tata_leadimage_desktop_1920x1080.jpg">
-                        <source media="(min-width: 767px)" srcset="/content/dam/tata/images/about-us/Tab/Landing-Page-Tab-1.jpg">
-                        <source media="(min-width: 0)" srcset="/content/dam/tata/images/about-us/Mobile/Landing-Page-Mobile.jpg">
+                        <source media="(min-width: 991px)" srcset="{{url('assets/images/sustainability/banner.png')}}">
+                        <source media="(min-width: 767px)" srcset="{{url('assets/images/sustainability/banner.png')}}">
+                        <source media="(min-width: 0)" srcset="{{url('assets/images/sustainability/banner.png')}}">
 
-                        <img class="bg img-responsive" src="/content/dam/tata/images/about-us/Desktop/about_tata_leadimage_desktop_1920x1080.jpg" alt="Jamsetji Tata">
+                        <img class="bg img-responsive" src="{{url('assets/images/sustainability/banner.png')}}" alt="Sustainability">
                     </picture>
 
                     <div class="imageOverlayBnr"></div>
@@ -85,16 +85,13 @@
                                     <div class="col-md-4">
                                         <div class="flip-card">
                                             <div class="flip-card-inner">
-                                                <div class="flip-card-front">
+                                                <div class="flip-card-front" style="background-image: url({{url('assets/images/sustainability/environmental-responsibility.png')}}); background-size: cover;">
                                                     <div class="operation-card">
-                                                        <div class="text-center">
-                                                            <img src="/wp-content/uploads/2020/02/Group-15.png">
-                                                        </div>
                                                         <h5>Environmental Responsibility</h5>
                                                     </div>
                                                 </div>
-                                                <div class="flip-card-back" style="background-color:#E84669;">
-                                                    <h4></h4>
+                                                <div class="flip-card-back" style="background-color:#a63993;">
+                                                    <h4>Environmental Responsibility</h4>
                                                     <h3>At FIP, we focus on sustainable practices across every part of the agricultural and industrial value chain to reduce our environmental impact and use resources more efficiently. 
                                                         Some of our key efforts include regenerative farming that supports healthy soil and biodiversity through crop rotation and organic farming. We also prioritize water conservation by using advanced irrigation systems and rainwater harvesting. 
                                                         To reduce carbon emissions, we incorporate renewable energy sources like solar and biogas. Additionally, we manage waste responsibly by repurposing agricultural by-products to create natural herbicides and fertilizers for the crops, as well as feed for livestock.</h3>
@@ -106,16 +103,13 @@
                                     <div class="col-md-4">
                                         <div class="flip-card flip-card-one">
                                             <div class="flip-card-inner">
-                                                <div class="flip-card-front flip-card-front-one">
+                                                <div class="flip-card-front flip-card-front-one " style="background-image: url({{url('assets/images/sustainability/social-impact.png')}}); background-size: cover;">
                                                     <div class="operation-card-one">
-                                                        <div class="text-center">
-                                                            <img src="/wp-content/uploads/2020/02/Group-34.png">
-                                                        </div>
                                                         <h5>Social Impact</h5>
                                                     </div>
                                                 </div>
-                                                <div class="flip-card-back backer" style="background-color:#169BD7;">
-                                                    <h4></h4>
+                                                <div class="flip-card-back backer" style="background-color:#4DB698;">
+                                                    <h4>Social Impact</h4>
                                                     <h3 style="font-size:11px;">
                                                         Our social impact is helping communities grow and making sure everyone has fair opportunities. 
                                                         FIP supports farmers through our Farmers Engagement Programme by offering training, resources, 
@@ -130,16 +124,13 @@
                                     <div class="col-md-4">
                                         <div class="flip-card">
                                             <div class="flip-card-inner">
-                                                <div class="flip-card-front">
+                                                <div class="flip-card-front" style="background-image: url({{url('assets/images/sustainability/economic-viability.png')}}); background-size: cover;">
                                                     <div class="operation-card">
-                                                        <div class="text-center">
-                                                            <img src="/wp-content/uploads/2020/02/Group-2.png">
-                                                        </div>
                                                         <h5>Economic Viability</h5>
                                                     </div>
                                                 </div>
                                                 <div class="flip-card-back" style="background-color:#4DB698;">
-                                                    <h4></h4>
+                                                    <h4>Economic Viability</h4>
                                                     <h3>
                                                         For sustainability to last, it must be economically viable. We connect farmers, processors, distributors, and investors to optimize resources and maximize value. 
                                                         We use agri-tech and innovation, like smart farming, precision agriculture, and digital market access, to improve efficiency. 

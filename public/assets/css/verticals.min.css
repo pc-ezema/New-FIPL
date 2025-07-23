@@ -1594,7 +1594,7 @@ a.globalSearchSuggestion:hover {
 }
 .searchDiv {
     background: #fff;
-    border-bottom: 2px solid #e2a330;
+    border-bottom: 2px solid #00a859;
 }
 .closeActive {
     background-color: #fff;
@@ -1889,7 +1889,7 @@ li.pageDigits.active > span {
     margin-bottom: 45px;
 }
 .filters > .filterHeading {
-    border-bottom: 1px solid #e2a330;
+    border-bottom: 1px solid #00a859;
     width: 70%;
 }
 .filterHeadline {
@@ -2461,7 +2461,7 @@ nav {
 .d-block {
     display: block !important;
 }
-.navbar .tataLogo {
+.navbar .fiplLogo {
     margin: 0.5rem 0 !important;
     width: 50px;
     height: 50px;
@@ -2470,11 +2470,11 @@ nav {
     background-position: center;
     background-size: contain;
 }
-.grayMenu .tataLogo {
+.grayMenu .fiplLogo {
     margin: 0.5rem 0 !important;
     width: 50px;
     height: 50px;
-    background-image: url("assets/resources/img/pages/nav/Tata_Logo1.svg");
+    background-image: url("assets/resources/img/pages/nav/fipl_Logo1.svg");
     padding: 0;
     background-position: center;
     background-size: contain;
@@ -2501,14 +2501,14 @@ nav {
 .grayMenu .contactUsBoxIcon {
     background-image: url("assets/resources/img/pages/nav/ContactUs_gray.svg");
 }
-.tataLogo {
+.fiplLogo {
     width: 70px;
     display: inline-block;
     background-repeat: no-repeat;
     line-height: 20px;
     background-position: center;
 }
-.tataLogo > span {
+.fiplLogo > span {
     width: 1px;
     height: 1px;
     position: absolute;
@@ -2552,14 +2552,14 @@ a.nav-link {
     display: block;
     margin: 0 auto;
     padding-top: 1rem;
-    border-bottom: 0.1rem solid #e2a330 !important;
+    border-bottom: 0.1rem solid #00a859 !important;
 }
 .underLine:after {
     content: "";
     display: block;
     margin: 0 auto;
     padding-top: 1rem;
-    border-bottom: 0.1rem solid #e2a330 !important;
+    border-bottom: 0.1rem solid #00a859 !important;
 }
 .nav-item > .nav-link {
     padding: 1.4rem 2.3rem;
@@ -2605,7 +2605,7 @@ li.nav-item {
 }
 .nav > li > .borderBottom:focus,
 .nav > li > .borderBottom:hover {
-    border-bottom: 1px solid #e2a330;
+    border-bottom: 1px solid #00a859;
 }
 .nav-item:hover ul.dropdown-menu {
     display: block;
@@ -2849,9 +2849,9 @@ header .details img:nth-child(1) {
         margin-top: 1rem;
     }
     .nav-item > .nav-link:active {
-        color: #e2a330 !important;
+        color: #00a859 !important;
     }
-    .navbar .tataLogo {
+    .navbar .fiplLogo {
         margin-bottom: 0 !important;
     }
     .grayMenu a {
@@ -2867,7 +2867,7 @@ header .details img:nth-child(1) {
     .navbar-nav {
         margin: 0;
     }
-    .tataLogo {
+    .fiplLogo {
         width: 5rem;
     }
     .searchIcon {
@@ -3048,7 +3048,7 @@ header .details img:nth-child(1) {
         margin: 0;
     }
     .nav-item > .nav-link:active {
-        color: #e2a330 !important;
+        color: #00a859 !important;
     }
     .grayMenu a {
         color: #fff !important;
@@ -3229,7 +3229,7 @@ header .details img:nth-child(1) {
         padding: 0;
     }
     .nav-item > .nav-link:active {
-        color: #e2a330 !important;
+        color: #00a859 !important;
     }
     .navbar > .container > .navBarBtn {
         margin: 1rem 1.5rem;
@@ -3244,7 +3244,7 @@ header .details img:nth-child(1) {
     .padTop5 {
         padding-top: 2rem;
     }
-    .tataLogo {
+    .fiplLogo {
         width: 7rem;
     }
     .nav-item > .nav-link {
@@ -3294,7 +3294,7 @@ header .details img:nth-child(1) {
         margin: 0;
     }
     .navBarBtn,
-    .tataLogo {
+    .fiplLogo {
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
     }
@@ -3335,7 +3335,7 @@ header .details img:nth-child(1) {
         padding: 0;
         width: 100%;
     }
-    .navbar > .container > .tataLogo {
+    .navbar > .container > .fiplLogo {
         margin-left: 1.5rem !important;
     }
     .navbar-collapse.d-block {
@@ -3478,7 +3478,7 @@ header .details img:nth-child(1) {
         display: block;
         margin: 0 auto;
         padding-top: 1rem;
-        border-bottom: 0.1rem solid #e2a330;
+        border-bottom: 0.1rem solid #00a859;
     }
     .menuExpanded::after {
         display: none;
@@ -3517,7 +3517,7 @@ header .details img:nth-child(1) {
         display: block;
         margin: 0 auto;
         padding-top: 1rem;
-        border-bottom: 0.1rem solid #e2a330;
+        border-bottom: 0.1rem solid #00a859;
     }
     .menuExpanded::after {
         display: none;
@@ -3561,7 +3561,7 @@ header .details img:nth-child(1) {
         display: block;
         margin: 0 auto;
         padding-top: 1rem;
-        border-bottom: 0.1rem solid #e2a330;
+        border-bottom: 0.1rem solid #00a859;
     }
     .menuExpanded::after {
         display: none;
@@ -3605,7 +3605,7 @@ header .details img:nth-child(1) {
         display: block;
         margin: 0 auto;
         padding-top: 1rem;
-        border-bottom: 0.1rem solid #e2a330;
+        border-bottom: 0.1rem solid #00a859;
     }
     .menuExpanded::after {
         display: none;
@@ -3657,7 +3657,7 @@ header .details img:nth-child(1) {
         display: block;
         margin: 0 auto;
         padding-top: 1rem;
-        border-bottom: 0.1rem solid #e2a330;
+        border-bottom: 0.1rem solid #00a859;
     }
     .menuExpanded::after {
         display: none;
@@ -3754,11 +3754,11 @@ header .details img:nth-child(1) {
     text-align: center;
     max-width: 13rem;
     width: 100%;
-    background-color: #e2a330 !important;
+    background-color: #00a859 !important;
 }
 .quoteBoxBorder {
     box-sizing: border-box;
-    border: 1px solid #e2a330;
+    border: 1px solid #00a859;
     width: 100px;
     text-align: center;
     margin-left: auto;
@@ -3952,14 +3952,14 @@ header .details img:nth-child(1) {
     font-size: 30px;
 }
 .jwplayer.jw-skin-myskin .jw-display-icon-container .jw-icon {
-    color: #e2a330;
+    color: #00a859;
 }
 .jwplayer.jw-skin-myskin :not(.jw-flag-touch) .jw-button-color:focus,
 .jwplayer.jw-skin-myskin :not(.jw-flag-touch) .jw-button-color:hover,
 .jwplayer.jw-skin-myskin .jw-submenu-sharing {
     outline: 0;
-    color: #e2a330;
-    fill: #e2a330;
+    color: #00a859;
+    fill: #00a859;
 }
 .jwplayer.jw-skin-myskin .jw-display-icon-container .jw-icon:before {
     font-size: 20px;
@@ -3985,14 +3985,14 @@ header .details img:nth-child(1) {
 .jwplayer.jw-skin-myskin:not(.jw-flag-touch) .jw-submenu-sharing,
 .jwplayer.jw-skin-myskin:not(.jw-flag-touch) .jw-button-color:focus {
     outline: 0;
-    color: #e2a330;
-    fill: #e2a330;
+    color: #00a859;
+    fill: #00a859;
 }
 .jwplayer.jw-skin-myskin .jw-settings-content-item:hover,
 .jwplayer.jw-skin-myskin .jw-settings-content-item .jw-sharing-link:hover {
     outline: 0;
-    color: #e2a330;
-    fill: #e2a330;
+    color: #00a859;
+    fill: #00a859;
 }
 .jwplayer.jw-skin-myskin.jw-breakpoint-0 .jw-display-icon-container .jw-icon,
 .jwplayer.jw-skin-myskin.jw-breakpoint-1 .jw-display-icon-container .jw-icon {
@@ -4568,7 +4568,7 @@ textarea.urlCopied {
     text-align: center;
     max-width: 13rem;
     width: 100%;
-    background-color: #e2a330 !important;
+    background-color: #00a859 !important;
     margin-left: 2rem;
 }
 .buttonMore,
@@ -4681,7 +4681,7 @@ a.hoverCard:hover {
     padding: 1rem 4rem;
     font-size: 1.4rem;
     margin: 8rem 0 3rem 0;
-    background-color: #e2a330;
+    background-color: #00a859;
     color: white;
     cursor: pointer;
     left: 50%;
@@ -4797,7 +4797,7 @@ a.hoverCard:hover {
 .bannerHeading > span {
     padding: 0.6rem 1rem;
     color: #fff;
-    background-color: #043a5b;
+    background-color: ##a43791;
     font-style: italic;
     font-size: 1.4rem;
 }
@@ -4820,7 +4820,7 @@ a.hoverCard:hover {
     margin-top: 2rem;
 }
 .bannerBorder {
-    border-left: 0.1rem solid #e2a330;
+    border-left: 0.1rem solid #00a859;
     height: 95%;
     position: absolute;
     opacity: 0;
@@ -4898,7 +4898,7 @@ a:active {
     text-align: center;
     font-size: 1.6rem;
     padding: 0 10px;
-    color: #e2a330;
+    color: #00a859;
     margin: 0;
     font-weight: 400;
     cursor: default;
@@ -4910,7 +4910,7 @@ a:active {
     border-bottom: 1px solid;
 }
 .tagItems:active {
-    color: #e2a330;
+    color: #00a859;
 }
 .tagItems::after {
     content: " ";
@@ -4928,7 +4928,7 @@ a.tagItems.noBorder:after {
 .tagItems:hover,
 .tagItems:active,
 .tagItems:visited {
-    color: #e2a330;
+    color: #00a859;
     opacity: 0.6;
 }
 .tagHead {
@@ -7669,7 +7669,7 @@ span.#2baa65Text {
     height: 6.4rem;
     margin: 0 0 2.5rem 2.5rem;
     display: block;
-    color: #e2a330;
+    color: #00a859;
     position: relative;
     padding-left: 1.5rem;
     font-size: 2.1rem;
@@ -7684,13 +7684,13 @@ span.#2baa65Text::before {
     display: block;
     height: 90%;
     content: " ";
-    border-left: 1px solid #e2a330;
+    border-left: 1px solid #00a859;
     left: 0;
 }
 .h#2baa65Line {
     box-sizing: border-box;
     width: 10rem;
-    border: 1px solid #e2a330;
+    border: 1px solid #00a859;
     text-align: center;
     margin-top: 5.5rem;
 }
@@ -8103,7 +8103,7 @@ span.paraLinks {
         font-size: 1.2rem;
         margin: 6rem 0;
         line-height: 1.5;
-        background-color: #e2a330;
+        background-color: #00a859;
         color: white;
         cursor: pointer;
     }
@@ -8374,7 +8374,7 @@ th span {
     cursor: pointer;
 }
 .parallaxControls > .active > .point {
-    border: 1px solid #e2a330;
+    border: 1px solid #00a859;
     z-index: 2;
     width: 0.4rem;
     border-radius: 0.2rem;
@@ -8389,7 +8389,7 @@ th span {
     display: inline-block;
     height: 0.2rem;
     width: 1.5rem;
-    border-top: 1px solid #e2a330;
+    border-top: 1px solid #00a859;
     position: absolute;
     top: 1.4rem;
     bottom: 0;
@@ -8805,11 +8805,11 @@ li.forBrands:hover {
 }
 .ourBrandsSection .ourBrandsTitle:hover {
     color: #fff;
-    border-bottom: 1px solid #e2a330;
+    border-bottom: 1px solid #00a859;
 }
 .ourBrandsSection .ourBrandsTitle:focus {
     color: #fff;
-    border-bottom: 1px solid #e2a330;
+    border-bottom: 1px solid #00a859;
     text-decoration: none;
 }
 @media (min-width: 2500px) {
@@ -9201,7 +9201,7 @@ li.forBrands:hover {
 div.carousel.aem-GridColumn {
     position: static;
 }
-.aboutTataSection .carouselDiv {
+.aboutfiplSection .carouselDiv {
     position: initial;
 }
 .carouselDiv {

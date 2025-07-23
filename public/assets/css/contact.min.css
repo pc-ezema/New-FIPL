@@ -4,18 +4,12 @@
 
 .biziness-content-one p {
     max-width: 500px;
-    font-size: 15px;
-
+    font-size: 1.6rem;
     font-weight: normal;
-
     font-stretch: normal;
-
     font-style: normal;
-
     line-height: 1.23;
-
     letter-spacing: normal;
-
     color: #100d5c;
     margin: auto;
     text-align: center;
@@ -24,7 +18,7 @@
 .biziness-content-one h2 {
     max-width: 564px;
 
-    font-size: 40px;
+    font-size: 4rem;
 
     font-weight: 900;
 
@@ -43,20 +37,10 @@
     text-align: center;
 }
 
-.contact-bgs {
-    background: url('assets/img/career-bg.svg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: bottom right;
-}
-
 .contact-form {
     padding: 20px;
-    height: 930px;
+    /* height: 930px; */
     box-shadow: 0 2px 19px 9px rgba(0, 0, 0, 0.05);
-
     background-color: #ffffff;
 }
 
@@ -66,21 +50,14 @@
     }
 }
 
-
 .contact-form h1 {
     max-width: 299px;
-    font-size: 21px;
-
+    font-size: 2.3rem;
     font-weight: bold;
-
     font-stretch: normal;
-
     font-style: normal;
-
     line-height: 0.67;
-
     letter-spacing: normal;
-
     color: #110f3a;
     margin-bottom: 10px;
     margin: auto;
@@ -88,18 +65,12 @@
 }
 
 .contact-form label {
-    font-size: 12px;
-
+    font-size: 14px;
     font-weight: 500;
-
     font-stretch: normal;
-
     font-style: normal;
-
     line-height: normal;
-
     letter-spacing: normal;
-
     color: #303750;
 }
 
@@ -144,7 +115,6 @@
     width: 100%;
     color: #303750;
     opacity: 0.7;
-
     border: solid 0.5px #bebcbc;
     border-radius: 3px;
     background-color: #FFFFFF;
@@ -162,25 +132,16 @@
 }
 
 .contact-form form button .btn-text {
-
     box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.12);
-
     background-color: white;
     padding: 12px 25px;
-
     font-size: 12px;
-
     font-weight: 900;
-
     font-stretch: normal;
-
     font-style: normal;
-
     line-height: normal;
-
     letter-spacing: normal;
-
-    color: #1f1d5e;
+    color: #2baa65;
     text-transform: uppercase;
 }
 
@@ -208,8 +169,8 @@
     text-align: center;
     text-decoration: none;
     margin: 0px;
-    color: #1f1d5e;
-    border: 1px solid #1f1d5e;
+    color: #2baa65;
+    border: 1px solid #2baa65;
 }
 
 .contact-map {
@@ -226,19 +187,12 @@
 
 .contact-details h1 {
     max-width: 230px;
-
-    font-size: 13px;
-
+    font-size: 2rem;
     font-weight: bold;
-
     font-stretch: normal;
-
     font-style: normal;
-
     line-height: 2.83;
-
     letter-spacing: normal;
-
     color: #0f0e46;
     margin-top: 20px;
 }
@@ -249,18 +203,11 @@
 
 .contact-details p {
     max-width: 250px;
-
-    font-size: 13px;
-
+    font-size: 1.2rem;
     font-weight: normal;
-
     font-stretch: normal;
-
     font-style: normal;
-
     line-height: 2.83;
-
     letter-spacing: normal;
-
     color: #0f0e46;
 }

@@ -15,10 +15,10 @@
             <div class="story-type-b-banner parbase aem-GridColumn aem-GridColumn--default--12">
                 <section class="bannerSection mainSliderElem clickableDiv active" anchorval="0">
                     <picture>
-                        <source media="(min-width: 991px)" srcset="/content/dam/tata/images/about-us/Desktop/tajmahal_banner_desktop_1920x1080.jpg">
-                        <source media="(min-width: 767px)" srcset="/content/dam/tata/images/about-us/Tab/tajmahal_banner_tab_768x1024.jpg">
-                        <source media="(min-width: 0)" srcset="/content/dam/tata/images/about-us/Mobile/tajmahal_banner_mobile_320x568.jpg">
-                        <img class="bg img-responsive " src="/content/dam/tata/images/about-us/Desktop/tajmahal_banner_desktop_1920x1080.jpg" alt="Values and Purpose">
+                        <source media="(min-width: 991px)" srcset="{{ url('assets/images/about/core-value.png') }}">
+                        <source media="(min-width: 767px)" srcset="{{ url('assets/images/about/core-value.png') }}">
+                        <source media="(min-width: 0)" srcset="{{ url('assets/images/about/core-value.png') }}">
+                        <img class="bg img-responsive " src="{{ url('assets/images/about/core-value.png') }}" alt="Core Values">
                     </picture>
                     <div class="imageOverlayBnr"></div>
                     <div class="heroForegrounds container fxblock">

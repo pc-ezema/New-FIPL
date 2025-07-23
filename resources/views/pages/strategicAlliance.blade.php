@@ -1,11 +1,11 @@
 @extends('layouts.frontend', ['title' => 'Careers'])
 
 @push('styles')
-<link rel="stylesheet" href="{{url('assets/css/information-type-1.min.css')}}" type="text/css">
+<link rel="stylesheet" href="{{url('assets/css/home-page.min.css')}}" type="text/css">
 @endpush
 
 @push('scripts')
-<script src="{{url('assets/javascript/information-type-1.min.js')}}"></script>
+<script src="{{url('assets/javascript/home-page.min.js')}}"></script>
 @endpush
 
 @section('page-content')
@@ -68,10 +68,10 @@
                         <div class="row headingP noMargin clickArea" onclick="CardClickable(event)">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 contentSection">
                                 <picture>
-                                    <source media="(min-width: 991px)" srcset="/content/dam/tata/images/communityLanding/desktop/Coral_Project_Desktop_360x260.jpg">
-                                    <source media="(min-width: 575px)" srcset="/content/dam/tata/images/communityLanding/tablet/Coral_Project_Tab_283x260.jpg">
-                                    <source media="(min-width: 0)" srcset="/content/dam/tata/images/communityLanding/mobile/Coral_Project_Mobile_290x240.jpg">
-                                    <img class="img-responsive foldImg" src="/content/dam/tata/images/communityLanding/desktop/Coral_Project_Desktop_360x260.jpg" alt="Coral reef conservation">
+                                    <source media="(min-width: 991px)" srcset="{{url('assets/images/home/nardus-large.png')}}">
+                                    <source media="(min-width: 575px)" srcset="{{url('assets/images/home/nardus-large.png')}}">
+                                    <source media="(min-width: 0)" srcset="{{url('assets/images/home/nardus-large.png')}}">
+                                    <img class="img-responsive foldImg" src="{{url('assets/images/home/nardus-large.png')}}" alt="Nardus">
                                 </picture>
                                 <span class="captionImg">NARDUS</span>
                             </div>
@@ -97,10 +97,10 @@
                         <div class="row headingP noMargin clickArea" onclick="CardClickable(event)">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right contentSection">
                                 <picture>
-                                    <source media="(min-width: 991px)" srcset="/content/dam/tata/images/communityLanding/desktop/TataChem_BotanicalReserve_Desktop_360x260.jpg">
-                                    <source media="(min-width: 575px)" srcset="/content/dam/tata/images/communityLanding/tablet/TataChem_BotanicalReserve_Tab_283x260.jpg">
-                                    <source media="(min-width: 0)" srcset="/content/dam/tata/images/communityLanding/mobile/TataChem_BotanicalReserve_Mobile_290x240.jpg">
-                                    <img class="img-responsive foldImg" src="/content/dam/tata/images/communityLanding/desktop/TataChem_BotanicalReserve_Desktop_360x260.jpg">
+                                    <source media="(min-width: 991px)" srcset="{{url('assets/images/home/sano-foods-large.png')}}">
+                                    <source media="(min-width: 575px)" srcset="{{url('assets/images/home/sano-foods-large.png')}}">
+                                    <source media="(min-width: 0)" srcset="{{url('assets/images/home/sano-foods-large.png')}}">
+                                    <img class="img-responsive foldImg" src="{{url('assets/images/home/sano-foods-large.png')}}">
                                 </picture>
                                 <span class="captionImg">SANO FOODS</span>
                             </div>
@@ -126,10 +126,10 @@
                         <div class="row headingP noMargin clickArea" onclick="CardClickable(event)">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 contentSection">
                                 <picture>
-                                    <source media="(min-width: 991px)" srcset="/content/dam/tata/images/communityLanding/desktop/TataMotorsWetlands_Desktop_360x260.jpg">
-                                    <source media="(min-width: 575px)" srcset="/content/dam/tata/images/communityLanding/tablet/TataMotorsWetlands_Tab_283x260.jpg">
-                                    <source media="(min-width: 0)" srcset="/content/dam/tata/images/communityLanding/mobile/TataMotorsWetlands_Mobile_290x240.jpg">
-                                    <img class="img-responsive foldImg" src="/content/dam/tata/images/communityLanding/desktop/TataMotorsWetlands_Desktop_360x260.jpg" alt="Tata Motors' Wetland Habitat">
+                                    <source media="(min-width: 991px)" srcset="{{url('assets/images/home/agricapital-large.png')}}">
+                                    <source media="(min-width: 575px)" srcset="{{url('assets/images/home/agricapital-large.png')}}">
+                                    <source media="(min-width: 0)" srcset="{{url('assets/images/home/agricapital-large.png')}}">
+                                    <img class="img-responsive foldImg" src="{{url('assets/images/home/agricapital-large.png')}}" alt="Agricapital Limited">
                                 </picture>
                                 <span class="captionImg">AGRICAPITAL</span>
                             </div>
@@ -157,10 +157,10 @@
                         <div class="row headingP noMargin clickArea" onclick="CardClickable(event)">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right contentSection">
                                 <picture>
-                                    <source media="(min-width: 991px)" srcset="/content/dam/tata/images/communityLanding/desktop/TataChem_BotanicalReserve_Desktop_360x260.jpg">
-                                    <source media="(min-width: 575px)" srcset="/content/dam/tata/images/communityLanding/tablet/TataChem_BotanicalReserve_Tab_283x260.jpg">
-                                    <source media="(min-width: 0)" srcset="/content/dam/tata/images/communityLanding/mobile/TataChem_BotanicalReserve_Mobile_290x240.jpg">
-                                    <img class="img-responsive foldImg" src="/content/dam/tata/images/communityLanding/desktop/TataChem_BotanicalReserve_Desktop_360x260.jpg">
+                                    <source media="(min-width: 991px)" srcset="{{url('assets/images/home/4green-large.png')}}">
+                                    <source media="(min-width: 575px)" srcset="{{url('assets/images/home/4green-large.png')}}">
+                                    <source media="(min-width: 0)" srcset="{{url('assets/images/home/4green-large.png')}}">
+                                    <img class="img-responsive foldImg" src="{{url('assets/images/home/4green-large.png')}}">
                                 </picture>
                                 <span class="captionImg">4 GREEN COMMUNICATION</span>
                             </div>
@@ -188,10 +188,10 @@
                         <div class="row headingP noMargin clickArea" onclick="CardClickable(event)">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 contentSection">
                                 <picture>
-                                    <source media="(min-width: 991px)" srcset="/content/dam/tata/images/communityLanding/desktop/TataMotorsWetlands_Desktop_360x260.jpg">
-                                    <source media="(min-width: 575px)" srcset="/content/dam/tata/images/communityLanding/tablet/TataMotorsWetlands_Tab_283x260.jpg">
-                                    <source media="(min-width: 0)" srcset="/content/dam/tata/images/communityLanding/mobile/TataMotorsWetlands_Mobile_290x240.jpg">
-                                    <img class="img-responsive foldImg" src="/content/dam/tata/images/communityLanding/desktop/TataMotorsWetlands_Desktop_360x260.jpg" alt="Tata Motors' Wetland Habitat">
+                                    <source media="(min-width: 991px)" srcset="{{url('assets/images/home/bonum-large.png')}}">
+                                    <source media="(min-width: 575px)" srcset="{{url('assets/images/home/bonum-large.png')}}">
+                                    <source media="(min-width: 0)" srcset="{{url('assets/images/home/bcal-large.png')}}">
+                                    <img class="img-responsive foldImg" src="{{url('assets/images/home/bonum-large.png')}}" alt="BCAL">
                                 </picture>
                                 <span class="captionImg">BCAL</span>
                             </div>
@@ -218,10 +218,10 @@
                         <div class="row headingP noMargin clickArea" onclick="CardClickable(event)">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right contentSection">
                                 <picture>
-                                    <source media="(min-width: 991px)" srcset="/content/dam/tata/images/communityLanding/desktop/TataChem_BotanicalReserve_Desktop_360x260.jpg">
-                                    <source media="(min-width: 575px)" srcset="/content/dam/tata/images/communityLanding/tablet/TataChem_BotanicalReserve_Tab_283x260.jpg">
-                                    <source media="(min-width: 0)" srcset="/content/dam/tata/images/communityLanding/mobile/TataChem_BotanicalReserve_Mobile_290x240.jpg">
-                                    <img class="img-responsive foldImg" src="/content/dam/tata/images/communityLanding/desktop/TataChem_BotanicalReserve_Desktop_360x260.jpg">
+                                    <source media="(min-width: 991px)" srcset="{{url('assets/images/home/rufec-large.png')}}">
+                                    <source media="(min-width: 575px)" srcset="{{url('assets/images/home/rufec-large.png')}}">
+                                    <source media="(min-width: 0)" srcset="{{url('assets/images/home/rufec-large.png')}}">
+                                    <img class="img-responsive foldImg" src="{{url('assets/images/home/rufec-large.png')}}">
                                 </picture>
                                 <span class="captionImg">RUFEC</span>
                             </div>
@@ -249,10 +249,10 @@
                         <div class="row headingP noMargin clickArea" onclick="CardClickable(event)">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 contentSection">
                                 <picture>
-                                    <source media="(min-width: 991px)" srcset="/content/dam/tata/images/communityLanding/desktop/TataMotorsWetlands_Desktop_360x260.jpg">
-                                    <source media="(min-width: 575px)" srcset="/content/dam/tata/images/communityLanding/tablet/TataMotorsWetlands_Tab_283x260.jpg">
-                                    <source media="(min-width: 0)" srcset="/content/dam/tata/images/communityLanding/mobile/TataMotorsWetlands_Mobile_290x240.jpg">
-                                    <img class="img-responsive foldImg" src="/content/dam/tata/images/communityLanding/desktop/TataMotorsWetlands_Desktop_360x260.jpg" alt="Tata Motors' Wetland Habitat">
+                                    <source media="(min-width: 991px)" srcset="{{url('assets/images/home/agropark-large.png')}}">
+                                    <source media="(min-width: 575px)" srcset="{{url('assets/images/home/agropark-large.png')}}">
+                                    <source media="(min-width: 0)" srcset="{{url('assets/images/home/agropark-large.png')}}">
+                                    <img class="img-responsive foldImg" src="{{url('assets/images/home/agropark-large.png')}}" alt="Agropark">
                                 </picture>
                                 <span class="captionImg">AGROPARK</span>
                             </div>
@@ -279,10 +279,10 @@
                         <div class="row headingP noMargin clickArea" onclick="CardClickable(event)">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right contentSection">
                                 <picture>
-                                    <source media="(min-width: 991px)" srcset="/content/dam/tata/images/communityLanding/desktop/TataChem_BotanicalReserve_Desktop_360x260.jpg">
-                                    <source media="(min-width: 575px)" srcset="/content/dam/tata/images/communityLanding/tablet/TataChem_BotanicalReserve_Tab_283x260.jpg">
-                                    <source media="(min-width: 0)" srcset="/content/dam/tata/images/communityLanding/mobile/TataChem_BotanicalReserve_Mobile_290x240.jpg">
-                                    <img class="img-responsive foldImg" src="/content/dam/tata/images/communityLanding/desktop/TataChem_BotanicalReserve_Desktop_360x260.jpg">
+                                    <source media="(min-width: 991px)" srcset="{{url('assets/images/home/agri-tech-hub-large.png')}}">
+                                    <source media="(min-width: 575px)" srcset="{{url('assets/images/home/agri-tech-hub-large.png')}}">
+                                    <source media="(min-width: 0)" srcset="{{url('assets/images/home/agri-tech-hub-large.png')}}">
+                                    <img class="img-responsive foldImg" src="{{url('assets/images/home/agri-tech-hub-large.png')}}">
                                 </picture>
                                 <span class="captionImg">AGRI-HUB TECHNOLOGIES</span>
                             </div>
@@ -310,10 +310,10 @@
                         <div class="row headingP noMargin clickArea" onclick="CardClickable(event)">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 contentSection">
                                 <picture>
-                                    <source media="(min-width: 991px)" srcset="/content/dam/tata/images/communityLanding/desktop/TataMotorsWetlands_Desktop_360x260.jpg">
-                                    <source media="(min-width: 575px)" srcset="/content/dam/tata/images/communityLanding/tablet/TataMotorsWetlands_Tab_283x260.jpg">
-                                    <source media="(min-width: 0)" srcset="/content/dam/tata/images/communityLanding/mobile/TataMotorsWetlands_Mobile_290x240.jpg">
-                                    <img class="img-responsive foldImg" src="/content/dam/tata/images/communityLanding/desktop/TataMotorsWetlands_Desktop_360x260.jpg" alt="Tata Motors' Wetland Habitat">
+                                    <source media="(min-width: 991px)" srcset="{{url('assets/images/home/fagh-large.png')}}">
+                                    <source media="(min-width: 575px)" srcset="{{url('assets/images/home/fagh-large.png')}}">
+                                    <source media="(min-width: 0)" srcset="{{url('assets/images/home/fagh-large.png')}}">
+                                    <img class="img-responsive foldImg" src="{{url('assets/images/home/fagh-large.png')}}" alt="Tata Motors' Wetland Habitat">
                                 </picture>
                                 <span class="captionImg">FAGH</span>
                             </div>
@@ -341,10 +341,10 @@
                         <div class="row headingP noMargin clickArea" onclick="CardClickable(event)">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right contentSection">
                                 <picture>
-                                    <source media="(min-width: 991px)" srcset="/content/dam/tata/images/communityLanding/desktop/TataChem_BotanicalReserve_Desktop_360x260.jpg">
-                                    <source media="(min-width: 575px)" srcset="/content/dam/tata/images/communityLanding/tablet/TataChem_BotanicalReserve_Tab_283x260.jpg">
-                                    <source media="(min-width: 0)" srcset="/content/dam/tata/images/communityLanding/mobile/TataChem_BotanicalReserve_Mobile_290x240.jpg">
-                                    <img class="img-responsive foldImg" src="/content/dam/tata/images/communityLanding/desktop/TataChem_BotanicalReserve_Desktop_360x260.jpg">
+                                    <source media="(min-width: 991px)" srcset="{{url('assets/images/home/afbs-large.png')}}">
+                                    <source media="(min-width: 575px)" srcset="{{url('assets/images/home/afbs-large.png')}}">
+                                    <source media="(min-width: 0)" srcset="{{url('assets/images/home/afbs-large.png')}}">
+                                    <img class="img-responsive foldImg" src="{{url('assets/images/home/afbs-large.png')}}">
                                 </picture>
                                 <span class="captionImg">AFBS</span>
                             </div>

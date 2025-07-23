@@ -1,4 +1,4 @@
-@extends('layouts.frontend', ['title' => 'Welcome to FIPL'])
+@extends('layouts.frontend', ['title' => 'About Us'])
 
 @push('styles')
 <link rel="stylesheet" href="{{url('assets/css/about-us.min.css')}}" type="text/css">
@@ -12,13 +12,13 @@
 <main>
     <div class="root responsivegrid">
         <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-            <div class="we-tata aem-GridColumn aem-GridColumn--default--12">
+            <div class="we-fipl aem-GridColumn aem-GridColumn--default--12">
                 <section class="headerFade bannerSection mainSliderElem active" anchorval="0">
                     <picture>
-                        <source media="(min-width: 991px)" srcset="/content/dam/tata/images/about-us/Desktop/about_tata_leadimage_desktop_1920x1080.jpg">
-                        <source media="(min-width: 767px)" srcset="/content/dam/tata/images/about-us/Tab/Landing-Page-Tab-1.jpg">
-                        <source media="(min-width: 0)" srcset="/content/dam/tata/images/about-us/Mobile/Landing-Page-Mobile.jpg">
-                        <img class="bg img-responsive" src="/content/dam/tata/images/about-us/Desktop/about_tata_leadimage_desktop_1920x1080.jpg" alt="Jamsetji Tata">
+                        <source media="(min-width: 991px)" srcset="{{url('assets/images/about/banner.png')}}">
+                        <source media="(min-width: 767px)" srcset="{{url('assets/images/about/banner.png')}}">
+                        <source media="(min-width: 0)" srcset="{{url('assets/images/about/banner.png')}}">
+                        <img class="bg img-responsive" src="{{url('assets/images/about/banner.png')}}" alt="about fipl">
                     </picture>
                     <div class="imageOverlayBnr"></div>
                     <div class="heroForegrounds container fxblock">
@@ -61,16 +61,14 @@
                 <section class="sliderElem hidden-xs hidden-sm">
                 </section>
             </div>
-            <div class="about-tata-carousel aem-GridColumn aem-GridColumn--default--12">
+            <div class="about-fipl-carousel aem-GridColumn aem-GridColumn--default--12">
                 <section class="headerFade aboutUsSection mainSliderElem parallaxWrapper clickableDiv" anchorval="1">
                     <picture>
-                        <source media="(min-width: 991px)" srcset="/content/dam/tata/images/brands/desktop/brands2021_bgvideo_banner_desktop_1920x1080.jpg">
-                        <source media="(min-width: 767px)" srcset="/content/dam/tata/images/brands/tab/brands2021_bgvideo_banner_tab_786x1024.jpg">
-                        <source media="(min-width: 0)" srcset="/content/dam/tata/images/brands/mobile/brands2021_bgvideo_banner_mobile_320x568.jpg"> <img class="bg img-responsive noDisplay" src="/content/dam/tata/images/brands/desktop/brands2021_bgvideo_banner_desktop_1920x1080.jpg" alt="Business at Tata">
+                        <source media="(min-width: 991px)" srcset="{{ url('assets/images/about/who-we-are.png') }}">
+                        <source media="(min-width: 767px)" srcset="{{ url('assets/images/about/who-we-are.png') }}">
+                        <source media="(min-width: 0)" srcset="{{url('assets/images/about/who-we-are.png')}}"> 
+                        <img class="bg img-responsive" src="{{url('assets/images/about/who-we-are.png')}}" alt="Who we are">
                     </picture>
-                    <video autoplay="" playsinline="" loop="" muted="" class="AboutUsBannerVideo" desktopvideo="/content/dam/tata/videos/brands/desktop/brands2024_bgvideo_desktop_1920x1080.mp4" tabvideo="/content/dam/tata/videos/brands/tab/brands2024_bgvideo_tab_768x1024.mp4" mobilevideo="/content/dam/tata/videos/brands/mobile/brands2024_bgvideo_mobile_320x568.mp4">
-                        <source src="/content/dam/tata/videos/brands/desktop/brands2024_bgvideo_desktop_1920x1080.mp4" type="video/mp4">
-                    </video>
                     <div class="imageOverlayBnr"></div>
                     <div class="heroForegrounds container">
                         <div class="heroHeadline">
@@ -94,12 +92,15 @@
                     </div>
                 </section>
             </div>
-            <div class="about-tata-carousel aem-GridColumn aem-GridColumn--default--12">
+            <div class="about-fipl-carousel aem-GridColumn aem-GridColumn--default--12">
                 <section class="headerFade aboutUsSection mainSliderElem parallaxWrapper clickableDiv" anchorval="2">
                     <picture>
-                        <source media="(min-width: 991px)" srcset="/content/dam/tata/images/about-us/Desktop/about_ownership_desktop_1920x1080.jpg">
-                        <source media="(min-width: 767px)" srcset="/content/dam/tata/images/about-us/Tab/Ownership-Tab-1.jpg">
-                        <source media="(min-width: 0)" srcset="/content/dam/tata/images/about-us/Mobile/Ownership-Mobile.jpg"> <img class="bg img-responsive" src="/content/dam/tata/images/about-us/Desktop/about_ownership_desktop_1920x1080.jpg" alt="Ownership Fold">
+                        <picture>
+                            <source media="(min-width: 991px)" srcset="{{url('assets/images/about/what-we-do.png')}}">
+                            <source media="(min-width: 767px)" srcset="{{url('assets/images/about/what-we-do.png')}}">
+                            <source media="(min-width: 0)" srcset="{{url('assets/images/about/what-we-do.png')}}">
+                        </picture>
+                        <img class="bg img-responsive" src="{{url('assets/images/about/what-we-do.png')}}" alt="What we do">
                     </picture>
                     <div class="imageOverlayBnr"></div>
                     <div class="heroForegrounds container">
@@ -124,12 +125,13 @@
                     </div>
                 </section>
             </div>
-            <div class="about-tata-carousel aem-GridColumn aem-GridColumn--default--12">
+            <div class="about-fipl-carousel aem-GridColumn aem-GridColumn--default--12">
                 <section class="headerFade aboutUsSection mainSliderElem parallaxWrapper clickableDiv" anchorval="3">
                     <picture>
-                        <source media="(min-width: 991px)" srcset="/content/dam/tata/images/about-us/Desktop/jrd_about_banner_desktop_1920x1080.jpg">
-                        <source media="(min-width: 767px)" srcset="/content/dam/tata/images/about-us/Tab/Values-Tab.jpg">
-                        <source media="(min-width: 0)" srcset="/content/dam/tata/images/about-us/Mobile/Values-Mobile.jpg"> <img class="bg img-responsive" src="/content/dam/tata/images/about-us/Desktop/jrd_about_banner_desktop_1920x1080.jpg" alt="Values fold">
+                        <source media="(min-width: 991px)" srcset="{{ url('assets/images/about/vision.png') }}">
+                        <source media="(min-width: 767px)" srcset="{{ url('assets/images/about/vision.png') }}">
+                        <source media="(min-width: 0)" srcset="{{ url('assets/images/about/vision.png') }}"> 
+                        <img class="bg img-responsive" src="{{ url('assets/images/about/vision.png') }}" alt="FIPL Vision">
                     </picture>
                     <div class="imageOverlayBnr"></div>
                     <div class="heroForegrounds container">
@@ -160,12 +162,13 @@
                     </div>
                 </section>
             </div>
-            <div class="about-tata-carousel aem-GridColumn aem-GridColumn--default--12">
+            <div class="about-fipl-carousel aem-GridColumn aem-GridColumn--default--12">
                 <section class="headerFade aboutUsSection mainSliderElem parallaxWrapper clickableDiv" anchorval="4">
                     <picture>
-                        <source media="(min-width: 991px)" srcset="/content/dam/tata/images/about-us/Desktop/about_financials_desktop_1920x1080.jpg">
-                        <source media="(min-width: 767px)" srcset="/content/dam/tata/images/about-us/Tab/financials-Tab.jpg">
-                        <source media="(min-width: 0)" srcset="/content/dam/tata/images/about-us/Mobile/financials-Mobile.jpg"> <img class="bg img-responsive" src="/content/dam/tata/images/about-us/Desktop/about_financials_desktop_1920x1080.jpg" alt="Financials fold">
+                        <source media="(min-width: 991px)" srcset="{{ url('assets/images/about/mission.png') }}">
+                        <source media="(min-width: 767px)" srcset="{{ url('assets/images/about/mission.png') }}">
+                        <source media="(min-width: 0)" srcset="{{ url('assets/images/about/mission.png') }}"> 
+                        <img class="bg img-responsive" src="{{ url('assets/images/about/mission.png') }}" alt="FIPL Mission">
                     </picture>
                     <div class="imageOverlayBnr"></div>
                     <div class="heroForegrounds container">
@@ -196,12 +199,13 @@
                     </div>
                 </section>
             </div>
-            <div class="about-tata-carousel aem-GridColumn aem-GridColumn--default--12">
+            <div class="about-fipl-carousel aem-GridColumn aem-GridColumn--default--12">
                 <section class="headerFade aboutUsSection mainSliderElem parallaxWrapper clickableDiv" anchorval="3">
                     <picture>
-                        <source media="(min-width: 991px)" srcset="/content/dam/tata/images/about-us/Desktop/jrd_about_banner_desktop_1920x1080.jpg">
-                        <source media="(min-width: 767px)" srcset="/content/dam/tata/images/about-us/Tab/Values-Tab.jpg">
-                        <source media="(min-width: 0)" srcset="/content/dam/tata/images/about-us/Mobile/Values-Mobile.jpg"> <img class="bg img-responsive" src="/content/dam/tata/images/about-us/Desktop/jrd_about_banner_desktop_1920x1080.jpg" alt="Values fold">
+                        <source media="(min-width: 991px)" srcset="{{ url('assets/images/about/core-value.png') }}">
+                        <source media="(min-width: 767px)" srcset="{{ url('assets/images/about/core-value.png') }}">
+                        <source media="(min-width: 0)" srcset="{{ url('assets/images/about/core-value.png') }}"> 
+                        <img class="bg img-responsive" src="{{ url('assets/images/about/core-value.png') }}" alt="FIPL Core Values">
                     </picture>
                     <div class="imageOverlayBnr"></div>
                     <div class="heroForegrounds container">

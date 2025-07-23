@@ -15,10 +15,10 @@
             <div class="banner parbase aem-GridColumn aem-GridColumn--default--12">
                 <section class="bannerSection mainSliderElem active" anchorval="0">
                     <picture>
-                        <source media="(min-width: 991px)" srcset="/content/dam/tata/images/investor/desktop/bhinterior_banner_desktop_1920x1080.jpg">
-                        <source media="(min-width: 767px)" srcset="/content/dam/tata/images/investor/mobile/bhinterior_banner_mobile_320x568.jpg">
-                        <source media="(min-width: 0)" srcset="/content/dam/tata/images/investor/tab/bhinterior_banner_tab_768x1024.jpg">
-                        <img class="bg img-responsive " src="/content/dam/tata/images/investor/desktop/bhinterior_banner_desktop_1920x1080.jpg" alt="banner">
+                        <source media="(min-width: 991px)" srcset="{{ url('assets/images/about/vision.png') }}">
+                        <source media="(min-width: 767px)" srcset="{{ url('assets/images/about/vision.png') }}">
+                        <source media="(min-width: 0)" srcset="{{ url('assets/images/about/vision.png') }}">
+                        <img class="bg img-responsive " src="{{ url('assets/images/about/vision.png') }}" alt="Vision">
                     </picture>
                     <div class="imageOverlayBnr"></div>
                     <div class="heroForegrounds container fxblock">

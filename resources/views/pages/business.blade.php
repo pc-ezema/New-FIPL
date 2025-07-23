@@ -1,11 +1,13 @@
 @extends('layouts.frontend', ['title' => 'Business Overview'])
 
 @push('styles')
+<link rel="stylesheet" href="{{url('assets/css/common-empty-page.min.css')}}" type="text/css">
 <link rel="stylesheet" href="{{url('assets/css/information-type-1.min.css')}}" type="text/css">
 @endpush
 
 @push('scripts')
 <script src="{{url('assets/javascript/information-type-1.min.js')}}"></script>
+<script src="{{url('assets/javascript/common-empty-page.min.js')}}"></script>
 @endpush
 
 @section('page-content')
@@ -15,15 +17,11 @@
             <div class="banner-video parbase aem-GridColumn aem-GridColumn--default--12">
                 <section class="bannerSection mainSliderElem clickableDiv" anchorval="0">
                     <picture>
-                        <source media="(min-width: 991px)" srcset="/content/dam/tata/images/communityLanding/desktop/Community_Environment_Desktop.JPG">
-                        <source media="(min-width: 767px)" srcset="/content/dam/tata/images/communityLanding/tablet/Community_Environment_Tab.JPG">
-                        <source media="(min-width: 0)" srcset="/content/dam/tata/images/communityLanding/mobile/Community_Environment_Mobile.JPG">
-                        <img class="bg img-responsive " src="/content/dam/tata/images/communityLanding/desktop/Community_Environment_Desktop.JPG" alt="Environmental protection is a priority for the Tata group">
+                        <source media="(min-width: 991px)" srcset="{{url('assets/images/business/banner.png')}}">
+                        <source media="(min-width: 767px)" srcset="{{url('assets/images/business/banner.png')}}">
+                        <source media="(min-width: 0)" srcset="{{url('assets/images/business/banner.png')}}">
+                        <img class="bg img-responsive " src="{{url('assets/images/business/banner.png')}}" alt="Business FIPL">
                     </picture>
-
-                    <video poster="" playsinline="" loop="" autoplay="autoplay" id="bannerVideo" muted="" desktopposter="/content/dam/tata/images/communityLanding/desktop/Community_Environment_Desktop.JPG" tabposter="/content/dam/tata/images/communityLanding/tablet/Community_Environment_Tab.JPG" mobilevideo="/content/dam/tata/videos/jaguar.mp4" mobileposter="/content/dam/tata/images/communityLanding/mobile/Community_Environment_Mobile.JPG" class="noDisplay">
-                        <source src="" type="video/mp4">
-                    </video>
 
                     <div class="imageOverlayBnr"></div>
                     <div class="heroForegrounds container fxblock">
@@ -62,16 +60,16 @@
 
                 <section class="sliderElem hidden-xs hidden-sm"></section>
             </div>
-            <div id="nardus" class="institutes-image-left aem-GridColumn aem-GridColumn--default--12">
+            <div id="food" class="institutes-image-left aem-GridColumn aem-GridColumn--default--12">
                 <section class="saltStContentSection infoFoldSection infoGrey customScroll noSlider">
                     <div class="container">
                         <div class="row headingP noMargin clickArea" onclick="CardClickable(event)">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 contentSection">
                                 <picture>
-                                    <source media="(min-width: 991px)" srcset="/content/dam/tata/images/communityLanding/desktop/Coral_Project_Desktop_360x260.jpg">
-                                    <source media="(min-width: 575px)" srcset="/content/dam/tata/images/communityLanding/tablet/Coral_Project_Tab_283x260.jpg">
-                                    <source media="(min-width: 0)" srcset="/content/dam/tata/images/communityLanding/mobile/Coral_Project_Mobile_290x240.jpg">
-                                    <img class="img-responsive foldImg" src="/content/dam/tata/images/communityLanding/desktop/Coral_Project_Desktop_360x260.jpg" alt="Coral reef conservation">
+                                    <source media="(min-width: 991px)" srcset="{{url('assets/images/business/food.png')}}">
+                                    <source media="(min-width: 575px)" srcset="{{url('assets/images/business/food.png')}}">
+                                    <source media="(min-width: 0)" srcset="{{url('assets/images/business/food.png')}}">
+                                    <img class="img-responsive foldImg" src="{{url('assets/images/business/food.png')}}" alt="Food">
                                 </picture>
                                 <span class="captionImg">FOOD</span>
                             </div>
@@ -92,16 +90,16 @@
                     </div>
                 </section>
             </div>
-            <div id="sano" class="institutes-image-right aem-GridColumn aem-GridColumn--default--12">
+            <div id="agriculture" class="institutes-image-right aem-GridColumn aem-GridColumn--default--12">
                 <section class="saltStContentSection infoFoldSection customScroll noSlider">
                     <div class="container">
                         <div class="row headingP noMargin clickArea" onclick="CardClickable(event)">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right contentSection">
                                 <picture>
-                                    <source media="(min-width: 991px)" srcset="/content/dam/tata/images/communityLanding/desktop/TataChem_BotanicalReserve_Desktop_360x260.jpg">
-                                    <source media="(min-width: 575px)" srcset="/content/dam/tata/images/communityLanding/tablet/TataChem_BotanicalReserve_Tab_283x260.jpg">
-                                    <source media="(min-width: 0)" srcset="/content/dam/tata/images/communityLanding/mobile/TataChem_BotanicalReserve_Mobile_290x240.jpg">
-                                    <img class="img-responsive foldImg" src="/content/dam/tata/images/communityLanding/desktop/TataChem_BotanicalReserve_Desktop_360x260.jpg">
+                                    <source media="(min-width: 991px)" srcset="{{url('assets/images/business/agriculture.png')}}">
+                                    <source media="(min-width: 575px)" srcset="{{url('assets/images/business/agriculture.png')}}">
+                                    <source media="(min-width: 0)" srcset="{{url('assets/images/business/agriculture.png')}}">
+                                    <img class="img-responsive foldImg" src="{{url('assets/images/business/agriculture.png')}}">
                                 </picture>
                                 <span class="captionImg">AGRICULTURE</span>
                             </div>
@@ -122,16 +120,16 @@
                     </div>
                 </section>
             </div>
-            <div id="agricapital" class="institutes-image-left aem-GridColumn aem-GridColumn--default--12">
+            <div id="media" class="institutes-image-left aem-GridColumn aem-GridColumn--default--12">
                 <section class="saltStContentSection infoFoldSection infoGrey customScroll noSlider">
                     <div class="container">
                         <div class="row headingP noMargin clickArea" onclick="CardClickable(event)">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 contentSection">
                                 <picture>
-                                    <source media="(min-width: 991px)" srcset="/content/dam/tata/images/communityLanding/desktop/TataMotorsWetlands_Desktop_360x260.jpg">
-                                    <source media="(min-width: 575px)" srcset="/content/dam/tata/images/communityLanding/tablet/TataMotorsWetlands_Tab_283x260.jpg">
-                                    <source media="(min-width: 0)" srcset="/content/dam/tata/images/communityLanding/mobile/TataMotorsWetlands_Mobile_290x240.jpg">
-                                    <img class="img-responsive foldImg" src="/content/dam/tata/images/communityLanding/desktop/TataMotorsWetlands_Desktop_360x260.jpg" alt="Tata Motors' Wetland Habitat">
+                                    <source media="(min-width: 991px)" srcset="{{url('assets/images/business/media.png')}}">
+                                    <source media="(min-width: 575px)" srcset="{{url('assets/images/business/media.png')}}">
+                                    <source media="(min-width: 0)" srcset="{{url('assets/images/business/media.png')}}">
+                                    <img class="img-responsive foldImg" src="{{url('assets/images/business/media.png')}}" alt="Media">
                                 </picture>
                                 <span class="captionImg">MEDIA</span>
                             </div>
@@ -142,10 +140,7 @@
                                         <span class="infoFeedArticle">Our Media division serves as the creative heartbeat that amplifies Food Industrial Park transformative initiatives. We leverage an array of digital and traditional media channels to share compelling stories that highlight innovation, sustainability, and community transformation.</span><br>
                                         <span class="infoFeedArticle">Our team creates engaging content that showcases the successes of our food, agriculture, and real estate initiatives, ensuring that our stakeholders and partners remain informed and inspired.</span><br>
                                         <span class="infoFeedArticle">Through strategic media partnerships and cutting-edge communication technologies, we disseminate key insights, industry trends, and best practices that drive collaborative growth. Our efforts are designed to foster transparency, build trust, and stimulate dialogue within the communities we serve.</span><br>
-                                                                                <span class="infoFeedArticle">By blending creative storytelling with data-driven strategies, we elevate our brand presence and contribute to a broader understanding of our mission. We are committed to using media as a force for positive change, connecting people, ideas, and opportunities to drive sustainable development and enhance the overall quality of life.</span><br>
-                                        <a href="https://agricapital.ng" onclick="event.stopPropagation()" target="_self">
-                                            <img src="{{url('assets/images/Arrow_new.svg')}}" alt="Arrow" class="arrow">
-                                        </a>
+                                        <span class="infoFeedArticle">By blending creative storytelling with data-driven strategies, we elevate our brand presence and contribute to a broader understanding of our mission. We are committed to using media as a force for positive change, connecting people, ideas, and opportunities to drive sustainable development and enhance the overall quality of life.</span><br>
                                     </div>
                                     <div class="feedArticleBorder borderAnimCards"></div>
                                 </div>
@@ -154,16 +149,16 @@
                     </div>
                 </section>
             </div>
-            <div id="4green" class="institutes-image-right aem-GridColumn aem-GridColumn--default--12">
+            <div id="real-estate" class="institutes-image-right aem-GridColumn aem-GridColumn--default--12">
                 <section class="saltStContentSection infoFoldSection customScroll noSlider">
                     <div class="container">
                         <div class="row headingP noMargin clickArea" onclick="CardClickable(event)">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right contentSection">
                                 <picture>
-                                    <source media="(min-width: 991px)" srcset="/content/dam/tata/images/communityLanding/desktop/TataChem_BotanicalReserve_Desktop_360x260.jpg">
-                                    <source media="(min-width: 575px)" srcset="/content/dam/tata/images/communityLanding/tablet/TataChem_BotanicalReserve_Tab_283x260.jpg">
-                                    <source media="(min-width: 0)" srcset="/content/dam/tata/images/communityLanding/mobile/TataChem_BotanicalReserve_Mobile_290x240.jpg">
-                                    <img class="img-responsive foldImg" src="/content/dam/tata/images/communityLanding/desktop/TataChem_BotanicalReserve_Desktop_360x260.jpg">
+                                    <source media="(min-width: 991px)" srcset="{{url('assets/images/business/real-estate.png')}}">
+                                    <source media="(min-width: 575px)" srcset="{{url('assets/images/business/real-estate.png')}}">
+                                    <source media="(min-width: 0)" srcset="{{url('assets/images/business/real-estate.png')}}">
+                                    <img class="img-responsive foldImg" src="{{url('assets/images/business/real-estate.png')}}">
                                 </picture>
                                 <span class="captionImg">REAL ESTATE</span>
                             </div>

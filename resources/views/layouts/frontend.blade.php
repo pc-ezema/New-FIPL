@@ -35,7 +35,7 @@
 
     @stack('scripts')
     <script src="{{url('assets/javascript/common-empty-page.min.js')}}"></script>
-    @include('cookie-consent::index')
+    <!-- @include('cookie-consent::index') -->
 </body>
 
 </html>

@@ -1,12 +1,12 @@
 @extends('layouts.frontend', ['title' => 'Contact Us'])
 
 @push('styles')
-<link rel="stylesheet" href="{{url('assets/css/verticals.min.css')}}" type="text/css">
+<link rel="stylesheet" href="{{url('assets/css/home-page.min.css')}}" type="text/css">
 <link rel="stylesheet" href="{{url('assets/css/contact.min.css')}}" type="text/css">
 @endpush
 
 @push('scripts')
-<script src="{{url('assets/javascript/verticals.min.js')}}"></script>
+<script src="{{url('assets/javascript/home-page.min.js')}}"></script>
 @endpush
 
 @section('page-content')
@@ -31,7 +31,7 @@
                             <div class="sectionContent">
                                 <div class="bannerHeading">
 
-                                    <span>About Us</span>
+                                    <span>Contact Us</span>
                                     <h1 class="heroHeading">
                                         <span>We are Tata</span>
                                         <span></span>
@@ -128,7 +128,7 @@
                                                     <input type="hidden" name="recaptcha_token" id="recaptchaToken">
 
                                                     <div class="text-center">
-                                                        <button type="submit" class="btn btn-primary">Send</button>
+                                                        <button type="submit" class="btn btn-success">Send</button>
                                                     </div>
                                                 </form>
                                             </div>

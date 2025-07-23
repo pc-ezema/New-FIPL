@@ -3,9 +3,11 @@
         <div class="alert">
             <div class="message">
                 This website uses cookies to ensure you get the best experience.
-                <a href="/about">Learn more</a>
+                <a href="/about-us">Learn more</a>
             </div>
-            <button class="btn-agree">Agree</button>
+            <button class="btn-agree js-cookie-consent-agree cookie-consent__agree btn btn-sm btn-primary">
+                {{ trans('cookie-consent::texts.agree') }}
+            </button>
         </div>
     </div>
 </div>
@@ -51,7 +53,7 @@
 
 /* Text */
 .cookie-consent .message {
-    color: #6c757d;
+    color: #000000;
     font-size: 1.5rem;
 }
 
@@ -59,12 +61,12 @@
 .cookie-consent .message a {
     margin-left: 0.25rem;
     text-decoration: underline;
-    color: #2baa65;
+    color: #00a859;
 }
 
 /* Button */
 .cookie-consent .btn-agree {
-    background-color: #2baa65;
+    background-color: #00a859;
     color: white;
     border: none;
     padding: 0.375rem 0.75rem;
@@ -75,6 +77,6 @@
 }
 
 .cookie-consent .btn-agree:hover {
-    background-color: #0b5ed7;
+    background-color: #2baa65;
 }
 </style>

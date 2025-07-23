@@ -4,7 +4,7 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark navEffect custNavBar paddingTopInNav" role="navigation">
                 <div class="container">
-                    <a class="navbar-brand tataLogo nav-link" href="{{ route('index') }}"></a>
+                    <a class="navbar-brand fiplLogo nav-link" href="{{ route('index') }}"></a>
                     <button type="button" class="navbar-toggle navBarBtn paddingRight0 marginRight0"
                         data-toggle="collapse" data-target=".collapseNav">
                         <span class="sr-only">Toggle navigation</span>
