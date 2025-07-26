@@ -77,7 +77,7 @@
                                                 <div class="bannerBorder pull-left"></div>
                                                 <div class="paddingLeft3Rem bannerReadingTxt">
                                                     <a class="simButton buttonMore dataAnalytics btn buttonMr"
-                                                        href="newsroom/business/fipl-advanced-systems-serve-defend.html">
+                                                        href="{{ route('aboutUs') }}">
                                                         <span>View More</span>
                                                         <img src="{{url('assets/images/arrow_icon_white.svg')}}"
                                                             alt="Arrow" class="readMArrow arrowAnimation" />
@@ -113,7 +113,7 @@
                                                 <div class="bannerBorder pull-left"></div>
                                                 <div class="paddingLeft3Rem bannerReadingTxt">
                                                     <a class="simButton buttonMore dataAnalytics btn buttonMr"
-                                                        href="newsroom/business/fipl-power-transformation.html">
+                                                        href="{{ route('aboutUs') }}">
                                                         <span>View More</span>
                                                         <img src="{{url('assets/images/arrow_icon_white.svg')}}"
                                                             alt="Arrow" class="readMArrow arrowAnimation" />
@@ -152,8 +152,6 @@
                                         <img src="{{url('assets/images/next_icon_banner.svg')}}" alt="Next Arrow" />
                                     </a>
                                     <a class="pull-left centerIndicator" href="javascript:void(0)">
-                                        <img src="{{url('assets/images/pause_icon2.svg')}}" alt="Pause" />
-                                        <img src="content/dam/fipl/images/home-page/play-outline.svg" alt="Play" />
                                     </a>
                                 </div>
                             </div>

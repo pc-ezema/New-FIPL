@@ -11,21 +11,21 @@
                             <div class="hidden-xs hidden-sm col-lg-6 col-md-6 col-sm-6">
                                 <div class="col-sm-6 col-lg-4 col-md-4 hidden-xs padLeft0">
                                     <div class="business">
-                                        <a href="business/overview.html">
+                                        <a href="{{ route('business') }}">
                                             <h5>Business</h5>
                                         </a>
                                         <ul>
                                             <li>
-                                                <a href="#">Food</a>
+                                                <a href="{{ route('business') }}/#food">Food</a>
                                             </li>
                                             <li>
-                                                <a href="#">Agriculture</a>
+                                                <a href="{{ route('business') }}/#agriculture">Agriculture</a>
                                             </li>
                                             <li>
-                                                <a href="#">Media</a>
+                                                <a href="{{ route('business') }}/#media">Media</a>
                                             </li>
                                             <li>
-                                                <a href="#">Real Estate</a>
+                                                <a href="{{ route('business') }}/#real-estate">Real Estate</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -37,19 +37,19 @@
                                         </a>
                                         <ul>
                                             <li>
-                                                <a href="#">Nardus</a>
+                                                <a href="{{ route('strategicAlliance') }}/#nardus">Nardus</a>
                                             </li>
                                             <li>
-                                                <a href="#">Sano Foods</a>
+                                                <a href="{{ route('strategicAlliance') }}/#sano">Sano Foods</a>
                                             </li>
                                             <li>
-                                                <a href="#">Agricapital</a>
+                                                <a href="{{ route('strategicAlliance') }}/#agricapital">Agricapital</a>
                                             </li>
                                             <li>
-                                                <a href="#">4 Green Communication</a>
+                                                <a href="{{ route('strategicAlliance') }}/#4green">4 Green Communication</a>
                                             </li>
                                             <li>
-                                                <a href="#">Bonum Consilium Africa Limited</a>
+                                                <a href="{{ route('strategicAlliance') }}/#bcal">Bonum Consilium Africa Limited</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -61,19 +61,19 @@
                                         </a>
                                         <ul>
                                             <li>
-                                                <a href="#">Rufec</a>
+                                                <a href="{{ route('strategicAlliance') }}/#rufec">Rufec</a>
                                             </li>
                                             <li>
-                                                <a href="#">Agropark</a>
+                                                <a href="{{ route('strategicAlliance') }}/#agropark">Agropark</a>
                                             </li>
                                             <li>
-                                                <a href="#">Agri-tech Hub</a>
+                                                <a href="{{ route('strategicAlliance') }}/#agrihubtech">Agri-tech Hub</a>
                                             </li>
                                             <li>
-                                                <a href="#">FAGH Herbal Remedies</a>
+                                                <a href="{{ route('strategicAlliance') }}/#fagh">FAGH Herbal Remedies</a>
                                             </li>
                                             <li>
-                                                <a href="#">Agriculture and Food Business School</a>
+                                                <a href="{{ route('strategicAlliance') }}/#afbs">Agriculture and Food Business School</a>
                                             </li>
                                         </ul>
                                     </div>
