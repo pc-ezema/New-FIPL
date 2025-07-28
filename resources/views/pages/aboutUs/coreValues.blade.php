@@ -74,7 +74,7 @@
                             <div class="col-lg-1 paraDiv"></div>
                             <div class="col-lg-10 paraDiv">
                                 <div class="richtext saltPara">
-                                    <p><span class="mainPara">Business, as I have seen it, places one great demand on you: it needs you to self-impose a framework of ethics, values, fairness and objectivity on yourself at all times.” - Ratan N Tata, 2006</span></p>
+                                    <p><span class="mainPara">Business, as I have seen it, places one great demand on you: it needs you to self-impose a framework of ethics, values, fairness and objectivity on yourself at all times.”</span></p>
                                     <h2>Core values:</h2>
                                     <p><span class="saltPara">FIP has always been a values-driven&nbsp;organisation. These values continue to direct the growth and business of FIP companies.</span></p>
                                     <p><span class="saltPara">The seven core FIP values underpinning the way we do business are:</span></p>
