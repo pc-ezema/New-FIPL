@@ -1,11 +1,11 @@
 @extends('layouts.frontend', ['title' => 'Careers'])
 
 @push('styles')
-<link rel="stylesheet" href="{{url('assets/css/home-page.min.css')}}" type="text/css">
+<link rel="stylesheet" href="{{url('assets/css/information-type-1.min.css')}}" type="text/css">
 @endpush
 
 @push('scripts')
-<script src="{{url('assets/javascript/home-page.min.js')}}"></script>
+<script src="{{url('assets/javascript/information-type-1.min.js')}}"></script>
 @endpush
 
 @section('page-content')
@@ -15,13 +15,13 @@
             <div class="banner-video parbase aem-GridColumn aem-GridColumn--default--12">
                 <section class="bannerSection mainSliderElem clickableDiv" anchorval="0">
                     <picture>
-                        <source media="(min-width: 991px)" srcset="/content/dam/tata/images/communityLanding/desktop/Community_Environment_Desktop.JPG">
-                        <source media="(min-width: 767px)" srcset="/content/dam/tata/images/communityLanding/tablet/Community_Environment_Tab.JPG">
-                        <source media="(min-width: 0)" srcset="/content/dam/tata/images/communityLanding/mobile/Community_Environment_Mobile.JPG">
-                        <img class="bg img-responsive " src="/content/dam/tata/images/communityLanding/desktop/Community_Environment_Desktop.JPG" alt="Environmental protection is a priority for the Tata group">
+                        <source media="(min-width: 991px)" srcset="">
+                        <source media="(min-width: 767px)" srcset="">
+                        <source media="(min-width: 0)" srcset="">
+                        <img class="bg img-responsive " src="" alt="Strategic Alliance">
                     </picture>
 
-                    <video poster="" playsinline="" loop="" autoplay="autoplay" id="bannerVideo" muted="" desktopposter="/content/dam/tata/images/communityLanding/desktop/Community_Environment_Desktop.JPG" tabposter="/content/dam/tata/images/communityLanding/tablet/Community_Environment_Tab.JPG" mobilevideo="/content/dam/tata/videos/jaguar.mp4" mobileposter="/content/dam/tata/images/communityLanding/mobile/Community_Environment_Mobile.JPG" class="noDisplay">
+                    <video poster="" playsinline="" loop="" autoplay="autoplay" id="bannerVideo" muted="" desktopposter="" tabposter="" mobilevideo="/content/dam/tata/videos/jaguar.mp4" mobileposter="" class="noDisplay">
                         <source src="" type="video/mp4">
                     </video>
 

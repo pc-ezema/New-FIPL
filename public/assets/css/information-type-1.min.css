@@ -1701,7 +1701,7 @@ a.globalSearchSuggestion:hover {
 }
 .chkbox:checked + label:before {
     background: #5f95fc;
-    content: url("assets/resources/img/common/check-mark-white.svg");
+    content: url("assets/images/check-mark-white.svg");
     color: #fff;
     text-align: center;
     border: 0;
@@ -1759,7 +1759,7 @@ li.pageDigits.active {
     border-bottom: 0;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-image: url("assets/resources/img/common/globalSearch/hover.svg");
+    background-image: url("assets/images/hover.svg");
 }
 li.pageDigits.active > span {
     color: #e09f3a;
@@ -2201,7 +2201,7 @@ li.pageDigits.active > span {
 }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
     li.pageDigits.active {
-        background-image: url("assets/resources/img/common/globalSearch/hover.svg");
+        background-image: url("assets/images/hover.svg");
     }
 }
 @media screen and (min-width: 992px) {
@@ -2487,7 +2487,7 @@ nav {
 }
 .closeSearch,
 .grayMenu .closeSearch {
-    background-image: url("assets/resources/img/common/close_icon.svg");
+    background-image: url("assets/images/close_icon.svg");
 }
 .worldWideBoxIcon {
     background-image: url("assets/resources/img/pages/nav/Worldwideicon.svg");
@@ -2925,7 +2925,7 @@ header .details img:nth-child(1) {
         z-index: 9;
     }
     .accordion {
-        background-image: url(assets/resources/img/common/arrowDown.svg);
+        background-image: url(assets/images/arrowDown.svg);
     }
     .accordion {
         cursor: pointer;
@@ -2935,13 +2935,13 @@ header .details img:nth-child(1) {
         outline: 0;
         transition: 0.3s;
         width: 93%;
-        background-image: url(assets/resources/img/common/arrowRightAccordian.svg);
+        background-image: url(assets/images/arrowRightAccordian.svg);
         background-repeat: no-repeat;
         background-position-x: right;
         background-position-y: center;
     }
     a.nav-link.accordion.active {
-        background-image: url(assets/resources/img/common/arrowDown.svg);
+        background-image: url(assets/images/arrowDown.svg);
         object-fit: cover;
     }
     .panel {
@@ -3125,13 +3125,13 @@ header .details img:nth-child(1) {
         text-align: left;
         outline: 0;
         transition: 0.5s;
-        background-image: url(assets/resources/img/common/arrowRightAccordian.svg);
+        background-image: url(assets/images/arrowRightAccordian.svg);
         background-repeat: no-repeat;
         background-position-x: right;
         background-position-y: center;
     }
     a.nav-link.accordion.active {
-        background-image: url(assets/resources/img/common/arrowDown.svg);
+        background-image: url(assets/images/arrowDown.svg);
     }
     a.nav-link.accordion.active {
         color: #f5a623 !important;
@@ -3375,13 +3375,13 @@ header .details img:nth-child(1) {
         text-align: left;
         outline: 0;
         transition: 0.5s;
-        background-image: url(assets/resources/img/common/arrowRightAccordian.svg);
+        background-image: url(assets/images/arrowRightAccordian.svg);
         background-repeat: no-repeat;
         background-position-x: right;
         background-position-y: center;
     }
     a.nav-link.accordion.active {
-        background-image: url(assets/resources/img/common/arrowDown.svg);
+        background-image: url(assets/images/arrowDown.svg);
     }
     a.nav-link.accordion.active {
         color: #f5a623 !important;
@@ -3929,7 +3929,7 @@ header .details img:nth-child(1) {
     border: 1px solid #000;
 }
 .jwplayer.jw-skin-myskin .jw-sharing-dock-btn .jw-dock-image {
-    background-image: url("assets/resources/img/common/shareOptions/color/share.svg");
+    background-image: url("assets/images/shareOptions/color/share.svg");
 }
 .jwplayer.jw-skin-myskin.jw-breakpoint-4 .jw-display .jw-icon:before,
 .jwplayer.jw-skin-myskin.jw-breakpoint-5 .jw-display .jw-icon:before,
@@ -4188,54 +4188,54 @@ li .infoPara {
     margin-left: 1rem;
 }
 .jumpFirst {
-    background-image: url("assets/resources/img/common/globalSearch/jumpFirst.svg");
+    background-image: url("assets/images/jumpFirst.svg");
     background-repeat: no-repeat;
 }
 .jumpFirst:hover {
-    background-image: url("assets/resources/img/common/globalSearch/jumpFirstActive.svg");
+    background-image: url("assets/images/jumpFirstActive.svg");
     background-repeat: no-repeat;
 }
 .jumpFirstActive {
-    background-image: url("assets/resources/img/common/globalSearch/jumpFirstActive.svg");
+    background-image: url("assets/images/jumpFirstActive.svg");
     background-repeat: no-repeat;
 }
 .disableArrow {
     opacity: 0.2;
 }
 .leftArw {
-    background-image: url("assets/resources/img/common/globalSearch/left.svg");
+    background-image: url("assets/images/left.svg");
     background-repeat: no-repeat;
 }
 .leftArw:hover {
-    background-image: url("assets/resources/img/common/globalSearch/leftActive.svg");
+    background-image: url("assets/images/leftActive.svg");
     background-repeat: no-repeat;
 }
 .leftArwActive {
-    background-image: url("assets/resources/img/common/globalSearch/leftActive.svg");
+    background-image: url("assets/images/leftActive.svg");
     background-repeat: no-repeat;
 }
 .rightArw {
-    background-image: url("assets/resources/img/common/globalSearch/right.svg");
+    background-image: url("assets/images/right.svg");
     background-repeat: no-repeat;
 }
 .rightArw:hover {
-    background-image: url("assets/resources/img/common/globalSearch/rightActive.svg");
+    background-image: url("assets/images/rightActive.svg");
     background-repeat: no-repeat;
 }
 .rightArwActive {
-    background-image: url("assets/resources/img/common/globalSearch/rightActive.svg");
+    background-image: url("assets/images/rightActive.svg");
     background-repeat: no-repeat;
 }
 .jumpLast {
-    background-image: url("assets/resources/img/common/globalSearch/jumpLast.svg");
+    background-image: url("assets/images/jumpLast.svg");
     background-repeat: no-repeat;
 }
 .jumpLast:hover {
-    background-image: url("assets/resources/img/common/globalSearch/jumpLastActive.svg");
+    background-image: url("assets/images/jumpLastActive.svg");
     background-repeat: no-repeat;
 }
 .jumpLastActive {
-    background-image: url("assets/resources/img/common/globalSearch/jumpLastActive.svg");
+    background-image: url("assets/images/jumpLastActive.svg");
     background-repeat: no-repeat;
 }
 body,
@@ -4280,7 +4280,7 @@ main {
 .imageOverlayHp {
     position: absolute;
     width: 100%;
-    background-image: url("assets/resources/img/common/tile4020.png");
+    background-image: url("assets/images/tile4020.png");
     padding: 0;
     height: 100%;
     top: 0;
@@ -4291,7 +4291,7 @@ main {
 .imageOverlayInsta {
     position: absolute;
     width: 100%;
-    background-image: url("assets/resources/img/common/insta_shade.png");
+    background-image: url("assets/images/insta_shade.png");
     padding: 0;
     background-position: center;
     height: 100%;
@@ -4328,7 +4328,7 @@ main {
     display: none;
 }
 .shareOptions > .fb > .fbAnchor {
-    background: url("assets/resources/img/common/shareOptions/FB.svg");
+    background: url("assets/images/shareOptions/FB.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -4337,7 +4337,7 @@ main {
     background-position: center;
 }
 .shareOptions > .twitter > .twitterAnchor {
-    background: url("assets/resources/img/common/shareOptions/x-icon.svg");
+    background: url("assets/images/shareOptions/x-icon.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -4346,7 +4346,7 @@ main {
     background-position: center;
 }
 .shareOptions > .linkedin > .linkedinAnchor {
-    background: url("assets/resources/img/common/shareOptions/LinkedIn.svg");
+    background: url("assets/images/shareOptions/LinkedIn.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -4359,12 +4359,12 @@ main {
     background-position: center;
 }
 .shareOptions > .hangout > .hangoutAnchor {
-    background: url("assets/resources/img/common/shareOptions/G%2bwhite.svg");
+    background: url("assets/images/shareOptions/G%2bwhite.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .mailto > .mailtoAnchor {
-    background: url("assets/resources/img/common/shareOptions/Contact_Us.svg");
+    background: url("assets/images/shareOptions/Contact_Us.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -4373,7 +4373,7 @@ main {
     background-position: center;
 }
 .whatsappImg {
-    background: url("assets/resources/img/common/shareOptions/Whatsapp.svg");
+    background: url("assets/images/shareOptions/Whatsapp.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -6681,7 +6681,7 @@ li.smallText {
     margin: 0.2rem 0 0 0.5rem;
     padding: 1rem;
     font-size: 0;
-    background-image: url(assets/resources/img/common/arrowNext.png);
+    background-image: url(assets/images/arrowNext.png);
     background-repeat: no-repeat;
 }
 .infoContentSection {

@@ -1,12 +1,12 @@
 @extends('layouts.frontend', ['title' => 'Contact Us'])
 
 @push('styles')
-<link rel="stylesheet" href="{{url('assets/css/home-page.min.css')}}" type="text/css">
+<link rel="stylesheet" href="{{url('assets/css/information-type-1.min.css')}}" type="text/css">
 <link rel="stylesheet" href="{{url('assets/css/contact.min.css')}}" type="text/css">
 @endpush
 
 @push('scripts')
-<script src="{{url('assets/javascript/home-page.min.js')}}"></script>
+<script src="{{url('assets/javascript/information-type-1.min.js')}}"></script>
 @endpush
 
 @section('page-content')
@@ -17,11 +17,11 @@
                 <section class="headerFade bannerSection mainSliderElem active" anchorval="0">
 
                     <picture>
-                        <source media="(min-width: 991px)" srcset="/content/dam/tata/images/about-us/Desktop/about_tata_leadimage_desktop_1920x1080.jpg">
-                        <source media="(min-width: 767px)" srcset="/content/dam/tata/images/about-us/Tab/Landing-Page-Tab-1.jpg">
-                        <source media="(min-width: 0)" srcset="/content/dam/tata/images/about-us/Mobile/Landing-Page-Mobile.jpg">
+                        <source media="(min-width: 991px)" srcset="">
+                        <source media="(min-width: 767px)" srcset="">
+                        <source media="(min-width: 0)" srcset="">
 
-                        <img class="bg img-responsive" src="/content/dam/tata/images/about-us/Desktop/about_tata_leadimage_desktop_1920x1080.jpg" alt="Jamsetji Tata">
+                        <img class="bg img-responsive" src="" alt="Contact Us">
                     </picture>
 
                     <div class="imageOverlayBnr"></div>

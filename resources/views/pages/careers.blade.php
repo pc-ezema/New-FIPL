@@ -1,12 +1,12 @@
 @extends('layouts.frontend', ['title' => 'Careers'])
 
 @push('styles')
-<link rel="stylesheet" href="{{url('assets/css/home-page.min.css')}}" type="text/css">
+<link rel="stylesheet" href="{{url('assets/css/information-type-1.min.css')}}" type="text/css">
 <link rel="stylesheet" href="{{url('assets/css/careers.min.css')}}" type="text/css">
 @endpush
 
 @push('scripts')
-<script src="{{url('assets/javascript/home-page.min.js')}}"></script>
+<script src="{{url('assets/javascript/information-type-1.min.js')}}"></script>
 @endpush
 
 @section('page-content')
@@ -30,23 +30,13 @@
                             <div class="sectionContent">
                                 <div class="bannerHeading">
 
-                                    <span>About Us</span>
+                                    <span>Careers</span>
                                     <h1 class="heroHeading">
-                                        <span>We are fipl</span>
+                                        <span>Careers At FIPL</span>
                                         <span></span>
                                         <span></span>
                                     </h1>
 
-                                </div>
-                                <div class="bannerPara">
-                                    <div class="mainBorder pull-left"></div>
-                                    <div class="bannerReadingTxt">
-                                        <p class="bannerDiv">
-                                            <span>India's only value based corporation —</span>
-                                            <span>a visionary, a pioneer, a leader, since 1868.</span>
-                                            <span>Scroll below to learn more about us. </span>
-                                        </p>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -89,10 +79,10 @@
                         <h2>Why Work at FIP?</h2>
                         <p>At FIPL, we are not just creating careers; we are building futures. Working with us means becoming part of a forward-thinking organization that is shaping the future of agriculture and food security in Africa. Here’s why you should consider a career with FIP:</p>
                         <ul>
-                            <li><b>Impactful Work:</b></li>
-                            <li><b>Growth and Development:</b></li>
-                            <li><b>Collaborative Environment:</b></li>
-                            <li><b>Sustainability Focus:</b></li>
+                            <li><b>Impactful Work</b></li>
+                            <li><b>Growth and Development</b></li>
+                            <li><b>Collaborative Environment</b></li>
+                            <li><b>Sustainability Focus</b></li>
                         </ul>
                     </div>
                     <div class="rd-right-image">

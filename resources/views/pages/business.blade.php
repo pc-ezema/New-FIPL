@@ -1,13 +1,11 @@
 @extends('layouts.frontend', ['title' => 'Business Overview'])
 
 @push('styles')
-<link rel="stylesheet" href="{{url('assets/css/common-empty-page.min.css')}}" type="text/css">
 <link rel="stylesheet" href="{{url('assets/css/information-type-1.min.css')}}" type="text/css">
 @endpush
 
 @push('scripts')
 <script src="{{url('assets/javascript/information-type-1.min.js')}}"></script>
-<script src="{{url('assets/javascript/common-empty-page.min.js')}}"></script>
 @endpush
 
 @section('page-content')
