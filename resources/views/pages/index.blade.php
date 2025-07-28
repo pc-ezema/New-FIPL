@@ -339,8 +339,6 @@
                                                         <img src="{{url('assets/images/arrow_icon.svg')}}"
                                                             alt="Arrow" class="arrow" />
                                                     </div>
-                                                    <a href="https://www.instagram.com/fiplcompanies/"
-                                                        class="hoverCard" target="_blank" rel="noopener"></a>
                                                 </div>
                                             </div>
                                         </div>

@@ -25,7 +25,7 @@
                         </div>
                         <ul class="nav navbar-nav pull-right customNav paddingTopNav">
                             <li class="nav-item navText megaMenu">
-                                <a class="nav-link accordion " data-toggle="collapse">
+                                <a class="nav-link accordion {{ (request()->is('business*')) ? 'activeMenu' : '' }}" data-toggle="collapse">
                                     Business
                                 </a>
                                 <ul class="panel list-unstyled drops">
@@ -41,7 +41,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item navText megaMenu padTop5">
-                                <a class="nav-link accordion  " data-toggle="collapse">
+                                <a class="nav-link accordion {{ (request()->is('about-us*')) ? 'activeMenu' : '' }}" data-toggle="collapse">
                                     About Us
                                 </a>
                                 <ul class="panel list-unstyled aboutPanel">
@@ -58,17 +58,17 @@
                             </li>
                             <div class="backdrop"></div>
                             <li class="nav-item navText padTop5">
-                                <a class="nav-link  " href="{{ route('sustainability') }}" data-toggle="collapse" id="NewsRoom">
+                                <a class="nav-link {{ (request()->is('sustainability')) ? 'activeMenu' : '' }}" href="{{ route('sustainability') }}" data-toggle="collapse" id="NewsRoom">
                                     Sustainability
                                 </a>
                             </li>
                             <li class="nav-item navText padTop5">
-                                <a class="nav-link  " href="{{ route('careers') }}" data-toggle="collapse">
+                                <a class="nav-link {{ (request()->is('careers')) ? 'activeMenu' : '' }}" href="{{ route('careers') }}" data-toggle="collapse">
                                     Careers
                                 </a>
                             </li>
                             <li class="nav-item navText padTop5">
-                                <a class="nav-link  " href="{{ route('contactUs') }}" data-toggle="collapse">
+                                <a class="nav-link {{ (request()->is('contact-us')) ? 'activeMenu' : '' }}" href="{{ route('contactUs') }}" data-toggle="collapse">
                                     Contact Us
                                 </a>
                             </li>
@@ -98,14 +98,14 @@
                     <div class="filterHeading">
                         <img src="{{url('assets/images/globalSearch/filter.svg')}}"
                             class="filterImg touchFilter" alt="filter_img" />
-                        <span class="filterHeadline touchFilter">Filter</span>
+                        <span class="filterHeadline touchFilter"></span>
                     </div>
                     <div class="filter_sec">
                         <div class="filter_sec_data">
                             <div class="categoryFilter filterDiv">
                                 <div class="categoryContent">
                                     <div class="titleDropDown">
-                                        <div class="filterTitle selectorFiltor"><span>Category</span></div>
+                                        <div class="filterTitle selectorFiltor"><span></span></div>
                                         <div class="arrow-background selectorFiltor">
                                             <div class="arrow-container ">
                                                 <div class="arrow"></div>
@@ -116,14 +116,14 @@
                                         <div class="categoryData">
                                             <div class="allCheck hiddenCategory">
                                                 <input class="searchCheck chkbox" id="all" type="checkbox" />
-                                                <label class="filterLabel tagName" for="all">All</label>
+                                                <label class="filterLabel tagName" for="all"></label>
                                             </div>
                                             <div class="tags hiddenCategory"></div>
                                             <div class="clearCategory clearSearchFilter" id="clearTags">
                                                 <img class="blueCloseIcon"
                                                     src="{{url('assets/images/close_icon_blue.svg')}}"
                                                     alt="plus" />
-                                                <span>Clear Category</span>
+                                                <span></span>
                                             </div>
                                             <!--<div class="Test" id="p"></div>-->
                                         </div>
@@ -145,28 +145,7 @@
                                         <div class="dateRangeData">
                                             <div class="dateRanges">
                                                 <div class="dateRangeLists">
-                                                    <label class="dateRange" for="month">Last 30 days
-                                                        <input class="dateRangeRadio" type="radio" name="dateRange"
-                                                            id="month" value="last 30 days" />
-                                                        <span class="checkmark"></span>
-                                                    </label>
-                                                </div>
-                                                <div class="dateRangeLists">
-                                                    <label class="dateRange" for="six">Past 6 months
-                                                        <input class="dateRangeRadio" type="radio" name="dateRange"
-                                                            id="six" value="last 6 months" />
-                                                        <span class="checkmark"></span>
-                                                    </label>
-                                                </div>
-                                                <div class="dateRangeLists">
-                                                    <label class="dateRange" for="year">Past 1 year
-                                                        <input class="dateRangeRadio" type="radio" name="dateRange"
-                                                            id="year" value="last year" />
-                                                        <span class="checkmark"></span>
-                                                    </label>
-                                                </div>
-                                                <div class="dateRangeLists">
-                                                    <label class="dateRange" for="range">Specific Dates
+                                                    <label class="dateRange" for="range">
                                                         <input type="radio" class="dateRangeRadio" name="dateRange"
                                                             id="range" value="Date Range" />
                                                         <span class="checkmark"></span>
@@ -174,8 +153,7 @@
                                                     <div class="customDateRangeWrapper">
                                                         <div class="customDateRange">
                                                             <div class="dateBox">
-                                                                <label for="dateFrom" class="dateRange">Date
-                                                                    from</label>
+                                                                <label for="dateFrom" class="dateRange"></label>
                                                                 <div class="dateRange datePicker">
                                                                     <input type="date" name="datePicker"
                                                                         id="dateFrom" min="2017-01-01"
@@ -183,8 +161,7 @@
                                                                 </div>
                                                             </div>
                                                             <div class="dateBox">
-                                                                <label for="dateTo" class="dateRange">Date
-                                                                    to</label>
+                                                                <label for="dateTo" class="dateRange"></label>
                                                                 <div class="dateRange datePicker">
                                                                     <input type="date" name="datePicker" id="dateTo"
                                                                         min="2017-01-01" max="2030-01-01" />
@@ -195,10 +172,6 @@
                                                 </div>
                                             </div>
                                             <div class="clearDateRange clearSearchFilter">
-                                                <img class="blueCloseIcon"
-                                                    src="{{url('assets/images/close_icon_blue.svg')}}"
-                                                    alt="plus" />
-                                                <span>Clear Date Range</span>
                                             </div>
                                         </div>
                                     </div>
@@ -213,7 +186,6 @@
 
             </div>
             <div class="cardResult noDisplay">
-                Card Result
             </div>
             <div class="pagination">
                 <ul>

@@ -154,7 +154,7 @@
                                 <div class="downloadContents">
                                     <a class="figures btn btn-sm width10 desktop" href="{{ route('aboutUs.vision') }}" title="Our Vision Statement">
                                         <img src="{{url('assets/images/In-page.svg')}}" alt="Our Vision Statement" class="img-responsive centered"> 
-                                        <span>Click on explore</span>
+                                        <span>Click to explore</span>
                                     </a>
                                 </div>
                             </div>
@@ -191,7 +191,7 @@
                                 <div class="downloadContents">
                                     <a class="figures btn btn-sm width10 desktop" href="{{route('aboutUs.mission')}}">
                                         <img src="{{url('assets/images/In-page.svg')}}" alt="Our Vision Statement" class="img-responsive centered"> 
-                                        <span>Click on explore</span>
+                                        <span>Click to explore</span>
                                     </a>
                                 </div>
                             </div>
@@ -228,7 +228,7 @@
                                 <div class="downloadContents">
                                     <a class="figures btn btn-sm width10 desktop" href="{{route('aboutUs.coreValues')}}">
                                         <img src="{{url('assets/images/In-page.svg')}}" alt="Our Vision Statement" class="img-responsive centered"> 
-                                        <span>Click on explore</span>
+                                        <span>Click to explore</span>
                                     </a>
                                 </div>
                             </div>
