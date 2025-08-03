@@ -1,4 +1,4 @@
-@extends('layouts.frontend', ['title' => 'Real Estate'])
+@extends('layouts.frontend', ['title' => 'Media'])
 
 @push('styles')
 <link rel="stylesheet" href="{{url('assets/css/investor-type-1.min.css')}}" type="text/css">
@@ -15,19 +15,19 @@
             <div class="banner parbase aem-GridColumn aem-GridColumn--default--12">
                 <section class="bannerSection mainSliderElem active" anchorval="0">
                     <picture>
-                        <source media="(min-width: 991px)" srcset="{{ asset($company['image']) }}">
-                        <source media="(min-width: 767px)" srcset="{{ asset($company['image']) }}">
-                        <source media="(min-width: 0)" srcset="{{ asset($company['image']) }}">
-                        <img class="bg img-responsive " src="{{ asset($company['image']) }}" alt="{{ $company['caption'] }}">
+                        <source media="(min-width: 991px)" srcset="{{ url('assets/images/about/mission.png') }}">
+                        <source media="(min-width: 767px)" srcset="{{ url('assets/images/about/mission.png') }}">
+                        <source media="(min-width: 0)" srcset="{{ url('assets/images/about/mission.png') }}">
+                        <img class="bg img-responsive " src="{{ url('assets/images/about/mission.png') }}" alt="Mission">
                     </picture>
                     <div class="imageOverlayBnr"></div>
                     <div class="heroForegrounds container fxblock">
                         <div class="heroHeadline">
                             <div class="sectionContent">
                                 <div class="bannerHeading">
-                                    <span>Strategic Alliance</span>
+                                    <span>Business Area</span>
                                     <h1 class="heroHeading">
-                                        <span>{{ $company['caption'] }}</span>
+                                        <span>Media</span>
                                         <span></span>
                                         <span></span>
                                     </h1>
@@ -62,12 +62,11 @@
                         <div class="row">
                             <div class="col-lg-10 col-lg-offset-1 col-lg-offset-right-1 col-md-10 col-md-offset-1 col-md-offset-right-1 col-sm-10 col-sm-offset-1 col-sm-offset-right-1 col-xs-12  paraDiv">
                                 <div class="richtext">
-                                    {!! $company['description'] !!}
+                                    <p><span class="mainPara">Our Media division serves as the creative heartbeat that amplifies Food Industrial Park transformative initiatives. We leverage an array of digital and traditional media channels to share compelling stories that highlight innovation, sustainability, and community transformation.</span></p>
+                                    <p><span class="saltPara">Our team creates engaging content that showcases the successes of our food, agriculture, and real estate initiatives, ensuring that our stakeholders and partners remain informed and inspired.</span></p>
+                                    <p><span class="saltPara">Through strategic media partnerships and cutting-edge communication technologies, we disseminate key insights, industry trends, and best practices that drive collaborative growth. Our efforts are designed to foster transparency, build trust, and stimulate dialogue within the communities we serve.</span></p>
+                                    <p><span class="saltPara">By blending creative storytelling with data-driven strategies, we elevate our brand presence and contribute to a broader understanding of our mission. We are committed to using media as a force for positive change, connecting people, ideas, and opportunities to drive sustainable development and enhance the overall quality of life.</span></p>
                                 </div>
-                                <a class="readQuoteBox buttonMore btn buttonMr" href="{{ $company['link'] }}" target="_blank" rel="noopener" style="display: block;">
-                                    <span>Visit Website</span>
-                                    <img src="{{url('assets/images/arrow_icon_white.svg')}}" alt="" class="arrowAnimation">
-                                </a>
                             </div>
                         </div>
                     </div>

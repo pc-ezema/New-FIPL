@@ -23,6 +23,13 @@ Route::get('/about-us/vision', [HomePageController::class, 'vision'])->name('abo
 Route::get('/about-us/mission', [HomePageController::class, 'mission'])->name('aboutUs.mission');
 Route::get('/about-us/core-values', [HomePageController::class, 'coreValues'])->name('aboutUs.coreValues');
 Route::get('/sustainability', [HomePageController::class, 'sustainability'])->name('sustainability');
-Route::get('/strategic/alliance', [HomePageController::class, 'strategicAlliance'])->name('strategicAlliance');
+Route::prefix('/business-area/')->group(function () {
+    Route::get('agriculture', [HomePageController::class, 'agriculture'])->name('businessArea.agriculture');
+    Route::get('food', [HomePageController::class, 'food'])->name('businessArea.food');
+    Route::get('media', [HomePageController::class, 'media'])->name('businessArea.media');
+    Route::get('real-estate', [HomePageController::class, 'realEstate'])->name('businessArea.realEstate');
+});
+Route::get('/strategic/alliance/{companyName}', [HomePageController::class, 'strategicAlliance'])->name('strategicAlliance');
+Route::get('/trainings', [HomePageController::class, 'trainings'])->name('trainings');
 
 Route::post('/contact-submit', [HomePageController::class, 'submit']);

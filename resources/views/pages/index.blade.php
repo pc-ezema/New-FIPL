@@ -243,128 +243,77 @@
                                     </div>
                                     <div class="clear"></div>
                                     <div class="content2 ">
-                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 width100 topMarginsm topMarginxs topMargin3 fB module">
-                                            <picture>
-                                                <source media="(min-width:992px)" srcset="{{url('assets/images/home/sustainable_agricultural_value_chain_model.png')}}" />
-                                                <source media="(min-width:768px)" srcset="{{url('assets/images/home/sustainable_agricultural_value_chain_model.png')}}" />
-                                                <source media="(min-width:0px)" srcset="{{url('assets/images/home/sustainable_agricultural_value_chain_model.png')}}" />
-                                                <img class="img-responsive backgImg dynaImg" src="{{url('assets/images/home/sustainable_agricultural_value_chain_model.png')}}"
-                                                    alt="Sustainable Agricultural Value Chain Model" />
-                                            </picture>
-                                            <div class="imageOverlayFb"></div>
-                                            <div class="whiteContent">
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 width100 widthlands module facts changeBG topMargin767 topMarginxs topMarginsm ">
+                                            <div class="titleContent">
+                                                <div class="whiteCaption">Sustainable Agricultural Value Chain Model</div>
                                                 <h3 class="nHeadingW">
-                                                    <span>Sustainable Agricultural Value Chain Model</span>
+                                                    <span>We implement environmental friendly practices that maintain the viability of agricultural resources.​​</span>
                                                 </h3>
                                                 <div class="storyContent">
-                                                    <div class="newsFeedA">
-                                                        <span class="feeds">
-                                                        </span>
-                                                        <p class="tweet-date">We implement environmental friendly practices that maintain the viability of agricultural resources.​</p>
-                                                    </div>
-                                                    <div class="newsBorder borderAnimCards"></div>
+                                                    <div class="ymlFeedArticleW"></div>
+                                                    <div class="sheetName"></div>
+                                                    <div class="excelPath"></div>
+                                                    <div class="feedArticleBorder borderAnimCards"></div>
                                                 </div>
-                                                <img src="{{url('assets/images/arrow_icon.svg')}}" alt="Arrow"
-                                                    class="arrow" />
                                             </div>
                                         </div>
-                                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 topMargin3 topMarginsm topMarginxs module">
-                                            <div class="row nTitle noMargin instagramDiv">
-                                                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 noPadding" style="background-color: #2baa65;"></div>
-                                                <div
-                                                    class="col-lg-7 col-md-7 col-sm-7 col-xs-12 noPadding instaGram">
-                                                    <picture>
-                                                        <source media="(min-width:992px)" srcset="{{url('assets/images/home/human_capital_development.png')}}" />
-                                                        <source media="(min-width:768px)" srcset="{{url('assets/images/home/human_capital_development.png')}}" />
-                                                        <source media="(min-width:0px)" srcset="{{url('assets/images/home/human_capital_development.png')}}" />
-                                                        <img src="{{url('assets/images/home/human_capital_development.png')}}" alt=""
-                                                            class="img-responsive backgImg hide" />
-                                                    </picture>
-                                                    <img class="img-responsive backgImg dynaImg" src="{{url('assets/images/home/human_capital_development.png')}}"
-                                                        alt="Human Capital Development" />
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 width100 widthlands module facts changeBG topMargin767 topMarginxs topMarginsm ">
+                                            <div class="titleContent">
+                                                <div class="whiteCaption">Integration of All Stakeholders</div>
+                                                <h3 class="nHeadingW">
+                                                    <span>Our platform connects farmers, processors, retailers, and consumers to create value for everyone involved.​</span>
+                                                </h3>
+                                                <div class="storyContent">
+                                                    <div class="ymlFeedArticleW"></div>
+                                                    <div class="sheetName"></div>
+                                                    <div class="excelPath"></div>
+                                                    <div class="feedArticleBorder borderAnimCards"></div>
                                                 </div>
-                                                <div class="imageOverlayInsta"></div>
                                             </div>
-                                            <div class="container instagram">
-                                                <div class="row">
-                                                    <div class="whiteContent">
-                                                        <div class="storyContent" style="margin: 0 10px !important;">
-                                                            <h3 class="nHeadingW">
-                                                                <span>Human Capital Development</span>
-                                                            </h3>
-                                                            <div class="newsFeedA">
-                                                                <span class="feeds">
-                                                                </span>
-                                                                <p class="tweet-date">We invest in training and education to empower individuals involved in agriculture.</p>
-                                                            </div>
-                                                        </div>
-                                                        <img src="{{url('assets/images/arrow_icon.svg')}}"
-                                                            alt="Arrow" class="arrow" />
-                                                    </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 width100 widthlands module facts changeBG topMargin767 topMarginxs topMarginsm ">
+                                            <div class="titleContent">
+                                                <div class="whiteCaption">Human Capital Development</div>
+                                                <h3 class="nHeadingW">
+                                                    <span>We invest in training and education to empower individuals involved in agriculture.​​</span>
+                                                </h3>
+                                                <div class="storyContent">
+                                                    <div class="ymlFeedArticleW"></div>
+                                                    <div class="sheetName"></div>
+                                                    <div class="excelPath"></div>
+                                                    <div class="feedArticleBorder borderAnimCards"></div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="clear"></div>
                                     <div class="content3 ">
-                                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 topMargin3 topMarginsm topMarginxs module">
-                                            <div class="row nTitle noMargin instagramDiv">
-                                                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 noPadding" style="background-color: #2baa65;"></div>
-                                                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 noPadding instaGram">
-                                                    <picture>
-                                                        <source media="(min-width:992px)" srcset="{{url('assets/images/home/human_capital_development.png')}}" />
-                                                        <source media="(min-width:768px)" srcset="{{url('assets/images/home/human_capital_development.png')}}" />
-                                                        <source media="(min-width:0px)" srcset="{{url('assets/images/home/human_capital_development.png')}}" />
-                                                        <img src="{{url('assets/images/home/human_capital_development.png')}}" alt=""
-                                                            class="img-responsive backgImg hide" />
-                                                    </picture>
-                                                    <img class="img-responsive backgImg dynaImg" src="{{url('assets/images/home/human_capital_development.png')}}"
-                                                        alt="Human Capital Development" />
-                                                </div>
-                                                <div class="imageOverlayInsta"></div>
-                                            </div>
-                                            <div class="container instagram">
-                                                <div class="row">
-                                                    <div class="whiteContent">
-                                                        <div class="storyContent" style="margin: 0 10px !important;">
-                                                            <h3 class="nHeadingW">
-                                                                <span>Human Capital Development</span>
-                                                            </h3>
-                                                            <div class="newsFeedA">
-                                                                <span class="feeds">
-                                                                </span>
-                                                                <p class="tweet-date">We invest in training and education to empower individuals involved in agriculture.</p>
-                                                            </div>
-                                                        </div>
-                                                        <img src="{{url('assets/images/arrow_icon.svg')}}"
-                                                            alt="Arrow" class="arrow" />
-                                                    </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 width100 widthlands module facts changeBG topMargin767 topMarginxs topMarginsm ">
+                                            <div class="titleContent">
+                                                <div class="whiteCaption">Institutional Investment Inflow</div>
+                                                <h3 class="nHeadingW">
+                                                    <span>Our structured approach attracts significant funding into agriculture, benefiting both investors and farmers.​</span>
+                                                </h3>
+                                                <div class="storyContent">
+                                                    <div class="ymlFeedArticleW"></div>
+                                                    <div class="sheetName"></div>
+                                                    <div class="excelPath"></div>
+                                                    <div class="feedArticleBorder borderAnimCards"></div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 width100 topMarginsm topMarginxs topMargin3 fB module">
-                                            <picture>
-                                                <source media="(min-width:992px)" srcset="{{url('assets/images/home/sustainable_agricultural_value_chain_model.png')}}" />
-                                                <source media="(min-width:768px)" srcset="{{url('assets/images/home/sustainable_agricultural_value_chain_model.png')}}" />
-                                                <source media="(min-width:0px)" srcset="{{url('assets/images/home/sustainable_agricultural_value_chain_model.png')}}" />
-                                                <img class="img-responsive backgImg dynaImg" src="{{url('assets/images/home/sustainable_agricultural_value_chain_model.png')}}"
-                                                    alt="Sustainable Agricultural Value Chain Model" />
-                                            </picture>
-                                            <div class="imageOverlayFb"></div>
-                                            <div class="whiteContent">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 width100 widthlands module facts changeBG topMargin767 topMarginxs topMarginsm ">
+                                            <div class="titleContent">
+                                                <div class="whiteCaption">Infrastructural Development</div>
                                                 <h3 class="nHeadingW">
-                                                    <span>Sustainable Agricultural Value Chain Model</span>
+                                                    <span>We build essential facilities that help farmers store, process, and transport their crops efficiently.​</span>
                                                 </h3>
                                                 <div class="storyContent">
-                                                    <div class="newsFeedA">
-                                                        <span class="feeds">
-                                                        </span>
-                                                        <p class="tweet-date">We implement environmental friendly practices that maintain the viability of agricultural resources.​</p>
-                                                    </div>
-                                                    <div class="newsBorder borderAnimCards"></div>
+                                                    <div class="ymlFeedArticleW"></div>
+                                                    <div class="sheetName"></div>
+                                                    <div class="excelPath"></div>
+                                                    <div class="feedArticleBorder borderAnimCards"></div>
                                                 </div>
-                                                <img src="{{url('assets/images/arrow_icon.svg')}}" alt="Arrow"
-                                                    class="arrow" />
                                             </div>
                                         </div>
                                     </div>
@@ -375,166 +324,112 @@
                 </section>
                 <!--anchor tags removed from Insragram card and Story Card - 4 -->
             </div>
-            <div style="display: none;"class="aem-GridColumn aem-GridColumn--default--12">
-                <section class="headerFade ymlSalt longBg mainSliderElem grayNav noSlider parallaxWrapper" anchorval="3">
+            <div class="never-rest-video-banner parbase aem-GridColumn aem-GridColumn--default--12"><!-- video related to NeverRest -->
+                <section class="bannerSection neverRestBannerVideoIcon mainSliderElem clickableDiv parallaxWrapper" anchorval="2">
+                    <picture>
+                        <source media="(min-width: 991px)" srcset="">
+                        <source media="(min-width: 767px)" srcset="">
+                        <source media="(min-width: 0)" srcset="">
+                        <img class="bg img-responsive" src="" alt="">
+                    </picture>
+                    <div class="imageOverlayBnr"></div>
+                    <div class="iconOverlay">
+                        <div class="map-illustration-wrapper">
+                            <div class="marker-2">
+                                <a class="saltModal openModel" href="/" data-toggle="modal" data-target=".modal" data-index="1">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="neverRestCaption">
+                        <em>Our Timelines</em>
+                        <div class="description">
+                            Founded over 150 years ago,
+                            <a href="#" target="_self">
+                                <img src="#" alt="Visit page" class="arrow">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="modal neverRestModal" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static" id="modalD">
+                    </div>
+                </section>
+                <section id="modalOverlay"></section>
+                <section class="sliderElem hidden-xs hidden-sm"></section>
+            </div>
+            <div class="aem-GridColumn aem-GridColumn--default--12">
+                <section class="headerFade ymlSalt longerBg mainSliderElem grayNav noSlider parallaxWrapper" anchorval="3" style="min-height: 91rem;">
                     <div class="contntD">
                         <div class="container fiplWeek">
                             <div class="newsroom newsroomN">
                                 <div class="row headingP">
-                                    <h2 class="headingDiv"></h2>
-
+                                    <h2 class="headingDiv">Business Area</h2>
                                     <div class="contentBelow">
-                                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 tabV module come-in">
-                                            <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12 noPadding picPadding">
-                                                <picture>
-                                                    <source class="deskImg" media="(min-width: 991px)" srcset="">
-                                                    <source media="(min-width: 575px)" srcset="">
-                                                    <source media="(min-width: 0)" srcset="">
-                                                    <img class="img-responsive bg vertImg" src="" alt="Beware of job scams">
-                                                </picture>
-                                                <!-- <div class="imageOverlay20"></div> -->
-
-                                            </div>
-                                            <div class="noPadding col-lg-12 col-md-12 col-sm-6 col-xs-12 ">
-                                                <div class="belowContent">
-                                                    <div class="blueCaption"></div>
-                                                    <h3 class="nHeading"></h3>
-                                                    <div class="storyContent">
-                                                        <div class="ymlFeedArticle"></div>
-                                                        <div class="feedArticleBorder borderAnimCards comeInBorder"></div>
-                                                    </div>
-                                                    <img src="" alt="Arrow" class="arrow">
-                                                </div>
-                                            </div>
-                                            <a href="" class="hoverCard"></a>
-                                        </div>
-                                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                                        <div class="col-xs-12">
                                             <div class="row">
                                                 <div class="flexx blockFlex">
-                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 topMargin3 topMarginsm topMarginxs module imageCrop come-in">
-                                                        <div class="fullCardClick">
-                                                            <picture>
-                                                                <source media="(min-width: 991px)" srcset="">
-                                                                <source media="(min-width: 575px)" srcset="">
-                                                                <source media="(min-width: 0)" srcset="">
-                                                                <img class="img-responsive backgImg aparna" src="" alt="Jobs for fipl People">
-                                                            </picture>
-                                                            <div class="imageOverlay50"></div>
-                                                            <div class="vidContent">
-                                                                <div class="whiteCaption"></div>
-                                                                <div class="">
-                                                                    <img class="playVideo" alt="">
-                                                                    <div class="videoDescription">
-                                                                        <h3 class="iTitle"></h3>
-                                                                        <div class="videoArticle">
-                                                                            <div class="videoBorder borderAnimCards comeInBorder">
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 topMargin3 topMarginsm topMarginxs module imageCrop come-in">
+                                                        <a href="{{route('businessArea.food')}}" rel="noopener">
+                                                            <div class="fullCardClick twitterFeed">
+                                                                <div class="titleContent" style="padding: 2rem;">
+                                                                    <div class="whiteCaption">Food</div>
+                                                                    <h3 class="nHeadingW" style="max-width: none;">
+                                                                        <span>Food Industrial Park food division is dedicated to revolutionizing the food supply chain through innovative industrial parks that combine modern processing technologies with rigorous quality control.​</span>
+                                                                        <img src="{{url('assets/images/arrow_icon.svg')}}" alt="Arrow">
+                                                                    </h3>
+                                                                </div>   
+                                                            </div>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 topMargin3 topMarginsm topMarginxs module imageCrop come-in">
+                                                        <a href="{{route('businessArea.agriculture')}}" rel="noopener">
+                                                            <div class="fullCardClick twitterFeed">
+                                                                <div class="titleContent" style="padding: 2rem;">
+                                                                    <div class="whiteCaption">Agriculture</div>
+                                                                    <h3 class="nHeadingW" style="max-width: none;">
+                                                                        <span>At FIP, we are revolutionizing Nigeria's agricultural landscape through innovative technology and sustainable practices. Our integrated approach connects farmers with essential resources, markets, and expertise to maximize productivity and profitability.​</span>
+                                                                        <img src="{{url('assets/images/arrow_icon.svg')}}" alt="Arrow">
+                                                                    </h3>
                                                                 </div>
                                                             </div>
-                                                            <img src="" alt="Arrow" class="arrow arrowInc">
-                                                            <a href="" class="CardUrl"></a>
-                                                        </div>
+                                                        </a>
                                                     </div>
                                                 </div>
                                                 <div class="flexx">
-                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 topMargin width100 topMarginxs topMargin767 module come-in">
-                                                        <div class="titleContent ">
-                                                            <div class="blueCaption"></div>
-                                                            <ul class="careers">
-                                                                <li>
-                                                                    <img src="" alt="">
-                                                                </li>
-                                                                <li class="startAnim jobFigures"></li>
-                                                                <li class="jobDescription"></li>
-                                                            </ul>
-                                                            <a href="" class="hoverCard"></a>
-                                                            <img src="" alt="Arrow" class="arrow">
-
-                                                        </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 width100 topMarginxs topMargin767 topMargin module come-in">
+                                                        <a href="{{route('businessArea.media')}}" rel="noopener">
+                                                            <div class="fullCardClick twitterFeed" style="padding: 2rem;">
+                                                                <div class="whiteCaption">Media</div>
+                                                                <h3 class="nHeadingW" style="max-width: none;">
+                                                                    <span>Our Media division serves as the creative heartbeat that amplifies Food Industrial Park transformative initiatives. We leverage an array of digital and traditional media channels to share compelling stories that highlight innovation, sustainability, and community transformation.​</span>
+                                                                    <img src="{{url('assets/images/arrow_icon.svg')}}" alt="Arrow">
+                                                                </h3>
+                                                                <div class="carouselDiv jobsCarouselHome" data-ride="carousel">
+                                                                    <div class="innerCarousel sTwitter">
+                                                                    </div>
+                                                                    <ol style="display: none;" class="carouselIndicators nIndicators">
+                                                                        <li data-slide-to="0" class="active"></li>
+                                                                    </ol>
+                                                                </div>
+                                                            </div>
+                                                        </a>
                                                     </div>
 
-                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 width100 topMarginxs topMargin767 topMargin module come-in">
-                                                        <div class="twitterFeed">
-                                                            <div class="whiteCaption"></div>
-                                                            <h3 class="nHeadingJobs"></h3>
-                                                            <div class="carouselDiv jobsCarouselHome" data-ride="carousel">
-                                                                <div class="innerCarousel sTwitter">
-                                                                    <div class="carItem active">
-                                                                        <div class="twitterContent">
-                                                                            <a href="" class="careersCardGATag" target="_blank" rel="noopener">
-                                                                                <div class="newsFeedA">
-                                                                                    <span class="fJobs"></span>
-                                                                                    <p class="tweet-date"></p>
-                                                                                </div>
-                                                                            </a>
-                                                                            <div class="newsBorder borderAnimCards comeInBorder">
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="twitterContent">
-                                                                            <a href="" class="careersCardGATag" target="_blank" rel="noopener">
-                                                                                <div class="newsFeedA">
-                                                                                    <span class="fJobs"></span>
-                                                                                    <p class="tweet-date"></p>
-                                                                                </div>
-                                                                            </a>
-                                                                            <div class="newsBorder borderAnimCards comeInBorder">
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="carItem">
-                                                                        <div class="twitterContent">
-                                                                            <a href="" class="careersCardGATag" target="_blank" rel="noopener">
-                                                                                <div class="newsFeedA">
-                                                                                    <span class="fJobs"></span>
-                                                                                    <p class="tweet-date"></p>
-                                                                                </div>
-                                                                            </a>
-                                                                            <div class="newsBorder borderAnimCards already-visible comeInBorder">
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="twitterContent">
-                                                                            <a href="" class="careersCardGATag" target="_blank" rel="noopener">
-                                                                                <div class="newsFeedA">
-                                                                                    <span class="fJobs"></span>
-                                                                                    <p class="tweet-date"></p>
-                                                                                </div>
-                                                                            </a>
-                                                                            <div class="newsBorder borderAnimCards already-visible comeInBorder">
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="carItem">
-                                                                        <div class="twitterContent">
-                                                                            <a href="" class="careersCardGATag" target="_blank" rel="noopener">
-                                                                                <div class="newsFeedA">
-                                                                                    <span class="fJobs"></span>
-                                                                                    <p class="tweet-date"></p>
-                                                                                </div>
-                                                                            </a>
-                                                                            <div class="newsBorder borderAnimCards already-visible comeInBorder">
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="twitterContent">
-                                                                            <a href="" class="careersCardGATag" target="_blank" rel="noopener">
-                                                                                <div class="newsFeedA">
-                                                                                    <span class="fJobs"></span>
-                                                                                    <p class="tweet-date"></p>
-                                                                                </div>
-                                                                            </a>
-                                                                            <div class="newsBorder borderAnimCards already-visible comeInBorder">
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 width100 topMarginxs topMargin767 topMargin module come-in">
+                                                        <a href="{{route('businessArea.realEstate')}}" rel="noopener">
+                                                            <div class="fullCardClick twitterFeed">
+                                                                <div class="titleContent" style="padding: 2rem;">
+                                                                    <div class="whiteCaption">Real Estate</div>
+                                                                    <h3 class="nHeadingW" style="max-width: none;">
+                                                                        <span>FIP transforms rural living conditions by creating accessible, sustainable, and practical housing solutions for farming communities. We bridge the rural housing deficit through strategic development projects that blend affordability with quality living environments suitable for agricultural lifestyles.​</span>
+                                                                        <img src="{{url('assets/images/arrow_icon.svg')}}" alt="Arrow">
+                                                                    </h3>
                                                                 </div>
-                                                                <ol class="carouselIndicators nIndicators">
-                                                                    <li data-slide-to="0" class="active"></li>
-                                                                    <li data-slide-to="1"></li>
-                                                                    <li data-slide-to="2"></li>
-                                                                </ol>
                                                             </div>
-                                                        </div>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -578,7 +473,7 @@
                                                         </span>
                                                     </h1>
                                                     <a class="simButton buttonMore btn buttonMr"
-                                                        href="{{ route('strategicAlliance') }}/#nardus">
+                                                        href="{{ route('strategicAlliance', ['companyName' => 'nardus']) }}">
                                                         <span>View All</span>
                                                         <img src="{{url('assets/images/arrow_icon_white.svg')}}"
                                                             alt="Arrow" class="readMArrow" />
@@ -618,7 +513,7 @@
                                                         </span>
                                                     </h1>
                                                     <a class="simButton buttonMore btn buttonMr"
-                                                        href="{{ route('strategicAlliance') }}/#sano">
+                                                        href="{{ route('strategicAlliance', ['companyName' => 'sano']) }}">
                                                         <span>View All</span>
                                                         <img src="{{url('assets/images/arrow_icon_white.svg')}}"
                                                             alt="Arrow" class="readMArrow" />
@@ -658,7 +553,7 @@
                                                         </span>
                                                     </h1>
                                                     <a class="simButton buttonMore btn buttonMr"
-                                                        href="{{ route('strategicAlliance') }}/#agricapital">
+                                                        href="{{ route('strategicAlliance', ['companyName' => 'agricapital']) }}">
                                                         <span>View All</span>
                                                         <img src="{{url('assets/images/arrow_icon_white.svg')}}"
                                                             alt="Arrow" class="readMArrow" />
@@ -699,7 +594,7 @@
                                                         </span>
                                                     </h1>
                                                     <a class="simButton buttonMore btn buttonMr"
-                                                        href="{{ route('strategicAlliance') }}/#4green">
+                                                        href="{{ route('strategicAlliance', ['companyName' => '4green']) }}">
                                                         <span>View All</span>
                                                         <img src="{{url('assets/images/arrow_icon_white.svg')}}"
                                                             alt="Arrow" class="readMArrow" />
@@ -739,7 +634,7 @@
                                                         </span>
                                                     </h1>
                                                     <a class="simButton buttonMore btn buttonMr"
-                                                        href="{{ route('strategicAlliance') }}/#bcal">
+                                                        href="{{ route('strategicAlliance', ['companyName' => 'bcal']) }}">
                                                         <span>View All</span>
                                                         <img src="{{url('assets/images/arrow_icon_white.svg')}}"
                                                             alt="Arrow" class="readMArrow" />
@@ -779,7 +674,7 @@
                                                         </span>
                                                     </h1>
                                                     <a class="simButton buttonMore btn buttonMr"
-                                                        href="{{ route('strategicAlliance') }}/#rufec">
+                                                        href="{{ route('strategicAlliance', ['companyName' => 'rufec']) }}">
                                                         <span>View All</span>
                                                         <img src="{{url('assets/images/arrow_icon_white.svg')}}"
                                                             alt="Arrow" class="readMArrow" />
@@ -820,7 +715,7 @@
                                                         </span>
                                                     </h1>
                                                     <a class="simButton buttonMore btn buttonMr"
-                                                        href="{{ route('strategicAlliance') }}/#agropark">
+                                                        href="{{ route('strategicAlliance', ['companyName' => 'agropark']) }}">
                                                         <span>View All</span>
                                                         <img src="{{url('assets/images/arrow_icon_white.svg')}}"
                                                             alt="Arrow" class="readMArrow" />
@@ -850,7 +745,7 @@
                                                     <h1 class="heroHeading">
                                                         <a href="https://agrihubtech.ng" target="_blank"
                                                             rel="noopener">
-                                                           Agri-tech Hub
+                                                            Agri-tech Hub
                                                         </a>
                                                         <span class="extrnLink">
                                                             <a href="https://agrihubtech.ng" target="_blank"
@@ -861,7 +756,7 @@
                                                         </span>
                                                     </h1>
                                                     <a class="simButton buttonMore btn buttonMr"
-                                                        href="{{ route('strategicAlliance') }}/#agrihubtech">
+                                                        href="{{ route('strategicAlliance', ['companyName' => 'agrihubtech']) }}">
                                                         <span>View All</span>
                                                         <img src="{{url('assets/images/arrow_icon_white.svg')}}"
                                                             alt="Arrow" class="readMArrow" />
@@ -901,7 +796,7 @@
                                                         </span>
                                                     </h1>
                                                     <a class="simButton buttonMore btn buttonMr"
-                                                        href="{{ route('strategicAlliance') }}/#fagh">
+                                                        href="{{ route('strategicAlliance', ['companyName' => 'fagh']) }}">
                                                         <span>View All</span>
                                                         <img src="{{url('assets/images/arrow_icon_white.svg')}}"
                                                             alt="Arrow" class="readMArrow" />
@@ -913,7 +808,7 @@
                                 </div>
                             </div>
 
-                            <div class="carItem heroItem" data-step="10">
+                            <!-- <div class="carItem heroItem" data-step="10">
                                 <picture>
                                     <img class="bg img-responsive"
                                         data-srcdesktop="{{url('assets/images/home/afbs-large.png')}}"
@@ -941,7 +836,7 @@
                                                         </span>
                                                     </h1>
                                                     <a class="simButton buttonMore btn buttonMr"
-                                                        href="{{ route('strategicAlliance') }}/#afbs">
+                                                        href="{{ route('strategicAlliance', ['companyName' => 'afbs']) }}">
                                                         <span>View All</span>
                                                         <img src="{{url('assets/images/arrow_icon_white.svg')}}"
                                                             alt="Arrow" class="readMArrow" />
@@ -951,7 +846,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
                             <div class="Indicators brandsThumbnail active">
                                 <div class="container">
@@ -1056,7 +951,7 @@
                                                 alt="FAGH Herbal Remedies" />
                                         </li>
 
-                                        <li data-slide-to="9" class="forBrands hide">
+                                        <!-- <li data-slide-to="9" class="forBrands hide">
                                             <span class="hoverBrandTxt">AFBS</span>
                                             <div class="overlayBrandNav"></div>
                                             <img class=" img-responsive upMark"
@@ -1065,7 +960,7 @@
                                             <img class=" img-responsive "
                                                 src="{{url('assets/images/home/afbs.png')}}"
                                                 alt="Agriculture and Food Business School" />
-                                        </li>
+                                        </li> -->
                                     </ol>
                                 </div>
                             </div>
@@ -1117,7 +1012,17 @@
                             <div class="pointerText artificialHover">Key Elements</div>
                         </div>
                         <div class="pointerDiv">
+                            <span class="point" data-slide="2"></span><span
+                                class="linePointer artificialHover"></span>
+                            <div class="pointerText artificialHover">Timelines</div>
+                        </div>
+                        <div class="pointerDiv">
                             <span class="point" data-slide="3"></span><span
+                                class="linePointer artificialHover"></span>
+                            <div class="pointerText artificialHover">Business Area</div>
+                        </div>
+                        <div class="pointerDiv">
+                            <span class="point" data-slide="4"></span><span
                                 class="linePointer artificialHover"></span>
                             <div class="pointerText artificialHover">Strategic Alliance</div>
                         </div>

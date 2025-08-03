@@ -90,53 +90,53 @@ nav {
 .d-block {
     display: block !important;
 }
-.navbar .tataLogo,
-.darkMode .grayMenu .tataLogo {
+.navbar .fiplLogo,
+.darkMode .grayMenu .fiplLogo {
     margin: 0.5rem 0 !important;
     width: 50px;
     height: 50px;
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/Tata_Logo2.svg");
+    background-image: url("../../assets/images/fipl-logo.png");
     padding: 0;
     background-position: center;
     background-size: contain;
 }
-.grayMenu .tataLogo {
+.grayMenu .fiplLogo {
     margin: 0.5rem 0 !important;
     width: 50px;
     height: 50px;
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/Tata_Logo1.svg");
+    background-image: url("../../assets/images/fipl-logo.png");
     padding: 0;
     background-position: center;
     background-size: contain;
 }
 .searchBoxIcon,
 .darkMode .grayMenu .searchBoxIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/Search.svg");
+    background-image: url("../../assets/images/Search.svg");
 }
 .grayMenu .searchBoxIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/Search_gray.svg");
+    background-image: url("../../assets/images/Search_gray.svg");
 }
 .closeSearch,
 .grayMenu .closeSearch {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/close_icon.svg");
+    background-image: url("../../assets/images/close_icon.svg");
 }
 .darkMode .closeSearch,
 .darkMode .grayMenu .closeSearch {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/close_icon_white.svg");
+    background-image: url("../../assets/images/close_icon_white.svg");
 }
 .worldWideBoxIcon,
 .darkMode .grayMenu .worldWideBoxIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/Worldwideicon.svg");
+    background-image: url("../../assets/images/Worldwideicon.svg");
 }
 .grayMenu .worldWideBoxIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/Worldwideicon_gray.svg");
+    background-image: url("../../assets/images/Worldwideicon_gray.svg");
 }
 .contactUsBoxIcon,
 .darkMode .grayMenu .contactUsBoxIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/ContactUs.svg");
+    background-image: url("../../assets/images/ContactUs.svg");
 }
 .grayMenu .contactUsBoxIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/ContactUs_gray.svg");
+    background-image: url("../../assets/images/ContactUs_gray.svg");
 }
 .lightModeSearchIcon,
 .darkMode .darkModeSearchIcon {
@@ -146,14 +146,14 @@ nav {
 .darkMode .lightModeSearchIcon {
     display: none;
 }
-.tataLogo {
+.fiplLogo {
     width: 70px;
     display: inline-block;
     background-repeat: no-repeat;
     line-height: 20px;
     background-position: center;
 }
-.tataLogo > span {
+.fiplLogo > span {
     width: 1px;
     height: 1px;
     position: absolute;
@@ -198,14 +198,14 @@ a.nav-link {
     display: block;
     margin: 0 auto;
     padding-top: 1rem;
-    border-bottom: 0.1rem solid #e2a330 !important;
+    border-bottom: 0.1rem solid #a43791 !important;
 }
 .underLine:after {
     content: "";
     display: block;
     margin: 0 auto;
     padding-top: 1rem;
-    border-bottom: 0.1rem solid #e2a330 !important;
+    border-bottom: 0.1rem solid #a43791 !important;
 }
 .nav-item > .nav-link {
     padding: 1.4rem 2.3rem;
@@ -251,7 +251,7 @@ li.nav-item {
 }
 .nav > li > .borderBottom:focus,
 .nav > li > .borderBottom:hover {
-    border-bottom: 1px solid #e2a330;
+    border-bottom: 1px solid #a43791;
 }
 .nav-item:hover ul.dropdown-menu {
     display: block;
@@ -456,11 +456,11 @@ header .details img:nth-child(1) {
 }
 .lightDarkModeIcon.lightIcon,
 .darkMode .grayMenu .lightDarkModeIcon.lightIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/lightMode.svg");
+    background-image: url("../../assets/images/lightMode.svg");
 }
 .lightDarkModeIcon.darkIcon,
 .darkMode .grayMenu .lightDarkModeIcon.darkIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/darkMode.svg");
+    background-image: url("../../assets/images/darkMode.svg");
 }
 .lightDarkTheme li {
     padding-left: 18px;
@@ -469,10 +469,10 @@ header .details img:nth-child(1) {
     width: 12rem;
 }
 .grayMenu .lightDarkModeIcon.lightIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/lightMode_greyIcon.svg");
+    background-image: url("../../assets/images/lightMode_greyIcon.svg");
 }
 .grayMenu .lightDarkModeIcon.darkIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/darkMode_greyIcon.svg");
+    background-image: url("../../assets/images/darkMode_greyIcon.svg");
 }
 .lightDarkTheme .themeTooltip {
     display: none;
@@ -559,9 +559,9 @@ header .details img:nth-child(1) {
         margin-top: 1rem;
     }
     .nav-item > .nav-link:active {
-        color: #e2a330 !important;
+        color: #a43791 !important;
     }
-    .navbar .tataLogo {
+    .navbar .fiplLogo {
         margin-bottom: 0 !important;
     }
     .grayMenu a {
@@ -577,7 +577,7 @@ header .details img:nth-child(1) {
     .navbar-nav {
         margin: 0;
     }
-    .tataLogo {
+    .fiplLogo {
         width: 5rem;
     }
     .searchIcon {
@@ -635,7 +635,7 @@ header .details img:nth-child(1) {
         z-index: 9;
     }
     .accordion {
-        background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/arrowDown.svg);
+        background-image: url(../../assets/images/arrowDown.svg);
     }
     .accordion {
         cursor: pointer;
@@ -645,13 +645,13 @@ header .details img:nth-child(1) {
         outline: 0;
         transition: 0.3s;
         width: 93%;
-        background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/arrowRightAccordian.svg);
+        background-image: url(../../assets/images/arrowRightAccordian.svg);
         background-repeat: no-repeat;
         background-position-x: right;
         background-position-y: center;
     }
     a.nav-link.accordion.active {
-        background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/arrowDown.svg);
+        background-image: url(../../assets/images/arrowDown.svg);
         object-fit: cover;
     }
     .panel {
@@ -758,7 +758,7 @@ header .details img:nth-child(1) {
         margin: 0;
     }
     .nav-item > .nav-link:active {
-        color: #e2a330 !important;
+        color: #a43791 !important;
     }
     .grayMenu a {
         color: #fff !important;
@@ -835,13 +835,13 @@ header .details img:nth-child(1) {
         text-align: left;
         outline: 0;
         transition: 0.5s;
-        background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/arrowRightAccordian.svg);
+        background-image: url(../../assets/images/arrowRightAccordian.svg);
         background-repeat: no-repeat;
         background-position-x: right;
         background-position-y: center;
     }
     a.nav-link.accordion.active {
-        background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/arrowDown.svg);
+        background-image: url(../../assets/images/arrowDown.svg);
     }
     a.nav-link.accordion.active {
         color: #f5a623 !important;
@@ -939,7 +939,7 @@ header .details img:nth-child(1) {
         padding: 0;
     }
     .nav-item > .nav-link:active {
-        color: #e2a330 !important;
+        color: #a43791 !important;
     }
     .navbar > .container > .navBarBtn {
         margin: 1rem 1.5rem;
@@ -954,7 +954,7 @@ header .details img:nth-child(1) {
     .padTop5 {
         padding-top: 2rem;
     }
-    .tataLogo {
+    .fiplLogo {
         width: 7rem;
     }
     .nav-item > .nav-link {
@@ -1005,7 +1005,7 @@ header .details img:nth-child(1) {
         margin: 0;
     }
     .navBarBtn,
-    .tataLogo {
+    .fiplLogo {
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
     }
@@ -1046,7 +1046,7 @@ header .details img:nth-child(1) {
         padding: 0;
         width: 100%;
     }
-    .navbar > .container > .tataLogo {
+    .navbar > .container > .fiplLogo {
         margin-left: 1.5rem !important;
     }
     .navbar-collapse.d-block {
@@ -1086,13 +1086,13 @@ header .details img:nth-child(1) {
         text-align: left;
         outline: 0;
         transition: 0.5s;
-        background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/arrowRightAccordian.svg);
+        background-image: url(../../assets/images/arrowRightAccordian.svg);
         background-repeat: no-repeat;
         background-position-x: right;
         background-position-y: center;
     }
     a.nav-link.accordion.active {
-        background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/arrowDown.svg);
+        background-image: url(../../assets/images/arrowDown.svg);
     }
     a.nav-link.accordion.active {
         color: #f5a623 !important;
@@ -1189,7 +1189,7 @@ header .details img:nth-child(1) {
         display: block;
         margin: 0 auto;
         padding-top: 1rem;
-        border-bottom: 0.1rem solid #e2a330;
+        border-bottom: 0.1rem solid #a43791;
     }
     .menuExpanded::after {
         display: none;
@@ -1228,7 +1228,7 @@ header .details img:nth-child(1) {
         display: block;
         margin: 0 auto;
         padding-top: 1rem;
-        border-bottom: 0.1rem solid #e2a330;
+        border-bottom: 0.1rem solid #a43791;
     }
     .menuExpanded::after {
         display: none;
@@ -1272,7 +1272,7 @@ header .details img:nth-child(1) {
         display: block;
         margin: 0 auto;
         padding-top: 1rem;
-        border-bottom: 0.1rem solid #e2a330;
+        border-bottom: 0.1rem solid #a43791;
     }
     .menuExpanded::after {
         display: none;
@@ -1316,7 +1316,7 @@ header .details img:nth-child(1) {
         display: block;
         margin: 0 auto;
         padding-top: 1rem;
-        border-bottom: 0.1rem solid #e2a330;
+        border-bottom: 0.1rem solid #a43791;
     }
     .menuExpanded::after {
         display: none;
@@ -1368,7 +1368,7 @@ header .details img:nth-child(1) {
         display: block;
         margin: 0 auto;
         padding-top: 1rem;
-        border-bottom: 0.1rem solid #e2a330;
+        border-bottom: 0.1rem solid #a43791;
     }
     .menuExpanded::after {
         display: none;
@@ -1849,14 +1849,14 @@ a.globalSearchSuggestion:hover {
 }
 .searchDiv {
     background: #fff;
-    border-bottom: 2px solid #e2a330;
+    border-bottom: 2px solid #a43791;
     -webkit-transition: border-bottom-width, background-color 1s;
     -moz-transition: border-bottom-width, background-color 1s;
     transition: border-bottom-width, background-color 1s;
 }
 .darkMode .searchDiv {
     background: #121212;
-    border-bottom: 1px solid #e2a330;
+    border-bottom: 1px solid #a43791;
 }
 .closeActive {
     background-color: #fff;
@@ -1993,7 +1993,7 @@ a.globalSearchSuggestion:hover {
 }
 .chkbox:checked + label:before {
     background: #5f95fc;
-    content: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/check-mark-white.svg");
+    content: url("../../assets/images/check-mark-white.svg");
     color: #fff;
     text-align: center;
     border: 0;
@@ -2062,7 +2062,7 @@ li.pageDigits.active {
     border-bottom: 0;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/hover.svg");
+    background-image: url("../../assets/images/globalSearch/hover.svg");
 }
 li.pageDigits.active > span {
     color: #e09f3a;
@@ -2218,7 +2218,7 @@ li.pageDigits.active > span {
     margin-bottom: 45px;
 }
 .filters > .filterHeading {
-    border-bottom: 1px solid #e2a330;
+    border-bottom: 1px solid #a43791;
     width: 70%;
 }
 .filterHeadline {
@@ -2543,13 +2543,13 @@ li.pageDigits.active > span {
 }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
     li.pageDigits.active {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/hover.svg");
+        background-image: url("../../assets/images/globalSearch/hover.svg");
     }
 }
 @media screen and (min-width: 992px) {
     .phoneDivSearch:hover .phoneIconWhite,
     .phoneDivVertical:hover .phoneIcon {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/phoneIconActive.svg");
+        background-image: url("../../assets/images/globalSearch/phoneIconActive.svg");
     }
     .globalList .twitterLink:hover .twitterTooltip {
         display: block;
@@ -3437,11 +3437,11 @@ input:required {
     text-align: center;
     max-width: 13rem;
     width: 100%;
-    background-color: #e2a330 !important;
+    background-color: #a43791 !important;
 }
 .quoteBoxBorder {
     box-sizing: border-box;
-    border: 1px solid #e2a330;
+    border: 1px solid #a43791;
     width: 100px;
     text-align: center;
     margin-left: auto;
@@ -3623,7 +3623,7 @@ input:required {
     border: 1px solid #000;
 }
 .jwplayer.jw-skin-myskin .jw-sharing-dock-btn .jw-dock-image {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/color/share.svg");
+    background-image: url("../../assets/images/shareOptions/color/share.svg");
 }
 .jwplayer.jw-skin-myskin.jw-breakpoint-4 .jw-display .jw-icon:before,
 .jwplayer.jw-skin-myskin.jw-breakpoint-5 .jw-display .jw-icon:before,
@@ -3646,14 +3646,14 @@ input:required {
     font-size: 30px;
 }
 .jwplayer.jw-skin-myskin .jw-display-icon-container .jw-icon {
-    color: #e2a330;
+    color: #a43791;
 }
 .jwplayer.jw-skin-myskin :not(.jw-flag-touch) .jw-button-color:focus,
 .jwplayer.jw-skin-myskin :not(.jw-flag-touch) .jw-button-color:hover,
 .jwplayer.jw-skin-myskin .jw-submenu-sharing {
     outline: 0;
-    color: #e2a330;
-    fill: #e2a330;
+    color: #a43791;
+    fill: #a43791;
 }
 .jwplayer.jw-skin-myskin .jw-display-icon-container .jw-icon:before {
     font-size: 20px;
@@ -3679,14 +3679,14 @@ input:required {
 .jwplayer.jw-skin-myskin:not(.jw-flag-touch) .jw-submenu-sharing,
 .jwplayer.jw-skin-myskin:not(.jw-flag-touch) .jw-button-color:focus {
     outline: 0;
-    color: #e2a330;
-    fill: #e2a330;
+    color: #a43791;
+    fill: #a43791;
 }
 .jwplayer.jw-skin-myskin .jw-settings-content-item:hover,
 .jwplayer.jw-skin-myskin .jw-settings-content-item .jw-sharing-link:hover {
     outline: 0;
-    color: #e2a330;
-    fill: #e2a330;
+    color: #a43791;
+    fill: #a43791;
 }
 .jwplayer.jw-skin-myskin.jw-breakpoint-0 .jw-display-icon-container .jw-icon,
 .jwplayer.jw-skin-myskin.jw-breakpoint-1 .jw-display-icon-container .jw-icon {
@@ -3927,66 +3927,66 @@ section {
     margin-left: 1rem;
 }
 .jumpFirst {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/jumpFirst.svg");
+    background-image: url("../../assets/images/globalSearch/jumpFirst.svg");
     background-repeat: no-repeat;
 }
 .darkMode .jumpFirst {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/jumpFirstWhite.svg");
+    background-image: url("../../assets/images/globalSearch/jumpFirstWhite.svg");
 }
 .jumpFirst:hover {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/jumpFirstActive.svg");
+    background-image: url("../../assets/images/globalSearch/jumpFirstActive.svg");
     background-repeat: no-repeat;
 }
 .jumpFirstActive {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/jumpFirstActive.svg");
+    background-image: url("../../assets/images/globalSearch/jumpFirstActive.svg");
     background-repeat: no-repeat;
 }
 .disableArrow {
     opacity: 0.2;
 }
 .leftArw {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/left.svg");
+    background-image: url("../../assets/images/globalSearch/left.svg");
     background-repeat: no-repeat;
 }
 .darkMode .leftArw {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/leftWhite.svg");
+    background-image: url("../../assets/images/globalSearch/leftWhite.svg");
 }
 .leftArw:hover {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/leftActive.svg");
+    background-image: url("../../assets/images/globalSearch/leftActive.svg");
     background-repeat: no-repeat;
 }
 .leftArwActive {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/leftActive.svg");
+    background-image: url("../../assets/images/globalSearch/leftActive.svg");
     background-repeat: no-repeat;
 }
 .rightArw {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/right.svg");
+    background-image: url("../../assets/images/globalSearch/right.svg");
     background-repeat: no-repeat;
 }
 .darkMode .rightArw {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/rightWhite.svg");
+    background-image: url("../../assets/images/globalSearch/rightWhite.svg");
 }
 .rightArw:hover {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/rightActive.svg");
+    background-image: url("../../assets/images/globalSearch/rightActive.svg");
     background-repeat: no-repeat;
 }
 .rightArwActive {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/rightActive.svg");
+    background-image: url("../../assets/images/globalSearch/rightActive.svg");
     background-repeat: no-repeat;
 }
 .jumpLast {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/jumpLast.svg");
+    background-image: url("../../assets/images/globalSearch/jumpLast.svg");
     background-repeat: no-repeat;
 }
 .darkMode .jumpLast {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/jumpLastWhite.svg");
+    background-image: url("../../assets/images/globalSearch/jumpLastWhite.svg");
 }
 .jumpLast:hover {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/jumpLastActive.svg");
+    background-image: url("../../assets/images/globalSearch/jumpLastActive.svg");
     background-repeat: no-repeat;
 }
 .jumpLastActive {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/jumpLastActive.svg");
+    background-image: url("../../assets/images/globalSearch/jumpLastActive.svg");
     background-repeat: no-repeat;
 }
 body,
@@ -4038,7 +4038,7 @@ main {
 .imageOverlayHp {
     position: absolute;
     width: 100%;
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/tile4020.png");
+    background-image: url("../../assets/images/tile4020.png");
     padding: 0;
     height: 100%;
     top: 0;
@@ -4049,7 +4049,7 @@ main {
 .imageOverlayInsta {
     position: absolute;
     width: 100%;
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/insta_shade.png");
+    background-image: url("../../assets/images/insta_shade.png");
     padding: 0;
     background-position: center;
     height: 100%;
@@ -4086,86 +4086,86 @@ main {
     display: none;
 }
 .shareOptions > .fb > .fbAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/FB.svg");
+    background: url("../../assets/images/shareOptions/FB.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .fb > .fbAnchor:hover,
 .darkMode .shareOptions > .fb > .fbAnchor:hover {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/color/FB.svg");
+    background: url("../../assets/images/shareOptions/color/FB.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .darkMode .shareOptions > .fb > .fbAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/grey_FB.svg");
+    background: url("../../assets/images/shareOptions/grey_FB.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .twitter > .twitterAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/x-icon.svg");
+    background: url("../../assets/images/shareOptions/x-icon.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .twitter > .twitterAnchor:hover,
 .darkMode .shareOptions > .twitter > .twitterAnchor:hover {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/color/x-icon.svg");
+    background: url("../../assets/images/shareOptions/color/x-icon.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .darkMode .shareOptions > .twitter > .twitterAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/grey-x-icon.svg");
+    background: url("../../assets/images/shareOptions/grey-x-icon.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .linkedin > .linkedinAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/LinkedIn.svg");
+    background: url("../../assets/images/shareOptions/LinkedIn.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .linkedin > .linkedinAnchor:hover,
 .darkMode .shareOptions > .linkedin > .linkedinAnchor:hover {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/color/LinkedIn.svg");
+    background: url("../../assets/images/shareOptions/color/LinkedIn.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .darkMode .shareOptions > .linkedin > .linkedinAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/grey_linkedIn.svg");
+    background: url("../../assets/images/shareOptions/grey_linkedIn.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .hangout > .hangoutAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/G+white.svg");
+    background: url("../../assets/images/shareOptions/G+white.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .hangout > .hangoutAnchor:hover {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/color/G+Yellow.svg");
+    background: url("../../assets/images/shareOptions/color/G+Yellow.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .mailto > .mailtoAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/Contact_Us.svg");
+    background: url("../../assets/images/shareOptions/Contact_Us.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .mailto > .mailtoAnchor:hover,
 .darkMode .shareOptions > .mailto > .mailtoAnchor:hover {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/color/Contact_Us.svg");
+    background: url("../../assets/images/shareOptions/color/Contact_Us.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .darkMode .shareOptions > .mailto > .mailtoAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/grey_Contact_Us.svg");
+    background: url("../../assets/images/shareOptions/grey_Contact_Us.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .whatsappImg {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/Whatsapp.svg");
+    background: url("../../assets/images/shareOptions/Whatsapp.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .darkMode .whatsappImg {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/grey_whatsapp.svg");
+    background: url("../../assets/images/shareOptions/grey_whatsapp.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -4397,7 +4397,7 @@ textarea.urlCopied {
     text-align: center;
     max-width: 13rem;
     width: 100%;
-    background-color: #e2a330 !important;
+    background-color: #a43791 !important;
     margin-left: 2rem;
 }
 .buttonMore,
@@ -4538,7 +4538,7 @@ a.hoverCard:hover {
     padding: 1rem 4rem;
     font-size: 1.4rem;
     margin: 8rem 0 3rem 0;
-    background-color: #e2a330;
+    background-color: #a43791;
     color: white;
     cursor: pointer;
     left: 50%;
@@ -4654,7 +4654,7 @@ a.hoverCard:hover {
 .bannerHeading > span {
     padding: 0.6rem 1rem;
     color: #fff;
-    background-color: #043a5b;
+    background-color: #a43791;
     font-style: italic;
     font-size: 1.4rem;
 }
@@ -4677,7 +4677,7 @@ a.hoverCard:hover {
     margin-top: 2rem;
 }
 .bannerBorder {
-    border-left: 0.1rem solid #e2a330;
+    border-left: 0.1rem solid #a43791;
     height: 95%;
     position: absolute;
     opacity: 0;
@@ -4755,7 +4755,7 @@ a:active {
     text-align: center;
     font-size: 1.6rem;
     padding: 0 10px;
-    color: #e2a330;
+    color: #a43791;
     margin: 0;
     font-weight: 400;
     cursor: default;
@@ -4767,7 +4767,7 @@ a:active {
     border-bottom: 1px solid;
 }
 .tagItems:active {
-    color: #e2a330;
+    color: #a43791;
 }
 .tagItems::after {
     content: " ";
@@ -4788,7 +4788,7 @@ a.tagItems.noBorder:after {
 .tagItems:hover,
 .tagItems:active,
 .tagItems:visited {
-    color: #e2a330;
+    color: #a43791;
     opacity: 0.6;
 }
 .darkMode .tagItems:hover,
@@ -6767,7 +6767,7 @@ header > nav ul li:first-child {
     animation-duration: 2s;
 }
 .imageOverContactUs {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/contactUs/map_overlay.png");
+    background-image: url("../../assets/resources/img/pages/contactUs/map_overlay.png");
     position: absolute;
     width: 100%;
     height: 100%;
@@ -7055,7 +7055,7 @@ span.orangeText {
     width: 48rem;
     margin: 0 0 2.5rem 2.5rem;
     display: block;
-    color: #e2a330;
+    color: #a43791;
     position: relative;
     padding-left: 1.5rem;
     font-size: 2.1rem;
@@ -7073,7 +7073,7 @@ span.orangeText::before {
     display: block;
     height: 90%;
     content: " ";
-    border-left: 1px solid #e2a330;
+    border-left: 1px solid #a43791;
     left: 0;
 }
 .darkMode span.orangeText::before {
@@ -7082,7 +7082,7 @@ span.orangeText::before {
 .hOrangeLine {
     box-sizing: border-box;
     width: 10rem;
-    border: 1px solid #e2a330;
+    border: 1px solid #a43791;
     text-align: center;
     margin-bottom: 0rem;
     margin-top: 3rem;
@@ -7151,7 +7151,7 @@ li .emphasisBox {
     .hOrangeLine {
         box-sizing: border-box;
         width: 10rem;
-        border: 1px solid #e2a330;
+        border: 1px solid #a43791;
         text-align: center;
         margin: 5rem auto 6rem auto;
     }
@@ -7646,7 +7646,7 @@ span.paraLinks {
         font-size: 1.4rem;
         margin: 6rem 0;
         line-height: 1.5;
-        background-color: #e2a330;
+        background-color: #a43791;
         color: white;
         cursor: pointer;
         max-width: 15rem;
@@ -7928,11 +7928,11 @@ ol.carouselIndicators.alignLeft li {
     background-color: #fff;
     text-align: center;
     box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
-    color: #e2a330;
+    color: #a43791;
 }
 .darkMode .select-selected.select-arrow-active {
     border: 1px solid #242424;
-    border-bottom: 1px solid #e2a330;
+    border-bottom: 1px solid #a43791;
     background-color: #242424;
     box-shadow: none;
 }
@@ -8046,7 +8046,7 @@ ol.carouselIndicators.alignLeft li {
     margin-top: 1.5rem;
 }
 .financials .ruppee {
-    color: #e2a330;
+    color: #a43791;
     position: relative;
 }
 .financials .ruppee span {
@@ -9207,7 +9207,7 @@ a.hoverCard {
 }
 .videoDiv {
     background: transparent
-        url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/video_img.jpg")
+        url("../../assets/resources/img/pages/storyVideo/Desktop/video_img.jpg")
         no-repeat 0 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -9233,7 +9233,7 @@ a.hoverCard {
     height: 56.5rem;
 }
 .saltVideoModal > .vidcloseIcon > .closeTxt {
-    background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/close_icon.png);
+    background-image: url(../../assets/resources/img/pages/storyVideo/Desktop/close_icon.png);
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
@@ -9244,8 +9244,8 @@ a.hoverCard {
     position: absolute;
     width: 26.6rem;
     height: 22.5rem;
-    border-bottom: 0.2rem solid #e2a330;
-    border-right: 0.2rem solid #e2a330;
+    border-bottom: 0.2rem solid #a43791;
+    border-right: 0.2rem solid #a43791;
     left: 22.3%;
     top: 41.8%;
 }
@@ -9265,35 +9265,35 @@ a.hoverCard {
     display: none !important;
 }
 .soundIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/sound_icon.svg");
+    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/sound_icon.svg");
     width: 25px;
     height: 19px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .muteIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/mute_icon.svg");
+    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/mute_icon.svg");
     width: 14px;
     height: 18px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .fullScrIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/full_screen_icon.svg");
+    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/full_screen_icon.svg");
     width: 20px;
     height: 20px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .exitFullScIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/exit_full_screen_icon.svg");
+    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/exit_full_screen_icon.svg");
     width: 19px;
     height: 20px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .closeImg {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/close_icon.svg");
+    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/close_icon.svg");
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
@@ -9302,55 +9302,55 @@ a.hoverCard {
     margin-top: 1rem;
 }
 .backwardImg {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/backward.svg");
+    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/backward.svg");
     width: 45px;
     height: 46px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .forwardImg {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/forward.svg");
+    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/forward.svg");
     width: 45px;
     height: 46px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .playIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/play_button.svg");
+    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/play_button.svg");
     width: 46px;
     height: 46px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .pauseIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/pause_button.svg");
+    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/pause_button.svg");
     width: 46px;
     height: 46px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .nextIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/nextHover.svg");
+    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/nextHover.svg");
     width: 45px;
     height: 45px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .nextIcon:hover {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/next.svg");
+    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/next.svg");
 }
 .next {
     right: -7%;
 }
 .prevIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/prevHover.svg");
+    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/prevHover.svg");
     width: 45px;
     height: 45px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .prevIcon:hover {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/prev.svg");
+    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/prev.svg");
 }
 .prev {
     left: -7%;
@@ -9760,17 +9760,17 @@ input[type="range"].vertical::-moz-range-thumb {
         display: none;
     }
     .muteIcon {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Mobile/mute_icon.png");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/mute_icon.png");
         width: 10px;
         height: 12px;
     }
     .fullScrIcon {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Mobile/full_screen_icon.png");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/full_screen_icon.png");
         width: 11px;
         height: 12px;
     }
     .exitFullScIcon {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Mobile/exit_full_screen_icon.png");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/exit_full_screen_icon.png");
         width: 11px;
         height: 12px;
     }
@@ -9779,38 +9779,38 @@ input[type="range"].vertical::-moz-range-thumb {
         margin-left: -3rem;
     }
     .backwardImg {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Mobile/backward.png");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/backward.png");
         width: 27px;
         height: 28px;
     }
     .forwardImg {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Mobile/forward.png");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/forward.png");
         width: 27px;
         height: 28px;
     }
     .playIcon {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Mobile/play_button.png");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/play_button.png");
         width: 30px;
         height: 30px;
     }
     .pauseIcon {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Mobile/pause_button.png");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/pause_button.png");
         width: 30px;
         height: 30px;
     }
     .nextIcon {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/nextHover.svg");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/nextHover.svg");
         background-size: 23px;
     }
     .nextIcon:hover {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/nextHover.svg");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/nextHover.svg");
     }
     .prevIcon {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/prevHover.svg");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/prevHover.svg");
         background-size: 23px;
     }
     .prevIcon:hover {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/prevHover.svg");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/prevHover.svg");
     }
     .prev {
         left: 35%;
@@ -9863,7 +9863,7 @@ input[type="range"].vertical::-moz-range-thumb {
         line-height: 2rem;
     }
     .saltVideoModal > .closeIcon > .closeTxt {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Mobile/close_icon.png");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/close_icon.png");
         width: 10px;
         height: 10px;
     }
@@ -9966,17 +9966,17 @@ input[type="range"].vertical::-moz-range-thumb {
         display: none;
     }
     .muteIcon {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Mobile/mute_icon.png");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/mute_icon.png");
         width: 10px;
         height: 12px;
     }
     .fullScrIcon {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Mobile/full_screen_icon.png");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/full_screen_icon.png");
         width: 11px;
         height: 12px;
     }
     .exitFullScIcon {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Mobile/exit_full_screen_icon.png");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/exit_full_screen_icon.png");
         width: 11px;
         height: 12px;
     }
@@ -9984,40 +9984,40 @@ input[type="range"].vertical::-moz-range-thumb {
         margin-top: -6rem;
     }
     .backwardImg {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Mobile/backward.png");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/backward.png");
         width: 27px;
         height: 28px;
     }
     .forwardImg {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Mobile/forward.png");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/forward.png");
         width: 27px;
         height: 28px;
     }
     .playIcon {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Mobile/play_button.png");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/play_button.png");
         width: 30px;
         height: 30px;
     }
     .pauseIcon {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Mobile/pause_button.png");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/pause_button.png");
         width: 30px;
         height: 30px;
     }
     .nextIcon {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/nextHover.svg");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/nextHover.svg");
         width: 23px;
         height: 23px;
     }
     .nextIcon:hover {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/next.svg");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/next.svg");
     }
     .prevIcon {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/prevHover.svg");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/prevHover.svg");
         width: 23px;
         height: 23px;
     }
     .prevIcon:hover {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/prev.svg");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/prev.svg");
     }
     .prev {
         left: 39%;
@@ -10073,7 +10073,7 @@ input[type="range"].vertical::-moz-range-thumb {
         bottom: 1rem;
     }
     .saltVideoModal > .closeIcon > .closeTxt {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Mobile/close_icon.png");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/close_icon.png");
         width: 10px;
         height: 10px;
     }
@@ -10131,10 +10131,10 @@ input[type="range"].vertical::-moz-range-thumb {
         right: -12%;
     }
     .prevIcon:hover {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/prevHover.svg");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/prevHover.svg");
     }
     .nextIcon:hover {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/storyVideo/Desktop/nextHover.svg");
+        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/nextHover.svg");
     }
     .rectangle {
         width: 24rem;
@@ -10308,8 +10308,8 @@ input[type="range"].vertical::-moz-range-thumb {
         position: absolute;
         width: 19.6rem;
         height: 20.55rem;
-        border-bottom: 0.2rem solid #e2a330;
-        border-right: 0.2rem solid #e2a330;
+        border-bottom: 0.2rem solid #a43791;
+        border-right: 0.2rem solid #a43791;
         left: 22.3%;
         top: 53.7%;
     }

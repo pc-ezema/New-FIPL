@@ -8234,7 +8234,8 @@ div.carousel.aem-GridColumn {
     width: auto;
 }
 .fullscreenN,
-.longBg {
+.longBg,
+.longerBg {
     height: 100vh;
     min-height: 131rem;
 }
@@ -8310,7 +8311,7 @@ div.carousel.aem-GridColumn {
 .twitterFeed {
     position: relative;
     height: 36.2rem;
-    background-color: #307fe2;
+    background-color: #2baa65;
     box-shadow: 0 0 8px 0 rgba(177, 177, 177, 0.3);
     cursor: pointer;
 }
@@ -8451,8 +8452,9 @@ img.playVideo {
     cursor: pointer;
 }
 .fullCardClick:hover {
-    background-color: transparent;
-    transition: 1s ease;
+    background-color: #239455; /* darker shade */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    transform: scale(1.05) rotate(-1deg);
 }
 .videoDescription {
     background-color: rgba(4, 58, 91, 0.8);
@@ -8505,7 +8507,7 @@ h3.iTitle {
 }
 @media (max-width: 575px) {
     .imageCrop {
-        height: 49rem;
+        /* height: 49rem; */
         overflow: hidden;
     }
     .storyIndicators {
@@ -8513,10 +8515,11 @@ h3.iTitle {
         left: 40%;
     }
     .fullscreenN {
-        min-height: 234rem;
+        min-height: 252rem;
     }
-    .longBg {
-        min-height: 180rem;
+    .longBg,
+    .longerBg {
+        min-height: 141rem !important;
     }
     .ymlSalt img.arrow.arrowInc {
         left: 86%;
@@ -8663,14 +8666,23 @@ h3.iTitle {
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .fullscreenN,
-    .longBg {
+    .longBg,
+    .longerBg {
         height: 70vh !important;
     }
 }
 @media only screen and (min-width: 576px) and (max-width: 991px) {
     .fullscreenN,
     .longBg {
-        height: 306vh !important;
+        height: 242vh !important;
+    }
+
+    .longerBg{
+        height: 164vh !important;
+    }
+
+    .twitterFeed {
+        height: 47rem;
     }
 }
 

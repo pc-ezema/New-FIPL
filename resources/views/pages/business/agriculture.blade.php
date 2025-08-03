@@ -1,4 +1,4 @@
-@extends('layouts.frontend', ['title' => 'Real Estate'])
+@extends('layouts.frontend', ['title' => 'Agriculture'])
 
 @push('styles')
 <link rel="stylesheet" href="{{url('assets/css/investor-type-1.min.css')}}" type="text/css">
@@ -15,19 +15,19 @@
             <div class="banner parbase aem-GridColumn aem-GridColumn--default--12">
                 <section class="bannerSection mainSliderElem active" anchorval="0">
                     <picture>
-                        <source media="(min-width: 991px)" srcset="{{ asset($company['image']) }}">
-                        <source media="(min-width: 767px)" srcset="{{ asset($company['image']) }}">
-                        <source media="(min-width: 0)" srcset="{{ asset($company['image']) }}">
-                        <img class="bg img-responsive " src="{{ asset($company['image']) }}" alt="{{ $company['caption'] }}">
+                        <source media="(min-width: 991px)" srcset="{{ url('assets/images/about/mission.png') }}">
+                        <source media="(min-width: 767px)" srcset="{{ url('assets/images/about/mission.png') }}">
+                        <source media="(min-width: 0)" srcset="{{ url('assets/images/about/mission.png') }}">
+                        <img class="bg img-responsive " src="{{ url('assets/images/about/mission.png') }}" alt="Mission">
                     </picture>
                     <div class="imageOverlayBnr"></div>
                     <div class="heroForegrounds container fxblock">
                         <div class="heroHeadline">
                             <div class="sectionContent">
                                 <div class="bannerHeading">
-                                    <span>Strategic Alliance</span>
+                                    <span>Business Area</span>
                                     <h1 class="heroHeading">
-                                        <span>{{ $company['caption'] }}</span>
+                                        <span>Agriculture</span>
                                         <span></span>
                                         <span></span>
                                     </h1>
@@ -62,12 +62,12 @@
                         <div class="row">
                             <div class="col-lg-10 col-lg-offset-1 col-lg-offset-right-1 col-md-10 col-md-offset-1 col-md-offset-right-1 col-sm-10 col-sm-offset-1 col-sm-offset-right-1 col-xs-12  paraDiv">
                                 <div class="richtext">
-                                    {!! $company['description'] !!}
+                                    <p><span class="mainPara">At FIP, we're revolutionizing Nigeria's agricultural landscape through innovative technology and sustainable practices. Our integrated approach connects farmers with essential resources, markets, and expertise to maximize productivity and profitability.</span></p>
+                                    <p><span class="saltPara">Through our digital platform, we provide smallholder farmers access to quality inputs, mechanization services, and real-time agricultural advisory. Our data-driven solutions offer tailored recommendations for crop selection, planting schedules, and pest management, optimizing yields while minimizing environmental impact.</span></p>
+                                    <p><span class="saltPara">We've established direct market linkages that eliminate middlemen, ensuring farmers receive fair compensation for their produce. Our value chain integration extends from farm to table, reducing post-harvest losses and improving food security across communities.</span></p>
+                                    <p><span class="saltPara">FIP's commitment to agriculture goes beyond immediate yields; we're building resilient farming systems that adapt to climate challenges while supporting rural economic development. By combining traditional farming wisdom with modern agricultural science, we're creating sustainable pathways to food sufficiency and economic empowerment for Nigeria's farming communities.</span></p>
+                                    <p><span class="saltPara">Together, we're growing more than crops; we're cultivating prosperity.</span></p>
                                 </div>
-                                <a class="readQuoteBox buttonMore btn buttonMr" href="{{ $company['link'] }}" target="_blank" rel="noopener" style="display: block;">
-                                    <span>Visit Website</span>
-                                    <img src="{{url('assets/images/arrow_icon_white.svg')}}" alt="" class="arrowAnimation">
-                                </a>
                             </div>
                         </div>
                     </div>

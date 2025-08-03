@@ -35,8 +35,23 @@
                                     <li>
                                         <hr class="subHeadBorder hidden-xs hidden-sm" />
                                     </li>
-                                    <li class="liItems horizonIn">
-                                        <a href="{{ route('business') }}">Learn more</a>
+                                    <li class="colCount3">
+                                        <ul class="list-unstyled itemA colsm">
+                                            <li class="liItems">
+                                                <a href="{{ route('businessArea.food') }}">Food</a>
+                                            </li>
+                                            <li class="liItems">
+                                                <a href="{{ route('businessArea.agriculture') }}">Agriculture</a>
+                                            </li>
+                                        </ul>
+                                        <ul class="list-unstyled itemA colsm">
+                                            <li class="liItems">
+                                                <a href="{{ route('businessArea.media') }}">Media</a>
+                                            </li>
+                                            <li class="liItems">
+                                                <a href="{{ route('businessArea.realEstate') }}">Real Estate</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                 </ul>
                             </li>
@@ -65,6 +80,11 @@
                             <li class="nav-item navText padTop5">
                                 <a class="nav-link {{ (request()->is('careers')) ? 'activeMenu' : '' }}" href="{{ route('careers') }}" data-toggle="collapse">
                                     Careers
+                                </a>
+                            </li>
+                            <li class="nav-item navText padTop5">
+                                <a class="nav-link {{ (request()->is('trainings')) ? 'activeMenu' : '' }}" href="{{ route('trainings') }}" data-toggle="collapse">
+                                    Trainings
                                 </a>
                             </li>
                             <li class="nav-item navText padTop5">
