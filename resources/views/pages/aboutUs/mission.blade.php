@@ -74,20 +74,20 @@
                                     <p><span class="saltPara">We recognize that agricultural success depends on effective collaboration across the entire value chain. 
                                     Our mission is to eliminate barriers between key stakeholders by providing an integrated platform that connects everyone involved in bringing food from farm to table.</span></p>
                                     <p><span class="saltPara">Our platform serves as a digital and physical ecosystem where:</span></p>
-                                    <h2>Farmers:</h2>
+                                    <h2 style="margin: 0;">Farmers:</h2>
                                     <p><span class="saltPara">Farmers gain direct access to reliable markets, quality inputs, technical knowledge, and fair pricing information. They can showcase their produce, negotiate directly with buyers, and participate in larger contracts that would be inaccessible to individual smallholders.</span></p>
-                                    <h2>Processors:</h2>
+                                    <h2 style="margin: 0;">Processors:</h2>
                                     <p><span class="saltPara">Processors connect with consistent sources of quality raw materials, reducing procurement uncertainty and allowing for better production planning. They can communicate their specific requirements directly to farmers, ensuring crops meet processing standards.</span></p>
-                                    <h2>Input Suppliers:</h2>
+                                    <h2 style="margin: 0;">Input Suppliers:</h2>
                                     <p><span class="saltPara">Input Suppliers reach farmers with seeds, fertilizers, and equipment matched to local growing conditions and market demand, supported by proper usage guidance that maximizes effectiveness.</span></p>
-                                    <h2>Logistics Providers:</h2>
+                                    <h2 style="margin: 0;">Logistics Providers:</h2>
                                     <p><span class="saltPara">Logistics Providers coordinate the efficient movement of agricultural products, reducing transit times and preserving product quality while optimizing vehicle capacity and routes.</span></p>
-                                    <h2>Financial Institutions:</h2>
+                                    <h2 style="margin: 0;">Financial Institutions:</h2>
                                     <p><span class="saltPara">Financial Institutions offer tailored agricultural financing with reduced risk through better visibility into farming operations and market connections.</span></p>
-                                    <h2>Consumers:</h2>
+                                    <h2 style="margin: 0;">Consumers:</h2>
                                     <p><span class="saltPara">Consumers access information about food origins and production methods, supporting informed choices while providing valuable feedback to producers.</span></p>
 
-                                    <p><span class="saltPara"><i>By bringing these stakeholders together on our platform, we minimize resource wastage, reduce transaction costs, and ensure that value is distributed more equitably throughout the agricultural chain. Our integrated approach transforms fragmented agricultural activities into a coordinated system that improves outcomes for everyone involved while strengthening food security and economic resilience in agrarian communities.</i></span></p>
+                                    <p><span class="saltPara">By bringing these stakeholders together on our platform, we minimize resource wastage, reduce transaction costs, and ensure that value is distributed more equitably throughout the agricultural chain. Our integrated approach transforms fragmented agricultural activities into a coordinated system that improves outcomes for everyone involved while strengthening food security and economic resilience in agrarian communities.</span></p>
 
                                 </div>
                             </div>

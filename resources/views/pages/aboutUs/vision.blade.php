@@ -73,24 +73,23 @@
                                     <p><span class="mainPara">FIP Limited, We create food industrial park across Agrarian communities.</span></p>
                                     <p><span class="saltPara">Our vision is to create a comprehensive agricultural ecosystem that transforms farm products into diverse consumer goods through our network of strategic alliances. We bridge the gap between primary production and market-ready products by establishing value-addition hubs that unlock the full potential of Africa's agricultural resources.</span></p>
                                     <p><span class="saltPara">Our integrated approach encompasses:</span></p>
-                                    <h2>Complete Value Chain Development:</h2>
+                                    <h2 style="margin: 0;">Complete Value Chain Development:</h2>
                                     <p><span class="saltPara">We connect every stage from farm to finished product, from raw produce sourcing to consumer food products, beverages, and spices; 
                                     from essential oils and cosmetics to herbal remedies, creating multiple value streams from agricultural resources.</span></p>
-                                    <h2>Infrastructure & Processing Excellence:</h2>
+                                    <h2 style="margin: 0;">Infrastructure & Processing Excellence:</h2>
                                     <p><span class="saltPara">Our food industrial hubs and development facilities transform raw agricultural materials into premium products while minimizing waste. 
                                     These physical centers serve as convergence points where modern technology meets traditional knowledge.</span></p>
-                                    <h2>Agricultural Inputs & Support:</h2>
+                                    <h2 style="margin: 0;">Agricultural Inputs & Support:</h2>
                                     <p><span class="saltPara">We provide high-quality seeds, fertilizers, and agronomic support that help farmers maximize yields and produce quality raw materials for our processing facilities.</span></p>
-                                    <h2>Sustainable Community Development:</h2>
+                                    <h2 style="margin: 0;">Sustainable Community Development:</h2>
                                     <p><span class="saltPara">We create appropriate housing and community infrastructure that supports agricultural workers and their families, ensuring farming communities thrive alongside agricultural enterprises.</span></p>
-                                    <h2>Media & Market Visibility:</h2>
+                                    <h2 style="margin: 0;">Media & Market Visibility:</h2>
                                     <p><span class="saltPara">We amplify our collective impact through strategic communication, connecting our products with consumers who value quality, sustainability, and African agricultural heritage.</span></p>
-                                    <h2>Innovation & Research:</h2>
+                                    <h2 style="margin: 0;">Innovation & Research:</h2>
                                     <p><span class="saltPara">We continuously develop new products, processes, and methods that expand the commercial applications of African agricultural resources—from food innovations to natural cosmetics and health solutions.</span></p>
-                                    <h2>Skills & Knowledge Transfer:</h2>
+                                    <h2 style="margin: 0;">Skills & Knowledge Transfer:</h2>
                                     <p><span class="saltPara">We empower farming communities with specialized skills that create employment opportunities across our diverse product categories, from food processing to cosmetic production and herbal formulation.</span></p>
-
-                                    <p><span class="saltPara"><i>Through this holistic approach, we are building resilient agricultural value chains that transform farm productivity into consumer products, creating sustainable prosperity that benefits producers, processors, retailers, and consumers across Africa.</i></span></p>
+                                    <p><span class="saltPara">Through this holistic approach, we are building resilient agricultural value chains that transform farm productivity into consumer products, creating sustainable prosperity that benefits producers, processors, retailers, and consumers across Africa.</span></p>
 
                                 </div>
                             </div>

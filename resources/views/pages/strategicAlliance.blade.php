@@ -1,4 +1,4 @@
-@extends('layouts.frontend', ['title' => 'Real Estate'])
+@extends('layouts.frontend', ['title' => $company['caption']])
 
 @push('styles')
 <link rel="stylesheet" href="{{url('assets/css/investor-type-1.min.css')}}" type="text/css">

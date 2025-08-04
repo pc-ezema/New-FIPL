@@ -74,6 +74,48 @@
                     </div>
                 </section>
             </div>
+            <div class="text parbase aem-GridColumn aem-GridColumn--default--12">
+                <section class="saltStContentSection mainSliderElem customScroll noSlider" anchorval="1">
+                    <div class="container">
+                        <div class="brand-carousel">
+                            <div class="carousel-track">
+                                <a href="https://nardus.ng" class="brand-item">
+                                    <img src="{{ url('assets/images/home/nardus.png') }}" alt="Nardus">
+                                    <span>Nardus</span>
+                                </a>
+                                <a href="https://sanofoods.ng" class="brand-item">
+                                    <img src="{{ url('assets/images/home/sano-foods.png') }}" alt="Sano">
+                                    <span>Sano</span>
+                                </a>
+                                <a href="https://agricapital.ng" class="brand-item">
+                                    <img src="{{ url('assets/images/home/agricapital.png') }}" alt="Agricapital">
+                                    <span>Agricapital</span>
+                                </a>
+                                <a href="https://4greencomms.com" class="brand-item">
+                                    <img src="{{ url('assets/images/home/4green.png') }}" alt="4 Green">
+                                    <span>4 Green</span>
+                                </a>
+                                <a href="https://bcal.ng" class="brand-item">
+                                    <img src="{{ url('assets/images/home/bonum.png') }}" alt="BCAL">
+                                    <span>BCAL</span>
+                                </a>
+                                <a href="https://rufec.ng" class="brand-item">
+                                    <img src="{{ url('assets/images/home/rufec.png') }}" alt="Rufec">
+                                    <span>Rufec</span>
+                                </a>
+                                <a href="https://agropark.ng" class="brand-item">
+                                    <img src="{{ url('assets/images/home/agropark.png') }}" alt="Agropark">
+                                    <span>Agropark</span>
+                                </a>
+                                <a href="https://agrihubtech.ng" class="brand-item">
+                                    <img src="{{ url('assets/images/home/agri-tech-hub.png') }}" alt="Agri-tech Hub">
+                                    <span>Agri-tech Hub</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
     </div>
 </main>

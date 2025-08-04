@@ -74,23 +74,19 @@
                             <div class="col-lg-1 paraDiv"></div>
                             <div class="col-lg-10 paraDiv">
                                 <div class="richtext saltPara">
-                                    <p><span class="mainPara">Business, as I have seen it, places one great demand on you: it needs you to self-impose a framework of ethics, values, fairness and objectivity on yourself at all times.”</span></p>
-                                    <h2>Core values:</h2>
-                                    <p><span class="saltPara">FIP has always been a values-driven&nbsp;organisation. These values continue to direct the growth and business of FIP companies.</span></p>
-                                    <p><span class="saltPara">The seven core FIP values underpinning the way we do business are:</span></p>
-                                    <p><span class="saltPara"><b>Discipline</b></span></p>
+                                    <h2 style="margin: 0;">Discipline</h2>
                                     <p><span class="saltPara">We established a framework of efficiency, productivity, and responsibility, leading to the long-term success and sustainability of our business model.</span></p>
-                                    <p><span class="saltPara"><b>Integrity</b></span></p>
+                                    <h2 style="margin: 0;">Integrity</h2>
                                     <p><span class="saltPara">Our foundation is solidly embedded in earning the trust of all our stakeholders by contributing to a more sustainable and ethical agro system.</span></p>
-                                    <p><span class="saltPara"><b>Creativity</b></span></p>
+                                    <h2 style="margin: 0;">Creativity</h2>
                                     <p><span class="saltPara">We instilled an environment of innovation, adaptability, and sustainability in a dynamic and competitive global industry.</span></p>
-                                    <p><span class="saltPara"><b>Excellence</b></span></p>
+                                    <h2 style="margin: 0;">Excellence</h2>
                                     <p><span class="saltPara">Through the commitment of our bright minds, we develop a standard of high performance, driving continuous improvement, enhancing operational efficiency, building a strong reputation, and ultimately achieving long-term success and sustainability.</span></p>
-                                    <p><span class="saltPara"><b>Tenacity</b></span></p>
+                                    <h2 style="margin: 0;">Tenacity</h2>
                                     <p><span class="saltPara">We built a mindset of resilience, innovation, and perseverance, enabling it to overcome challenges, achieve its goal, and contribute to a more sustainable agro system.</span></p>
-                                    <p><span class="saltPara"><b>Innovation</b></span></p>
+                                    <h2 style="margin: 0;">Innovation</h2>
                                     <p><span class="saltPara">We foster an atmosphere of creativity, leading to our continuous growth and advancement in the agro industry.</span></p>
-                                    <p><span class="saltPara"><b>Intelligence</b></span></p>
+                                    <h2 style="margin: 0;">Intelligence</h2>
                                     <p><span class="saltPara">By embracing the power of transformation and technology, we have become more efficient, innovative, and resilient, thus ensuring our long-term success in a complex and ever-changing world.</span></p>
                                     <div class="showViewMore">
                                     </div>
