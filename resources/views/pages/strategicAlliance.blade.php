@@ -57,7 +57,7 @@
                 <section class="sliderElem hidden-xs hidden-sm"></section>
             </div>
             <div class="text parbase aem-GridColumn aem-GridColumn--default--12">
-                <section class="saltStContentSection mainSliderElem customScroll noSlider" anchorval="1">
+                <section class="saltStContentSection mainSliderElem customScroll noSlider" anchorval="1" style="background-color: #f8f9fa; /* subtle gray */">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-10 col-lg-offset-1 col-lg-offset-right-1 col-md-10 col-md-offset-1 col-md-offset-right-1 col-sm-10 col-sm-offset-1 col-sm-offset-right-1 col-xs-12  paraDiv">

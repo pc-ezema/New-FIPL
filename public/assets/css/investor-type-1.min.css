@@ -6723,10 +6723,10 @@ div.richtext > div:last-child {
 .Tooltip .normalImg {
     width: auto;
 }
-.buttonMore {
+/* .buttonMore {
     left: 49.5%;
     transform: translateX(-50%);
-}
+} */
 .bannerPara .buttonMore {
     left: 0;
     transform: none;
@@ -9207,7 +9207,7 @@ a.hoverCard {
 }
 .videoDiv {
     background: transparent
-        url("../../assets/resources/img/pages/storyVideo/Desktop/video_img.jpg")
+        url("../../assets/images/video_img.jpg")
         no-repeat 0 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -9233,7 +9233,7 @@ a.hoverCard {
     height: 56.5rem;
 }
 .saltVideoModal > .vidcloseIcon > .closeTxt {
-    background-image: url(../../assets/resources/img/pages/storyVideo/Desktop/close_icon.png);
+    background-image: url(../../assets/images/close_icon.png);
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
@@ -9265,35 +9265,35 @@ a.hoverCard {
     display: none !important;
 }
 .soundIcon {
-    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/sound_icon.svg");
+    background-image: url("../../assets/images/sound_icon.svg");
     width: 25px;
     height: 19px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .muteIcon {
-    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/mute_icon.svg");
+    background-image: url("../../assets/images/mute_icon.svg");
     width: 14px;
     height: 18px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .fullScrIcon {
-    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/full_screen_icon.svg");
+    background-image: url("../../assets/images/full_screen_icon.svg");
     width: 20px;
     height: 20px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .exitFullScIcon {
-    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/exit_full_screen_icon.svg");
+    background-image: url("../../assets/images/exit_full_screen_icon.svg");
     width: 19px;
     height: 20px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .closeImg {
-    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/close_icon.svg");
+    background-image: url("../../assets/images/close_icon.svg");
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
@@ -9302,55 +9302,55 @@ a.hoverCard {
     margin-top: 1rem;
 }
 .backwardImg {
-    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/backward.svg");
+    background-image: url("../../assets/images/backward.svg");
     width: 45px;
     height: 46px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .forwardImg {
-    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/forward.svg");
+    background-image: url("../../assets/images/forward.svg");
     width: 45px;
     height: 46px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .playIcon {
-    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/play_button.svg");
+    background-image: url("../../assets/images/play_button.svg");
     width: 46px;
     height: 46px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .pauseIcon {
-    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/pause_button.svg");
+    background-image: url("../../assets/images/pause_button.svg");
     width: 46px;
     height: 46px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .nextIcon {
-    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/nextHover.svg");
+    background-image: url("../../assets/images/nextHover.svg");
     width: 45px;
     height: 45px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .nextIcon:hover {
-    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/next.svg");
+    background-image: url("../../assets/images/next.svg");
 }
 .next {
     right: -7%;
 }
 .prevIcon {
-    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/prevHover.svg");
+    background-image: url("../../assets/images/prevHover.svg");
     width: 45px;
     height: 45px;
     background-repeat: no-repeat;
     position: absolute;
 }
 .prevIcon:hover {
-    background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/prev.svg");
+    background-image: url("../../assets/images/prev.svg");
 }
 .prev {
     left: -7%;
@@ -9760,17 +9760,17 @@ input[type="range"].vertical::-moz-range-thumb {
         display: none;
     }
     .muteIcon {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/mute_icon.png");
+        background-image: url("../../assets/images/mute_icon.png");
         width: 10px;
         height: 12px;
     }
     .fullScrIcon {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/full_screen_icon.png");
+        background-image: url("../../assets/images/full_screen_icon.png");
         width: 11px;
         height: 12px;
     }
     .exitFullScIcon {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/exit_full_screen_icon.png");
+        background-image: url("../../assets/images/exit_full_screen_icon.png");
         width: 11px;
         height: 12px;
     }
@@ -9779,38 +9779,38 @@ input[type="range"].vertical::-moz-range-thumb {
         margin-left: -3rem;
     }
     .backwardImg {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/backward.png");
+        background-image: url("../../assets/images/backward.png");
         width: 27px;
         height: 28px;
     }
     .forwardImg {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/forward.png");
+        background-image: url("../../assets/images/forward.png");
         width: 27px;
         height: 28px;
     }
     .playIcon {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/play_button.png");
+        background-image: url("../../assets/images/play_button.png");
         width: 30px;
         height: 30px;
     }
     .pauseIcon {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/pause_button.png");
+        background-image: url("../../assets/images/pause_button.png");
         width: 30px;
         height: 30px;
     }
     .nextIcon {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/nextHover.svg");
+        background-image: url("../../assets/images/nextHover.svg");
         background-size: 23px;
     }
     .nextIcon:hover {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/nextHover.svg");
+        background-image: url("../../assets/images/nextHover.svg");
     }
     .prevIcon {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/prevHover.svg");
+        background-image: url("../../assets/images/prevHover.svg");
         background-size: 23px;
     }
     .prevIcon:hover {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/prevHover.svg");
+        background-image: url("../../assets/images/prevHover.svg");
     }
     .prev {
         left: 35%;
@@ -9863,7 +9863,7 @@ input[type="range"].vertical::-moz-range-thumb {
         line-height: 2rem;
     }
     .saltVideoModal > .closeIcon > .closeTxt {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/close_icon.png");
+        background-image: url("../../assets/images/close_icon.png");
         width: 10px;
         height: 10px;
     }
@@ -9966,17 +9966,17 @@ input[type="range"].vertical::-moz-range-thumb {
         display: none;
     }
     .muteIcon {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/mute_icon.png");
+        background-image: url("../../assets/images/mute_icon.png");
         width: 10px;
         height: 12px;
     }
     .fullScrIcon {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/full_screen_icon.png");
+        background-image: url("../../assets/images/full_screen_icon.png");
         width: 11px;
         height: 12px;
     }
     .exitFullScIcon {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/exit_full_screen_icon.png");
+        background-image: url("../../assets/images/exit_full_screen_icon.png");
         width: 11px;
         height: 12px;
     }
@@ -9984,40 +9984,40 @@ input[type="range"].vertical::-moz-range-thumb {
         margin-top: -6rem;
     }
     .backwardImg {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/backward.png");
+        background-image: url("../../assets/images/backward.png");
         width: 27px;
         height: 28px;
     }
     .forwardImg {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/forward.png");
+        background-image: url("../../assets/images/forward.png");
         width: 27px;
         height: 28px;
     }
     .playIcon {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/play_button.png");
+        background-image: url("../../assets/images/play_button.png");
         width: 30px;
         height: 30px;
     }
     .pauseIcon {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/pause_button.png");
+        background-image: url("../../assets/images/pause_button.png");
         width: 30px;
         height: 30px;
     }
     .nextIcon {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/nextHover.svg");
+        background-image: url("../../assets/images/nextHover.svg");
         width: 23px;
         height: 23px;
     }
     .nextIcon:hover {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/next.svg");
+        background-image: url("../../assets/images/next.svg");
     }
     .prevIcon {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/prevHover.svg");
+        background-image: url("../../assets/images/prevHover.svg");
         width: 23px;
         height: 23px;
     }
     .prevIcon:hover {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/prev.svg");
+        background-image: url("../../assets/images/prev.svg");
     }
     .prev {
         left: 39%;
@@ -10073,7 +10073,7 @@ input[type="range"].vertical::-moz-range-thumb {
         bottom: 1rem;
     }
     .saltVideoModal > .closeIcon > .closeTxt {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Mobile/close_icon.png");
+        background-image: url("../../assets/images/close_icon.png");
         width: 10px;
         height: 10px;
     }
@@ -10131,10 +10131,10 @@ input[type="range"].vertical::-moz-range-thumb {
         right: -12%;
     }
     .prevIcon:hover {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/prevHover.svg");
+        background-image: url("../../assets/images/prevHover.svg");
     }
     .nextIcon:hover {
-        background-image: url("../../assets/resources/img/pages/storyVideo/Desktop/nextHover.svg");
+        background-image: url("../../assets/images/nextHover.svg");
     }
     .rectangle {
         width: 24rem;

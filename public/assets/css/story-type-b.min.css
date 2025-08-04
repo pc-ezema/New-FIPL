@@ -1956,7 +1956,7 @@ a.globalSearchSuggestion:hover {
 }
 .chkbox:checked + label:before {
     background: #5f95fc;
-    content: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/check-mark-white.svg");
+    content: url("../../assets/images/check-mark-white.svg");
     color: #fff;
     text-align: center;
     border: 0;
@@ -2025,7 +2025,7 @@ li.pageDigits.active {
     border-bottom: 0;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/hover.svg");
+    background-image: url("../../assets/images/globalSearch/hover.svg");
 }
 li.pageDigits.active > span {
     color: #e09f3a;
@@ -2506,13 +2506,13 @@ li.pageDigits.active > span {
 }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
     li.pageDigits.active {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/hover.svg");
+        background-image: url("../../assets/images/globalSearch/hover.svg");
     }
 }
 @media screen and (min-width: 992px) {
     .phoneDivSearch:hover .phoneIconWhite,
     .phoneDivVertical:hover .phoneIcon {
-        background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/phoneIconActive.svg");
+        background-image: url("../../assets/images/globalSearch/phoneIconActive.svg");
     }
     .globalList .twitterLink:hover .twitterTooltip {
         display: block;
@@ -2798,53 +2798,53 @@ nav {
 .d-block {
     display: block !important;
 }
-.navbar .tataLogo,
-.darkMode .grayMenu .tataLogo {
+.navbar .fiplLogo,
+.darkMode .grayMenu .fiplLogo {
     margin: 0.5rem 0 !important;
     width: 50px;
     height: 50px;
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/Tata_Logo2.svg");
+    background-image: url("../../assets/images/fipl-logo.png");
     padding: 0;
     background-position: center;
     background-size: contain;
 }
-.grayMenu .tataLogo {
+.grayMenu .fiplLogo {
     margin: 0.5rem 0 !important;
     width: 50px;
     height: 50px;
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/Tata_Logo1.svg");
+    background-image: url("../../assets/images/fipl-logo.png");
     padding: 0;
     background-position: center;
     background-size: contain;
 }
 .searchBoxIcon,
 .darkMode .grayMenu .searchBoxIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/Search.svg");
+    background-image: url("../../assets/images/Search.svg");
 }
 .grayMenu .searchBoxIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/Search_gray.svg");
+    background-image: url("../../assets/images/Search_gray.svg");
 }
 .closeSearch,
 .grayMenu .closeSearch {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/close_icon.svg");
+    background-image: url("../../assets/images/close_icon.svg");
 }
 .darkMode .closeSearch,
 .darkMode .grayMenu .closeSearch {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/close_icon_white.svg");
+    background-image: url("../../assets/images/close_icon_white.svg");
 }
 .worldWideBoxIcon,
 .darkMode .grayMenu .worldWideBoxIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/Worldwideicon.svg");
+    background-image: url("../../assets/images/Worldwideicon.svg");
 }
 .grayMenu .worldWideBoxIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/Worldwideicon_gray.svg");
+    background-image: url("../../assets/images/Worldwideicon_gray.svg");
 }
 .contactUsBoxIcon,
 .darkMode .grayMenu .contactUsBoxIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/ContactUs.svg");
+    background-image: url("../../assets/images/ContactUs.svg");
 }
 .grayMenu .contactUsBoxIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/ContactUs_gray.svg");
+    background-image: url("../../assets/images/ContactUs_gray.svg");
 }
 .lightModeSearchIcon,
 .darkMode .darkModeSearchIcon {
@@ -2854,14 +2854,14 @@ nav {
 .darkMode .lightModeSearchIcon {
     display: none;
 }
-.tataLogo {
+.fiplLogo {
     width: 70px;
     display: inline-block;
     background-repeat: no-repeat;
     line-height: 20px;
     background-position: center;
 }
-.tataLogo > span {
+.fiplLogo > span {
     width: 1px;
     height: 1px;
     position: absolute;
@@ -3164,11 +3164,11 @@ header .details img:nth-child(1) {
 }
 .lightDarkModeIcon.lightIcon,
 .darkMode .grayMenu .lightDarkModeIcon.lightIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/lightMode.svg");
+    background-image: url("../../assets/images/lightMode.svg");
 }
 .lightDarkModeIcon.darkIcon,
 .darkMode .grayMenu .lightDarkModeIcon.darkIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/darkMode.svg");
+    background-image: url("../../assets/images/darkMode.svg");
 }
 .lightDarkTheme li {
     padding-left: 18px;
@@ -3177,10 +3177,10 @@ header .details img:nth-child(1) {
     width: 12rem;
 }
 .grayMenu .lightDarkModeIcon.lightIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/lightMode_greyIcon.svg");
+    background-image: url("../../assets/images/lightMode_greyIcon.svg");
 }
 .grayMenu .lightDarkModeIcon.darkIcon {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/pages/nav/darkMode_greyIcon.svg");
+    background-image: url("../../assets/images/darkMode_greyIcon.svg");
 }
 .lightDarkTheme .themeTooltip {
     display: none;
@@ -3269,7 +3269,7 @@ header .details img:nth-child(1) {
     .nav-item > .nav-link:active {
         color: #e2a330 !important;
     }
-    .navbar .tataLogo {
+    .navbar .fiplLogo {
         margin-bottom: 0 !important;
     }
     .grayMenu a {
@@ -3285,7 +3285,7 @@ header .details img:nth-child(1) {
     .navbar-nav {
         margin: 0;
     }
-    .tataLogo {
+    .fiplLogo {
         width: 5rem;
     }
     .searchIcon {
@@ -3343,7 +3343,7 @@ header .details img:nth-child(1) {
         z-index: 9;
     }
     .accordion {
-        background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/arrowDown.svg);
+        background-image: url(../../assets/images/arrowDown.svg);
     }
     .accordion {
         cursor: pointer;
@@ -3353,13 +3353,13 @@ header .details img:nth-child(1) {
         outline: 0;
         transition: 0.3s;
         width: 93%;
-        background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/arrowRightAccordian.svg);
+        background-image: url(../../assets/images/arrowRightAccordian.svg);
         background-repeat: no-repeat;
         background-position-x: right;
         background-position-y: center;
     }
     a.nav-link.accordion.active {
-        background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/arrowDown.svg);
+        background-image: url(../../assets/images/arrowDown.svg);
         object-fit: cover;
     }
     .panel {
@@ -3543,13 +3543,13 @@ header .details img:nth-child(1) {
         text-align: left;
         outline: 0;
         transition: 0.5s;
-        background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/arrowRightAccordian.svg);
+        background-image: url(../../assets/images/arrowRightAccordian.svg);
         background-repeat: no-repeat;
         background-position-x: right;
         background-position-y: center;
     }
     a.nav-link.accordion.active {
-        background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/arrowDown.svg);
+        background-image: url(../../assets/images/arrowDown.svg);
     }
     a.nav-link.accordion.active {
         color: #f5a623 !important;
@@ -3662,7 +3662,7 @@ header .details img:nth-child(1) {
     .padTop5 {
         padding-top: 2rem;
     }
-    .tataLogo {
+    .fiplLogo {
         width: 7rem;
     }
     .nav-item > .nav-link {
@@ -3713,7 +3713,7 @@ header .details img:nth-child(1) {
         margin: 0;
     }
     .navBarBtn,
-    .tataLogo {
+    .fiplLogo {
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
     }
@@ -3754,7 +3754,7 @@ header .details img:nth-child(1) {
         padding: 0;
         width: 100%;
     }
-    .navbar > .container > .tataLogo {
+    .navbar > .container > .fiplLogo {
         margin-left: 1.5rem !important;
     }
     .navbar-collapse.d-block {
@@ -3794,13 +3794,13 @@ header .details img:nth-child(1) {
         text-align: left;
         outline: 0;
         transition: 0.5s;
-        background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/arrowRightAccordian.svg);
+        background-image: url(../../assets/images/arrowRightAccordian.svg);
         background-repeat: no-repeat;
         background-position-x: right;
         background-position-y: center;
     }
     a.nav-link.accordion.active {
-        background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/arrowDown.svg);
+        background-image: url(../../assets/images/arrowDown.svg);
     }
     a.nav-link.accordion.active {
         color: #f5a623 !important;
@@ -4362,7 +4362,7 @@ header .details img:nth-child(1) {
     border: 1px solid #000;
 }
 .jwplayer.jw-skin-myskin .jw-sharing-dock-btn .jw-dock-image {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/color/share.svg");
+    background-image: url("../../assets/images/shareOptions/color/share.svg");
 }
 .jwplayer.jw-skin-myskin.jw-breakpoint-4 .jw-display .jw-icon:before,
 .jwplayer.jw-skin-myskin.jw-breakpoint-5 .jw-display .jw-icon:before,
@@ -4666,66 +4666,66 @@ section {
     margin-left: 1rem;
 }
 .jumpFirst {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/jumpFirst.svg");
+    background-image: url("../../assets/images/globalSearch/jumpFirst.svg");
     background-repeat: no-repeat;
 }
 .darkMode .jumpFirst {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/jumpFirstWhite.svg");
+    background-image: url("../../assets/images/globalSearch/jumpFirstWhite.svg");
 }
 .jumpFirst:hover {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/jumpFirstActive.svg");
+    background-image: url("../../assets/images/globalSearch/jumpFirstActive.svg");
     background-repeat: no-repeat;
 }
 .jumpFirstActive {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/jumpFirstActive.svg");
+    background-image: url("../../assets/images/globalSearch/jumpFirstActive.svg");
     background-repeat: no-repeat;
 }
 .disableArrow {
     opacity: 0.2;
 }
 .leftArw {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/left.svg");
+    background-image: url("../../assets/images/globalSearch/left.svg");
     background-repeat: no-repeat;
 }
 .darkMode .leftArw {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/leftWhite.svg");
+    background-image: url("../../assets/images/globalSearch/leftWhite.svg");
 }
 .leftArw:hover {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/leftActive.svg");
+    background-image: url("../../assets/images/globalSearch/leftActive.svg");
     background-repeat: no-repeat;
 }
 .leftArwActive {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/leftActive.svg");
+    background-image: url("../../assets/images/globalSearch/leftActive.svg");
     background-repeat: no-repeat;
 }
 .rightArw {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/right.svg");
+    background-image: url("../../assets/images/globalSearch/right.svg");
     background-repeat: no-repeat;
 }
 .darkMode .rightArw {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/rightWhite.svg");
+    background-image: url("../../assets/images/globalSearch/rightWhite.svg");
 }
 .rightArw:hover {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/rightActive.svg");
+    background-image: url("../../assets/images/globalSearch/rightActive.svg");
     background-repeat: no-repeat;
 }
 .rightArwActive {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/rightActive.svg");
+    background-image: url("../../assets/images/globalSearch/rightActive.svg");
     background-repeat: no-repeat;
 }
 .jumpLast {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/jumpLast.svg");
+    background-image: url("../../assets/images/globalSearch/jumpLast.svg");
     background-repeat: no-repeat;
 }
 .darkMode .jumpLast {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/jumpLastWhite.svg");
+    background-image: url("../../assets/images/globalSearch/jumpLastWhite.svg");
 }
 .jumpLast:hover {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/jumpLastActive.svg");
+    background-image: url("../../assets/images/globalSearch/jumpLastActive.svg");
     background-repeat: no-repeat;
 }
 .jumpLastActive {
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/globalSearch/jumpLastActive.svg");
+    background-image: url("../../assets/images/globalSearch/jumpLastActive.svg");
     background-repeat: no-repeat;
 }
 body,
@@ -4777,7 +4777,7 @@ main {
 .imageOverlayHp {
     position: absolute;
     width: 100%;
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/tile4020.png");
+    background-image: url("../../assets/images/tile4020.png");
     padding: 0;
     height: 100%;
     top: 0;
@@ -4788,7 +4788,7 @@ main {
 .imageOverlayInsta {
     position: absolute;
     width: 100%;
-    background-image: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/insta_shade.png");
+    background-image: url("../../assets/images/insta_shade.png");
     padding: 0;
     background-position: center;
     height: 100%;
@@ -4825,86 +4825,86 @@ main {
     display: none;
 }
 .shareOptions > .fb > .fbAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/FB.svg");
+    background: url("../../assets/images/shareOptions/FB.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .fb > .fbAnchor:hover,
 .darkMode .shareOptions > .fb > .fbAnchor:hover {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/color/FB.svg");
+    background: url("../../assets/images/shareOptions/color/FB.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .darkMode .shareOptions > .fb > .fbAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/grey_FB.svg");
+    background: url("../../assets/images/shareOptions/grey_FB.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .twitter > .twitterAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/x-icon.svg");
+    background: url("../../assets/images/shareOptions/x-icon.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .twitter > .twitterAnchor:hover,
 .darkMode .shareOptions > .twitter > .twitterAnchor:hover {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/color/x-icon.svg");
+    background: url("../../assets/images/shareOptions/color/x-icon.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .darkMode .shareOptions > .twitter > .twitterAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/grey-x-icon.svg");
+    background: url("../../assets/images/shareOptions/grey-x-icon.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .linkedin > .linkedinAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/LinkedIn.svg");
+    background: url("../../assets/images/shareOptions/LinkedIn.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .linkedin > .linkedinAnchor:hover,
 .darkMode .shareOptions > .linkedin > .linkedinAnchor:hover {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/color/LinkedIn.svg");
+    background: url("../../assets/images/shareOptions/color/LinkedIn.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .darkMode .shareOptions > .linkedin > .linkedinAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/grey_linkedIn.svg");
+    background: url("../../assets/images/shareOptions/grey_linkedIn.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .hangout > .hangoutAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/G+white.svg");
+    background: url("../../assets/images/shareOptions/G+white.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .hangout > .hangoutAnchor:hover {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/color/G+Yellow.svg");
+    background: url("../../assets/images/shareOptions/color/G+Yellow.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .mailto > .mailtoAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/Contact_Us.svg");
+    background: url("../../assets/images/shareOptions/Contact_Us.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .shareOptions > .mailto > .mailtoAnchor:hover,
 .darkMode .shareOptions > .mailto > .mailtoAnchor:hover {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/color/Contact_Us.svg");
+    background: url("../../assets/images/shareOptions/color/Contact_Us.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .darkMode .shareOptions > .mailto > .mailtoAnchor {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/grey_Contact_Us.svg");
+    background: url("../../assets/images/shareOptions/grey_Contact_Us.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .whatsappImg {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/Whatsapp.svg");
+    background: url("../../assets/images/shareOptions/Whatsapp.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .darkMode .whatsappImg {
-    background: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/shareOptions/grey_whatsapp.svg");
+    background: url("../../assets/images/shareOptions/grey_whatsapp.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -9413,7 +9413,7 @@ span.paraLinks {
     margin: 0.2rem 0 0 0.5rem;
     padding: 1rem;
     font-size: 0;
-    background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/arrowNext.png);
+    background-image: url(../../assets/images/arrowNext.png);
     background-repeat: no-repeat;
 }
 .infoContentSection {
@@ -14586,10 +14586,10 @@ body {
     color: #efefef;
 }
 .darkMode .neverRestStoryPopUp .closeImg {
-    background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/close_icon_white.svg);
+    background-image: url(../../assets/images/close_icon_white.svg);
 }
 .neverRestStoryPopUp .closeImg {
-    background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/close_icon.svg);
+    background-image: url(../../assets/images/close_icon.svg);
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
@@ -14598,10 +14598,10 @@ body {
     margin-top: 2.5rem;
 }
 .darkMode .neverRestStoryPopUp .closeImg {
-    background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/close_icon_white.svg);
+    background-image: url(../../assets/images/close_icon_white.svg);
 }
 .saltVideoNeverRest .closeImg {
-    background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/close.svg);
+    background-image: url(../../assets/images/close.svg);
     margin-left: -2rem;
     margin-top: 1rem;
     width: 19px;
@@ -14960,7 +14960,7 @@ body {
         height: auto;
     }
     .saltVideoNeverRest .closeImg {
-        background-image: url(../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/close.svg);
+        background-image: url(../../assets/images/close.svg);
         width: 19px;
         height: 19px;
         background-repeat: no-repeat;
@@ -15125,7 +15125,7 @@ body {
 }
 @media (max-width: 767px) {
     .peopleVideoIcon img {
-        content: url("../../../etc.clientlibs/tata/clientlibs/assets/resources/img/common/video_icon_flip_small.svg");
+        content: url("../../assets/images/video_icon_flip_small.svg");
         margin: 1rem 0rem 0rem 1rem;
     }
     .ymlSalt .mainImageContent h3.nHeading {
