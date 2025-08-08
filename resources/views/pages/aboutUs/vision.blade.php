@@ -70,8 +70,7 @@
                         <div class="row">
                             <div class="col-lg-10 col-lg-offset-1 col-lg-offset-right-1 col-md-10 col-md-offset-1 col-md-offset-right-1 col-sm-10 col-sm-offset-1 col-sm-offset-right-1 col-xs-12  paraDiv">
                                 <div class="richtext">
-                                    <p><span class="mainPara">FIP Limited, We create food industrial park across Agrarian communities.</span></p>
-                                    <p><span class="saltPara">Our vision is to create a comprehensive agricultural ecosystem that transforms farm products into diverse consumer goods through our network of strategic alliances. We bridge the gap between primary production and market-ready products by establishing value-addition hubs that unlock the full potential of Africa's agricultural resources.</span></p>
+                                    <p><span class="mainPara">Our vision is to create a comprehensive agricultural ecosystem that transforms farm products into diverse consumer goods through our network of strategic alliances. We bridge the gap between primary production and market-ready products by establishing value-addition hubs that unlock the full potential of Africa's agricultural resources.</span></p>
                                     <p><span class="saltPara">Our integrated approach encompasses:</span></p>
                                     <h2 style="margin: 0;">Complete Value Chain Development:</h2>
                                     <p><span class="saltPara">We connect every stage from farm to finished product, from raw produce sourcing to consumer food products, beverages, and spices; 

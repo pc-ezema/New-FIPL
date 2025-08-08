@@ -70,8 +70,7 @@
                         <div class="row">
                             <div class="col-lg-10 col-lg-offset-1 col-lg-offset-right-1 col-md-10 col-md-offset-1 col-md-offset-right-1 col-sm-10 col-sm-offset-1 col-sm-offset-right-1 col-xs-12  paraDiv">
                                 <div class="richtext">
-                                    <p><span class="mainPara">FIP Limited, We create food industrial park across Agrarian communities.</span></p>
-                                    <p><span class="saltPara">We recognize that agricultural success depends on effective collaboration across the entire value chain. 
+                                    <p><span class="mainPara">We recognize that agricultural success depends on effective collaboration across the entire value chain. 
                                     Our mission is to eliminate barriers between key stakeholders by providing an integrated platform that connects everyone involved in bringing food from farm to table.</span></p>
                                     <p><span class="saltPara">Our platform serves as a digital and physical ecosystem where:</span></p>
                                     <h2 style="margin: 0;">Farmers:</h2>

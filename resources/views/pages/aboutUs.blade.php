@@ -12,55 +12,6 @@
 <main>
     <div class="root responsivegrid">
         <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-            <div class="we-fipl aem-GridColumn aem-GridColumn--default--12">
-                <section class="headerFade bannerSection mainSliderElem active" anchorval="0">
-                    <picture>
-                        <source media="(min-width: 991px)" srcset="{{url('assets/images/about/banner.png')}}">
-                        <source media="(min-width: 767px)" srcset="{{url('assets/images/about/banner.png')}}">
-                        <source media="(min-width: 0)" srcset="{{url('assets/images/about/banner.png')}}">
-                        <img class="bg img-responsive" src="{{url('assets/images/about/banner.png')}}" alt="about fipl">
-                    </picture>
-                    <div class="imageOverlayBnr"></div>
-                    <div class="heroForegrounds container fxblock">
-                        <div class="heroHeadline">
-                            <div class="sectionContent">
-                                <div class="bannerHeading">
-
-                                    <span>About Us</span>
-                                    <h1 class="heroHeading">
-                                        <span>We are FIP</span>
-                                        <span></span>
-                                        <span></span>
-                                    </h1>
-
-                                </div>
-                                <div class="bannerPara">
-                                    <div class="mainBorder pull-left"></div>
-                                    <div class="bannerReadingTxt">
-                                        <p class="bannerDiv">
-                                            <span>Food Industrial Park is redefining Nigeria’s agricultural and industrial landscape.
-                                            As a consortium of ten companies, FIP is building a robust agricultural ecosystem that connects farmers, processors, and markets to optimize resources in the agri-value chain.</span>                                            
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="container arrowContainerP">
-                        <div class="arrowSection">
-                            <div class="arrowContainer slideDownDiv">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="sliderElem hidden-xs hidden-sm">
-                </section>
-            </div>
             <div class="about-fipl-carousel aem-GridColumn aem-GridColumn--default--12">
                 <section class="headerFade aboutUsSection mainSliderElem parallaxWrapper clickableDiv" anchorval="1">
                     <picture>

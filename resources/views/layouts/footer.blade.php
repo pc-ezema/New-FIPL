@@ -172,14 +172,8 @@
                                     <div class="hidden-xs hidden-sm col-xs-12 col-sm-5 col-sm-offset-right-1 padLeft0 padRight0 marginLeft3">
                                         <div
                                             class="col-xs-6 col-sm-5 col-sm-offset-1 styleDesktop mobileFooterView font18">
-                                            <a href="{{ route('business') }}">
-                                                <span class="padLeftPosition">Business</span>
-                                            </a>
-                                        </div>
-                                        <div
-                                            class="col-xs-6 col-sm-5 col-sm-offset-1 styleDesktop mobileFooterView font18">
-                                            <a href="{{ route('index') }}">
-                                                <span class="padRightPosition">Home</span>
+                                            <a href="{{ route('trainings') }}">
+                                                <span class="padLeftPosition">Trainings</span>
                                             </a>
                                         </div>
                                     </div>

@@ -853,7 +853,7 @@
                                     <ol class="carouselIndicators BrandSectionIndicator squares">
 
                                         <li data-slide-to="0" class="active forBrands hide">
-                                            <span class="hoverBrandTxt">Nardus</span>
+                                            <span class="hoverBrandTxt"></span>
                                             <div class="overlayBrandNav"></div>
                                             <img class=" img-responsive upMark"
                                                 src="{{url('assets/images/hover%20arrow.svg')}}"
@@ -864,7 +864,7 @@
                                         </li>
 
                                         <li data-slide-to="1" class="forBrands hide">
-                                            <span class="hoverBrandTxt">Sano</span>
+                                            <span class="hoverBrandTxt"></span>
                                             <div class="overlayBrandNav"></div>
                                             <img class=" img-responsive upMark"
                                                 src="{{url('assets/images/hover%20arrow.svg')}}"
@@ -875,7 +875,7 @@
                                         </li>
 
                                         <li data-slide-to="2" class="forBrands hide">
-                                            <span class="hoverBrandTxt">Agricapital</span>
+                                            <span class="hoverBrandTxt"></span>
                                             <div class="overlayBrandNav"></div>
                                             <img class=" img-responsive upMark"
                                                 src="{{url('assets/images/hover%20arrow.svg')}}"
@@ -886,7 +886,7 @@
                                         </li>
 
                                         <li data-slide-to="3" class="forBrands hide">
-                                            <span class="hoverBrandTxt">4 Green</span>
+                                            <span class="hoverBrandTxt"></span>
                                             <div class="overlayBrandNav"></div>
                                             <img class=" img-responsive upMark"
                                                 src="{{url('assets/images/hover%20arrow.svg')}}"
@@ -897,7 +897,7 @@
                                         </li>
 
                                         <li data-slide-to="4" class="forBrands hide">
-                                            <span class="hoverBrandTxt">BCAL</span>
+                                            <span class="hoverBrandTxt"></span>
                                             <div class="overlayBrandNav"></div>
                                             <img class=" img-responsive upMark"
                                                 src="{{url('assets/images/hover%20arrow.svg')}}"
@@ -908,7 +908,7 @@
                                         </li>
 
                                         <li data-slide-to="5" class="forBrands hide">
-                                            <span class="hoverBrandTxt">Rufec</span>
+                                            <span class="hoverBrandTxt"></span>
                                             <div class="overlayBrandNav"></div>
                                             <img class=" img-responsive upMark"
                                                 src="{{url('assets/images/hover%20arrow.svg')}}"
@@ -919,7 +919,7 @@
                                         </li>
 
                                         <li data-slide-to="6" class="forBrands hide">
-                                            <span class="hoverBrandTxt">Agropark</span>
+                                            <span class="hoverBrandTxt"></span>
                                             <div class="overlayBrandNav"></div>
                                             <img class=" img-responsive upMark"
                                                 src="{{url('assets/images/hover%20arrow.svg')}}"
@@ -930,7 +930,7 @@
                                         </li>
 
                                         <li data-slide-to="7" class="forBrands hide">
-                                            <span class="hoverBrandTxt">Agri-tech Hub</span>
+                                            <span class="hoverBrandTxt"></span>
                                             <div class="overlayBrandNav"></div>
                                             <img class=" img-responsive upMark"
                                                 src="{{url('assets/images/hover%20arrow.svg')}}"
@@ -941,7 +941,7 @@
                                         </li>
 
                                         <li data-slide-to="8" class="forBrands hide">
-                                            <span class="hoverBrandTxt">FAGH</span>
+                                            <span class="hoverBrandTxt"></span>
                                             <div class="overlayBrandNav"></div>
                                             <img class=" img-responsive upMark"
                                                 src="{{url('assets/images/hover%20arrow.svg')}}"
@@ -952,7 +952,7 @@
                                         </li>
 
                                         <!-- <li data-slide-to="9" class="forBrands hide">
-                                            <span class="hoverBrandTxt">AFBS</span>
+                                            <span class="hoverBrandTxt"></span>
                                             <div class="overlayBrandNav"></div>
                                             <img class=" img-responsive upMark"
                                                 src="{{url('assets/images/hover%20arrow.svg')}}"
