@@ -1394,7 +1394,7 @@ header .details img:nth-child(1) {
         transition-timing-function: ease-in-out;
     }
     li.megaMenu:nth-of-type(1):hover ~ .backdrop {
-        height: 53.9rem;
+        height: 30.9rem;
         opacity: 0.96;
     }
     li.megaMenu:nth-of-type(2):hover ~ .backdrop {
